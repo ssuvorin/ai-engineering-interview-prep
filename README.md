@@ -110,7 +110,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is Mixture of Experts (MoE), and how does it work in models like Mixtral?
     - Answer: [Mixture of Experts (MoE)](https://www.linkedin.com/posts/amit-shekhar-iitbhu_mixture-of-experts-moe-is-an-architecture-activity-7439616017284292608-7IxQ)
 - What is the difference between dense and sparse models?
-- What is Flash Attention, and why was it significant?
+- What is Flash Attention?
 - What is Grouped-Query Attention (GQA), and how does it differ from Multi-Head Attention (MHA)?
 - How does Rotary Position Embedding (RoPE) work, and why is it preferred over learned positional embeddings?
 - Your LLM keeps ignoring your instructions. How do you make it follow structured output formats?
