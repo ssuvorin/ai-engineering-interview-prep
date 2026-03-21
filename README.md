@@ -236,6 +236,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is agent orchestration, and how do you implement it with LangGraph?
 - How do you build a code execution agent safely using sandboxed environments?
 - Your AI agent is stuck in an infinite loop. How do you detect and break the cycle?
+    - Answer: [Fix an infinite loop in an AI agent](https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-share-7440257380707364864-5Ycc)
 - Your AI agent gets conflicting answers from different tools. How does it reconcile them?
 - Your AI agent burns too many tokens per task. How do you reduce token consumption?
 - Your AI agent keeps exceeding its budget per task. How do you enforce budget limits?
