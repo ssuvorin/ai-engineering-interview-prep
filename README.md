@@ -103,6 +103,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [Skip connections (residual connections) in Transformers](https://www.linkedin.com/posts/amit-shekhar-iitbhu_machinelearning-llm-deeplearning-share-7414239846707392512-pQdQ)
 - What is the difference between open-source and closed-source LLMs? When would you choose one over the other?
 - What is the difference between encoder-only, decoder-only, and encoder-decoder Transformer architectures?
+    - Answer: [Encoder-Decoder Architecture Explained](https://x.com/amitiitbhu/status/1925410667043201409)
 - What is KV cache, and how does it speed up inference?
 - Explain the difference between autoregressive and masked language modeling.
 - What is model distillation, and how is it used with LLMs?
