@@ -79,10 +79,13 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What are Transformer Models and how do they work?
 - What are the key components of a Transformer model?
 - What is tokenization in LLMs?
+    - Answer: [Tokenization in Large Language Models (LLMs)](https://www.youtube.com/watch?v=sK2s9I84EVI)
 - Explain BPE (Byte Pair Encoding).
+    - Answer: [Byte Pair Encoding](https://www.linkedin.com/posts/pallavi-shekhar_ai-llm-machinelearning-activity-7439218251714166784-XA4O)
 - Explain WordPiece and SentencePiece.
 - What is positional encoding, and why is it needed in Transformers?
 - What is causal masking?
+    - Answer: [Causal Masking in Attention](https://outcomeschool.com/blog/causal-masking-in-attention)
 - What is self-attention, and how does it work in Transformers?
 - Explain the Query(Q), Key(K), and Value(V) in attention.
 - What are multi-head attention mechanisms? Why use multiple attention heads?
@@ -97,6 +100,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Explain the difference between autoregressive and masked language modeling.
 - What is model distillation, and how is it used with LLMs?
 - What is Mixture of Experts (MoE), and how does it work in models like Mixtral?
+    - Answer: [Mixture of Experts (MoE)](https://www.linkedin.com/posts/amit-shekhar-iitbhu_mixture-of-experts-moe-is-an-architecture-activity-7439616017284292608-7IxQ)
 - What is the difference between dense and sparse models?
 - What is Flash Attention, and why was it significant?
 - What is Grouped-Query Attention (GQA), and how does it differ from Multi-Head Attention (MHA)?
