@@ -100,6 +100,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What are logits, and how are they used in text generation?
     - Answer: [Understanding Logits in Machine Learning](https://x.com/amitiitbhu/status/1927927814923207146)
 - What are skip connections (residual connections) in Transformers?
+    - Answer: [Skip connections (residual connections) in Transformers](https://www.linkedin.com/posts/amit-shekhar-iitbhu_machinelearning-llm-deeplearning-share-7414239846707392512-pQdQ)
 - What is the difference between open-source and closed-source LLMs? When would you choose one over the other?
 - What is the difference between encoder-only, decoder-only, and encoder-decoder Transformer architectures?
 - What is KV cache, and how does it speed up inference?
