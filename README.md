@@ -288,7 +288,6 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is the difference between sparse and dense embeddings?
 - Explain cosine similarity, dot product, and Euclidean distance for vector search.
 - What is a vector database, and how does it differ from a traditional database?
-- Compare popular vector databases: Pinecone, Weaviate, Chroma, Qdrant, Milvus, and pgvector.
 - How do you choose the right embedding model for your use case?
 - What is embedding dimensionality, and how does it affect performance and cost?
 - How do you handle embedding drift when the embedding model is updated?
