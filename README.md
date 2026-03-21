@@ -371,6 +371,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How do you implement streaming responses for real-time AI applications?
 - What are the key SLAs and metrics for production AI systems (latency, throughput, availability)?
 - Cloud vs on-device Model Deployment for AI applications.
+    - Answer: [Cloud vs On-Device Model Deployment](https://x.com/outcome_school/status/1965643330076991621)
 - How do you implement fallback strategies when the primary model is unavailable or rate-limited?
 - How do you implement structured output from LLMs reliably in production?
 - How do you handle long contexts efficiently in production (context compression, prefix caching)?
