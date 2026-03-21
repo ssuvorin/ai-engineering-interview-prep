@@ -214,6 +214,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Explain the ReAct (Reasoning + Acting) agent architecture.
 - What is the Plan-and-Execute agent pattern?
 - What is tool use (function calling) in LLMs, and how does it enable agents?
+    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - How do you design and define tools for an AI agent?
     - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What is the difference between single-agent and multi-agent systems?
