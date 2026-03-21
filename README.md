@@ -93,9 +93,12 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Explain the Query(Q), Key(K), and Value(V) in attention.
 - What are multi-head attention mechanisms? Why use multiple attention heads?
 - What is the context window in LLMs, and why does it matter?
+    - Answer: [Context Window in LLMs](https://www.linkedin.com/posts/amit-shekhar-iitbhu_the-context-window-is-the-llms-working-memory-activity-7437754426175672320-MH9c)
 - What is temperature in the context of LLMs, and how does it affect output?
+    - Answer: [What is temperature in the context of LLMs?](https://x.com/amitiitbhu/status/1964990603927687493)
 - Explain Top-p (nucleus) sampling and Top-k sampling. How do they differ?
 - What are logits, and how are they used in text generation?
+    - Answer: [Understanding Logits in Machine Learning](https://x.com/amitiitbhu/status/1927927814923207146)
 - What are skip connections (residual connections) in Transformers?
 - What is the difference between open-source and closed-source LLMs? When would you choose one over the other?
 - What is the difference between encoder-only, decoder-only, and encoder-decoder Transformer architectures?
