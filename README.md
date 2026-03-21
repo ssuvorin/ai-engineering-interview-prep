@@ -505,7 +505,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How does continuous batching improve LLM inference throughput?
 - What is speculative decoding, and how does it speed up inference?
 - What is KV cache, and how do you manage memory for it?
-- What are PagedAttention and vLLM?
+- What are Paged Attention and vLLM?
+    - Answer: [Paged Attention](https://www.linkedin.com/posts/amit-shekhar-iitbhu_llm-ai-ml-share-7438536684444553216-kJOR/)
 - How do you optimize inference for edge and mobile deployment?
 - What is model quantization (INT8, INT4, FP16, BF16), and how does it affect quality?
     - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
