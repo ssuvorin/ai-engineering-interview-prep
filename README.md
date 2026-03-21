@@ -166,8 +166,11 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 ### Retrieval-Augmented Generation (RAG)
 
 - What is Retrieval-Augmented Generation (RAG), and why is it important?
+    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - Explain the architecture of a basic RAG system.
+    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What are the key components of a RAG pipeline?
+    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What are chunking strategies, and how do you choose the right chunk size?
 - Compare fixed-size chunking, semantic chunking, and recursive chunking.
 - What are embedding models, and how do they convert text to vectors?
@@ -185,6 +188,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How do you optimize RAG for latency in production?
 - What is the role of metadata filtering in RAG systems?
 - Compare RAG vs fine-tuning. When would you use each?
+    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What is query transformation in RAG (HyDE, query decomposition, step-back prompting)?
 - How do you implement citation and source attribution in RAG?
 - How do you scale a RAG system to millions of documents?
@@ -205,12 +209,15 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 ### AI Agents and Agentic Systems
 
 - What is an AI agent, and how does it differ from a simple LLM call?
+    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - Explain the ReAct (Reasoning + Acting) agent architecture.
 - What is the Plan-and-Execute agent pattern?
 - What is tool use (function calling) in LLMs, and how does it enable agents?
 - How do you design and define tools for an AI agent?
+    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What is the difference between single-agent and multi-agent systems?
 - What is Model Context Protocol (MCP), and how does it standardize tool integration?
+    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What are the different types of agent memory (short-term, long-term, episodic)?
 - How do you handle agent failures and implement error recovery?
 - What is an agent loop, and how does it decide when to stop?
@@ -240,11 +247,16 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 ### Fine-Tuning and Model Adaptation
 
 - What is fine-tuning, and when should you fine-tune an LLM?
+    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - Explain the difference between full fine-tuning and parameter-efficient fine-tuning (PEFT).
+    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What is LoRA (Low-Rank Adaptation), and how does it work?
+    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What is QLoRA, and how does it enable fine-tuning on consumer hardware?
+    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - Explain Prefix Tuning and Prompt Tuning. How are they different from LoRA?
 - What is adapter-based fine-tuning?
+    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What is RLHF (Reinforcement Learning from Human Feedback), and how is it used to align LLMs?
 - What is instruction tuning, and why is it important for chat models?
 - How do you prepare a dataset for fine-tuning an LLM?
@@ -336,6 +348,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is LLMOps, and how does it differ from traditional MLOps?
 - How do you serve LLMs in production?
 - What is model quantization?
+    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - How do you monitor LLM applications in production?
 - What is LLM observability?
 - What are guardrails for LLMs, and how do you implement them?
@@ -491,6 +504,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What are PagedAttention and vLLM?
 - How do you optimize inference for edge and mobile deployment?
 - What is model quantization (INT8, INT4, FP16, BF16), and how does it affect quality?
+    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - How do you implement auto-scaling for AI workloads?
 - What is the role of load balancing in AI serving infrastructure?
 - How do you manage GPU memory for serving multiple models?
