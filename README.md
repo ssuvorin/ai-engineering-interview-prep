@@ -280,6 +280,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 ### Vector Databases and Embeddings
 
 - What are embeddings in the context of AI engineering?
+    - Answer: [Embeddings in Machine Learning](https://www.youtube.com/watch?v=LedXW6xl21s)
 - How do embedding models convert text to vectors?
 - What is the difference between sparse and dense embeddings?
 - Explain cosine similarity, dot product, and Euclidean distance for vector search.
