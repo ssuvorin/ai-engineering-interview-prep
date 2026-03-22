@@ -105,6 +105,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is the difference between encoder-only, decoder-only, and encoder-decoder Transformer architectures?
     - Answer: [Encoder-Decoder Architecture Explained](https://x.com/amitiitbhu/status/1925410667043201409)
 - What is KV cache, and how does it speed up inference?
+    - Answer: [KV Cache (Key-Value Cache)](https://www.linkedin.com/posts/amit-shekhar-iitbhu_kv-cache-key-value-cache-is-an-optimization-activity-7441373162686246912-7M_c)
 - Explain the difference between autoregressive and masked language modeling.
 - What is model distillation, and how is it used with LLMs?
 - What is Mixture of Experts (MoE), and how does it work in models like Mixtral?
