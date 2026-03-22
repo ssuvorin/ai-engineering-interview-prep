@@ -240,6 +240,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [Fix an infinite loop in an AI agent](https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-share-7440257380707364864-5Ycc)
 - Your AI agent gets conflicting answers from different tools. How does it reconcile them?
 - Your AI agent burns too many tokens per task. How do you reduce token consumption?
+    - Answer: [How would you reduce the token consumption?](https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-activity-7439550125015994368-LTmE)
 - Your AI agent keeps exceeding its budget per task. How do you enforce budget limits?
 - Your AI agent hallucinates tool capabilities and passes wrong inputs. How do you fix it?
 - Your AI agent deleted a production database. How do you prevent irreversible actions?
