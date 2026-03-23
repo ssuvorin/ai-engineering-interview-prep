@@ -509,6 +509,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How does continuous batching improve LLM inference throughput?
 - What is speculative decoding, and how does it speed up inference?
 - What is KV cache, and how do you manage memory for it?
+    - Answer: [KV Cache (Key-Value Cache)](https://www.linkedin.com/posts/amit-shekhar-iitbhu_kv-cache-key-value-cache-is-an-optimization-activity-7441373162686246912-7M_c)
 - What are Paged Attention and vLLM?
     - Answer: [Paged Attention](https://www.linkedin.com/posts/amit-shekhar-iitbhu_llm-ai-ml-share-7438536684444553216-kJOR/)
 - How do you optimize inference for edge and mobile deployment?
