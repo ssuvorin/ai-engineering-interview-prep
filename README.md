@@ -177,6 +177,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Compare fixed-size chunking, semantic chunking, and recursive chunking.
 - What are embedding models, and how do they convert text to vectors?
 - How do you choose an embedding model for your RAG system?
+- Explain Agentic RAG.
+    - Answer: [Agentic RAG](https://x.com/amitiitbhu/status/2035942587069304975)
 - What is hybrid search, and why is it better than pure vector search?
 - What is re-ranking, and how does it improve RAG retrieval quality?
 - How do you handle multi-document and multi-hop questions in RAG?
