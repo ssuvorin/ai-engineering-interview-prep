@@ -503,6 +503,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 
 ### AI Infrastructure and Scalability
 
+- LLM optimization techniques
+    - Answer: [LLM optimization techniques](https://www.linkedin.com/posts/pallavi-shekhar_5-llm-optimization-techniques-lets-understand-activity-7442067281532325888-4aOS)
 - How do you select GPUs for LLM inference?
 - What is model parallelism vs data parallelism in distributed training?
 - What is tensor parallelism, and how does it help serve large models?
