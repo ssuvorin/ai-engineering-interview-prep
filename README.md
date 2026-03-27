@@ -85,6 +85,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Explain BPE (Byte Pair Encoding).
     - Answer: [Byte Pair Encoding](https://www.linkedin.com/posts/pallavi-shekhar_ai-llm-machinelearning-activity-7439218251714166784-XA4O)
 - Explain WordPiece and SentencePiece.
+- What are embeddings?
+    - Answer: [Embeddings in Machine Learning](https://www.youtube.com/watch?v=LedXW6xl21s)
 - What is positional encoding, and why is it needed in Transformers?
     - Answer: [Positional Embeddings in LLMs](https://outcomeschool.substack.com/p/positional-embeddings-in-llms)
 - What is causal masking?
