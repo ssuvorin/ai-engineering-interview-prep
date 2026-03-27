@@ -109,7 +109,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is the difference between encoder-only, decoder-only, and encoder-decoder Transformer architectures?
     - Answer: [Encoder-Decoder Architecture Explained](https://x.com/amitiitbhu/status/1925410667043201409)
 - What is KV cache, and how does it speed up inference?
-    - Answer: [What is KV Cache in LLMs?](https://x.com/amitiitbhu/status/2037413998279491927)
+    - Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
 - Explain the difference between autoregressive and masked language modeling.
 - What is model distillation, and how is it used with LLMs?
 - What is Mixture of Experts (MoE), and how does it work in models like Mixtral?
@@ -517,7 +517,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How does continuous batching improve LLM inference throughput?
 - What is speculative decoding, and how does it speed up inference?
 - What is KV cache, and how do you manage memory for it?
-    - Answer: [What is KV Cache in LLMs?](https://x.com/amitiitbhu/status/2037413998279491927)
+    - Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
 - What are Paged Attention and vLLM?
     - Answer: [Paged Attention](https://www.linkedin.com/posts/amit-shekhar-iitbhu_llm-ai-ml-share-7438536684444553216-kJOR/)
 - How do you optimize inference for edge and mobile deployment?
