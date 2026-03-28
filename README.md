@@ -243,7 +243,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How do you handle multi-modal inputs and outputs in agentic systems?
 - How do you implement state management in complex agent workflows?
 - How do you build a customer support agent with escalation logic?
-- What is agent orchestration, and how do you implement it with LangGraph?
+- What is agent orchestration, and how do you implement it?
 - How do you build a code execution agent safely using sandboxed environments?
 - Your AI agent is stuck in an infinite loop. How do you detect and break the cycle?
     - Answer: [Fix an infinite loop in an AI agent](https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-share-7440257380707364864-5Ycc)
