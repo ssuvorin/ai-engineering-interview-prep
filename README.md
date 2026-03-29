@@ -126,7 +126,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Your LLM coding assistant generates outdated code using deprecated libraries. How do you fix it?
 - Your tokenizer splits important domain terms into meaningless subword pieces. How do you fix it?
 - Your Transformer's KV cache grows too large during long sequence generation. How do you manage memory?
-    - Answer: [Paged Attention](https://www.linkedin.com/posts/amit-shekhar-iitbhu_llm-ai-ml-share-7438536684444553216-kJOR/)
+    - Answer: [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)
 - Your Transformer runs out of memory on long documents due to quadratic self-attention. How do you scale it?
 - Your distilled student model fails on the complex reasoning that the teacher model handled. How do you close the gap?
 - After RLHF alignment, your LLM became safer but lost capability on hard tasks. How do you manage the alignment tax?
@@ -518,8 +518,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is speculative decoding, and how does it speed up inference?
 - What is KV cache, and how do you manage memory for it?
     - Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
-- What are Paged Attention and vLLM?
-    - Answer: [Paged Attention](https://www.linkedin.com/posts/amit-shekhar-iitbhu_llm-ai-ml-share-7438536684444553216-kJOR/)
+- What is Paged Attention?
+    - Answer: [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)
 - How do you optimize inference for edge and mobile deployment?
 - What is model quantization (INT8, INT4, FP16, BF16), and how does it affect quality?
     - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
