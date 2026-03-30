@@ -83,7 +83,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is tokenization in LLMs?
     - Answer: [Tokenization in Large Language Models (LLMs)](https://www.youtube.com/watch?v=sK2s9I84EVI)
 - Explain BPE (Byte Pair Encoding).
-    - Answer: [Byte Pair Encoding](https://www.linkedin.com/posts/pallavi-shekhar_ai-llm-machinelearning-activity-7439218251714166784-XA4O)
+    - Answer: [Byte Pair Encoding](https://www.linkedin.com/posts/outcomeschool_byte-pair-encoding-bpe-in-llms-ugcPost-7444425708195528704-O9m_)
 - Explain WordPiece and SentencePiece.
 - What is positional encoding, and why is it needed in Transformers?
     - Answer: [Positional Embeddings in LLMs](https://outcomeschool.substack.com/p/positional-embeddings-in-llms)
