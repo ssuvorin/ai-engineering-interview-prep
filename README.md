@@ -222,6 +222,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 
 - What is an AI agent, and how does it differ from a simple LLM call?
     - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+- Harness Engineering in AI
+    - Answer: [Harness Engineering in AI](https://outcomeschool.com/blog/harness-engineering-in-ai)
 - Explain the ReAct (Reasoning + Acting) agent architecture.
 - What is the Plan-and-Execute agent pattern?
 - What is tool use (function calling) in LLMs, and how does it enable agents?
