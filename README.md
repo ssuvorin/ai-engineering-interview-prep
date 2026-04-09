@@ -120,7 +120,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Explain the difference between autoregressive and masked language modeling.
 - What is model distillation, and how is it used with LLMs?
 - What is Mixture of Experts (MoE), and how does it work in models like Mixtral?
-    - Answer: [Mixture of Experts (MoE)](https://www.linkedin.com/posts/amit-shekhar-iitbhu_mixture-of-experts-moe-is-an-architecture-activity-7439616017284292608-7IxQ)
+    - Answer: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)
 - What is the difference between dense and sparse models?
 - What is Flash Attention?
 - What is Grouped-Query Attention (GQA), and how does it differ from Multi-Head Attention (MHA)?
