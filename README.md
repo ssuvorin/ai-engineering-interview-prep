@@ -124,6 +124,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is the difference between dense and sparse models?
     - Answer: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)
 - What is Flash Attention?
+    - Answer: [Decoding Flash Attention in LLMs](https://outcomeschool.com/blog/decoding-flash-attention)
 - What is Grouped-Query Attention (GQA), and how does it differ from Multi-Head Attention (MHA)?
 - How does Rotary Position Embedding (RoPE) work, and why is it preferred over learned positional embeddings?
 - Your LLM keeps ignoring your instructions. How do you make it follow structured output formats?
