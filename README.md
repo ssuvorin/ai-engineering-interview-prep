@@ -147,6 +147,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Your QA system always generates an answer even when no answer exists in the context. How do you detect unanswerable questions?
 - Your summarization system hallucinated facts not in the original article. How do you fix it?
 - Your text generation repeats phrases in long outputs. How do you fix repetition?
+- Transformers work on text, so can they also understand images?
+    - Answer: [Decoding Vision Transformer (ViT)](https://outcomeschool.com/blog/decoding-vision-transformer-vit)
 
 ### Prompt Engineering
 
