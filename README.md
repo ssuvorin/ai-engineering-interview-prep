@@ -130,6 +130,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is Cross-Entropy Loss?
     - Answer: [Math Behind Cross-Entropy Loss](https://outcomeschool.com/blog/math-behind-cross-entropy-loss)
 - What is Grouped-Query Attention (GQA), and how does it differ from Multi-Head Attention (MHA)?
+    - Answer: [Grouped Query Attention](https://outcomeschool.com/blog/grouped-query-attention)
 - How does Rotary Position Embedding (RoPE) work, and why is it preferred over learned positional embeddings?
 - Your LLM keeps ignoring your instructions. How do you make it follow structured output formats?
 - Your LLM-powered tool hits the context window limit on long documents. How do you handle it?
