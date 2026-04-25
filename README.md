@@ -133,6 +133,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [Grouped Query Attention](https://outcomeschool.com/blog/grouped-query-attention)
 - How does Rotary Position Embedding (RoPE) work, and why is it preferred over learned positional embeddings?
     - Answer: [Math Behind RoPE (Rotary Position Embedding)](https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding)
+ - Explain RMSNorm (Root Mean Square Layer Normalization)
+    - Answer: [RMSNorm (Root Mean Square Layer Normalization)](https://outcomeschool.com/blog/rmsnorm-root-mean-square-layer-normalization)
 - Your LLM keeps ignoring your instructions. How do you make it follow structured output formats?
 - Your LLM-powered tool hits the context window limit on long documents. How do you handle it?
 - Your LLM does not admit when it does not know the answer. How do you make it say "I don't know"?
