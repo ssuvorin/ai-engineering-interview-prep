@@ -261,6 +261,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How do you handle agent failures and implement error recovery?
 - What is an agent loop, and how does it decide when to stop?
     - Answer: [AI Agent Explained](https://outcomeschool.com/blog/ai-agent)
+- Context Engineering
+    - Answer: [Context Engineering](https://outcomeschool.com/blog/context-engineering)
 - How do you evaluate and test AI agents?
 - What are the security risks of agentic systems, and how do you mitigate them?
 - What is the difference between reactive and proactive agents?
