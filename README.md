@@ -572,6 +572,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is FSDP (Fully Sharded Data Parallel), and how does it differ from DeepSpeed ZeRO?
 - How do you monitor and profile LLM inference in production (TTFT, inter-token latency, GPU utilization)?
 - What is model routing at the infrastructure level, and how do you route requests based on complexity and cost?
+    - Answer: [LLM Routing](https://outcomeschool.com/blog/llm-routing)
 
 ### Coding and Practical Implementation
 
