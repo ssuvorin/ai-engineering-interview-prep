@@ -31,7 +31,7 @@
 * [LLMOps and Production AI](#llmops-and-production-ai)
 * [Evaluation and Testing](#evaluation-and-testing)
 * [AI Safety, Ethics, and Responsible AI](#ai-safety-ethics-and-responsible-ai)
-* [Multi-Modal AI](#multi-modal-ai)
+* [Multimodal AI](#multimodal-ai)
 * [AI Infrastructure and Scalability](#ai-infrastructure-and-scalability)
 * [Coding and Practical Implementation](#coding-and-practical-implementation)
 * [Behavioral and Scenario-Based Questions](#behavioral-and-scenario-based-questions)
@@ -513,9 +513,10 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Your content moderation flags normal cultural expressions as offensive in other markets. How do you adapt cross-culturally?
 - Your AI training produces massive carbon emissions. How do you reduce environmental impact?
 
-### Multi-Modal AI
+### Multimodal AI
 
-- What are multi-modal AI models, and how do they process different types of data?
+- What are Multimodal AI models, and how do they process different types of data?
+    - Answer: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)
 - How do vision-language models process images?
 - How does CLIP work, and why is it important for multi-modal AI?
 - What are the key architectures for multi-modal models?
