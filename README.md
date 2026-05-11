@@ -552,6 +552,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is tensor parallelism, and how does it help serve large models?
 - What is pipeline parallelism?
 - How does continuous batching improve LLM inference throughput?
+    - Answer: [Continuous Batching in LLMs](https://outcomeschool.com/blog/continuous-batching-in-llms)
 - What is speculative decoding, and how does it speed up inference?
     - Answer: [Speculative Decoding](https://outcomeschool.com/blog/speculative-decoding)
 - What is KV cache, and how do you manage memory for it?
