@@ -155,6 +155,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Your text generation repeats phrases in long outputs. How do you fix repetition?
 - Transformers work on text, so can they also understand images?
     - Answer: [Decoding Vision Transformer (ViT)](https://outcomeschool.com/blog/decoding-vision-transformer-vit)
+- Small Language Models (SLMs)
+    - Answer: [Small Language Models (SLMs)](https://outcomeschool.com/blog/small-language-models-slms)
 
 ### Prompt Engineering
 
