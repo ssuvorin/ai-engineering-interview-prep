@@ -157,6 +157,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [Decoding Vision Transformer (ViT)](https://outcomeschool.com/blog/decoding-vision-transformer-vit)
 - Small Language Models (SLMs)
     - Answer: [Small Language Models (SLMs)](https://outcomeschool.com/blog/small-language-models-slms)
+- Large Reasoning Models (LRMs)
+    - Answer: [Large Reasoning Models (LRMs)](https://outcomeschool.com/blog/large-reasoning-models)
 
 ### Prompt Engineering
 
