@@ -159,6 +159,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [Small Language Models (SLMs)](https://outcomeschool.com/blog/small-language-models-slms)
 - Large Reasoning Models (LRMs)
     - Answer: [Large Reasoning Models (LRMs)](https://outcomeschool.com/blog/large-reasoning-models)
+- What are Autoregressive Models?
+    - Answer: [Autoregressive Models](https://outcomeschool.com/blog/autoregressive-models)
 
 ### Prompt Engineering
 
