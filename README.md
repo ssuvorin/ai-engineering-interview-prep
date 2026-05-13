@@ -119,7 +119,6 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
 - What is KV cache, and how does it speed up inference?
     - Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
-- Explain the difference between autoregressive and masked language modeling.
 - What is model distillation, and how is it used with LLMs?
 - What is Mixture of Experts (MoE), and how does it work in models like Mixtral?
     - Answer: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)
@@ -161,6 +160,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [Large Reasoning Models (LRMs)](https://outcomeschool.com/blog/large-reasoning-models)
 - What are Autoregressive Models?
     - Answer: [Autoregressive Models](https://outcomeschool.com/blog/autoregressive-models)
+- Explain the difference between autoregressive and masked language modeling.
 
 ### Prompt Engineering
 
