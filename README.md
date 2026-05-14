@@ -147,6 +147,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Your distilled student model fails on the complex reasoning that the teacher model handled. How do you close the gap?
 - After RLHF alignment, your LLM became safer but lost capability on hard tasks. How do you manage the alignment tax?
 - Your RLHF-trained LLM is gaming the reward model instead of being genuinely helpful. How do you fix reward hacking?
+    - Answer: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)
 - Your chatbot loses context after 10 turns in a conversation. How do you maintain a long conversation context?
 - Your chatbot fails when users switch topics mid-conversation. How do you handle topic switches?
 - Your QA system always generates an answer even when no answer exists in the context. How do you detect unanswerable questions?
@@ -309,6 +310,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is adapter-based fine-tuning?
     - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What is RLHF (Reinforcement Learning from Human Feedback), and how is it used to align LLMs?
+    - Answer: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)
 - What is instruction tuning, and why is it important for chat models?
 - How do you prepare a dataset for fine-tuning an LLM?
 - What is catastrophic forgetting, and how do you prevent it during fine-tuning?
