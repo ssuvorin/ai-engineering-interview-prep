@@ -164,6 +164,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What are Autoregressive Models?
     - Answer: [Autoregressive Models](https://outcomeschool.com/blog/autoregressive-models)
 - Explain the difference between autoregressive and masked language modeling.
+- Proximal Policy Optimization (PPO)
+    - Answer: [Proximal Policy Optimization (PPO)](https://outcomeschool.com/blog/proximal-policy-optimization-ppo)
 
 ### Prompt Engineering
 
