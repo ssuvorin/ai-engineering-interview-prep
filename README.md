@@ -166,6 +166,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Explain the difference between autoregressive and masked language modeling.
 - Proximal Policy Optimization (PPO)
     - Answer: [Proximal Policy Optimization (PPO)](https://outcomeschool.com/blog/proximal-policy-optimization-ppo)
+- Direct Preference Optimization (DPO)
+    - Answer: [Direct Preference Optimization (DPO)](https://outcomeschool.com/blog/direct-preference-optimization-dpo)
 
 ### Prompt Engineering
 
