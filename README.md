@@ -170,6 +170,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [Direct Preference Optimization (DPO)](https://outcomeschool.com/blog/direct-preference-optimization-dpo)
 - Group Relative Policy Optimization (GRPO)
     - Answer: [Group Relative Policy Optimization (GRPO)](https://outcomeschool.com/blog/group-relative-policy-optimization-grpo)
+- Recursive Language Models (RLMs)
+    - Answer: [Recursive Language Models (RLMs)](https://outcomeschool.com/blog/recursive-language-models)
 
 ### Prompt Engineering
 
