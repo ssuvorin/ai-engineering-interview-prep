@@ -371,6 +371,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 
 ### AI System Design
 
+- Design an AI Coding Agent.
 - Design an AI-powered customer support chatbot.
 - Design a document Q&A system for enterprise use.
 - Design a code generation and review system.
