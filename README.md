@@ -460,6 +460,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Explain BLEU, ROUGE, and BERTScore. When would you use each?
 - What is G-Eval, and how does it use LLMs for evaluation?
 - What is LLM-as-a-judge evaluation, and what are its limitations?
+    - Answer: [LLM as a Judge](https://outcomeschool.com/blog/llm-as-a-judge)
 - How do you conduct human evaluation for AI systems?
 - What is red teaming, and how do you red team an LLM application?
 - How do you detect and measure hallucinations in LLM outputs?
