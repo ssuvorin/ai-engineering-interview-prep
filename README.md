@@ -451,6 +451,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - A traffic spike brings down your AI system. How do you handle peak traffic?
 - One LLM provider outage took down your entire system. How do you eliminate single points of failure?
 - Your multi-LLM pipeline fails when one model in the chain breaks. How do you handle orchestration failure?
+    - Answer: [AI Orchestration](https://outcomeschool.com/blog/ai-orchestration)
 - Your AI pipeline has zero visibility into which step is failing. How do you add observability?
 - You quantized your LLM, but accuracy dropped significantly. How do you minimize quantization loss?
 - One failing AI component can take down your entire platform. How do you design graceful degradation?
