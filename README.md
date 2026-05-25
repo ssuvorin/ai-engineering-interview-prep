@@ -274,6 +274,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
 - What is Model Context Protocol (MCP), and how does it standardize tool integration?
     - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+- What are AI SubAgents?
+    - Answer: [AI SubAgents](https://outcomeschool.com/blog/ai-subagents)
 - What are the different types of agent memory (short-term, long-term, episodic)?
 - How do you handle agent failures and implement error recovery?
 - What is an agent loop, and how does it decide when to stop?
