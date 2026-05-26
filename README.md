@@ -282,7 +282,10 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [AI Agent Explained](https://outcomeschool.com/blog/ai-agent)
 - Context Engineering
     - Answer: [Context Engineering](https://outcomeschool.com/blog/context-engineering)
+- How AI Agents Communicate?
+    - Answer: [How AI Agents Communicate](https://outcomeschool.com/blog/how-ai-agents-communicate)
 - How do you evaluate and test AI agents?
+    - Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)
 - What are the security risks of agentic systems, and how do you mitigate them?
 - What is the difference between reactive and proactive agents?
 - How do you manage token consumption and cost in long-running agent workflows?
