@@ -467,6 +467,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)
 - LLM Evaluation
     - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
+- AI Agent Observability
+    - Answer: [AI Agent Observability](https://outcomeschool.com/blog/ai-agent-observability)
 - What is evaluation-driven development for AI applications?
 - How do you evaluate LLM outputs? What metrics do you use?
 - Explain BLEU, ROUGE, and BERTScore. When would you use each?
