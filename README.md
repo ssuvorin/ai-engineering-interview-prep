@@ -279,7 +279,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What are the different types of agent memory (short-term, long-term, episodic)?
 - How do you handle agent failures and implement error recovery?
 - What is an agent loop, and how does it decide when to stop?
-    - Answer: [AI Agent Explained](https://outcomeschool.com/blog/ai-agent)
+    - Answer: [AI Agent Loop](https://outcomeschool.com/blog/ai-agent-loop)
 - Context Engineering
     - Answer: [Context Engineering](https://outcomeschool.com/blog/context-engineering)
 - How AI Agents Communicate?
