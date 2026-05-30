@@ -97,6 +97,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [Math behind Attention - Q, K, and V](https://outcomeschool.com/blog/math-behind-attention-qkv)
 - What is self-attention, and how does it work in Transformers?
     - Answer: [Self Attention in Transformers](https://outcomeschool.com/blog/self-attention-in-transformers)
+- What is Cross Attention in Transformers?
+    - Answer: [Cross Attention in Transformers](https://outcomeschool.com/blog/cross-attention-in-transformers)
 - Why do we scale the dot product attention by √dₖ in the Transformer architecture?
     - Answer: [Math behind √dₖ Scaling Factor in Attention](https://outcomeschool.com/blog/scaling-dot-product-attention)
 - What is causal masking?
