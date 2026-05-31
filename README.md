@@ -104,7 +104,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is causal masking?
     - Answer: [Causal Masking in Attention](https://outcomeschool.com/blog/causal-masking-in-attention)
 - What are multi-head attention mechanisms? Why use multiple attention heads?
-    - Answer: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
+    - Answer: [Multi-Head Attention in Transformers](https://outcomeschool.com/blog/multi-head-attention-in-transformers)
 - What are Feed-Forward Networks in LLMs?
     - Answer: [Feed-Forward Networks in LLMs](https://outcomeschool.com/blog/feed-forward-networks-in-llms)
 - What is the context window in LLMs, and why does it matter?
