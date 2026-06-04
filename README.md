@@ -558,6 +558,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How does CLIP work, and why is it important for multi-modal AI?
 - What are the key architectures for multi-modal models?
 - How does image generation work with diffusion models (Stable Diffusion, DALL-E, Flux)?
+    - Answer: [Diffusion Models](https://outcomeschool.com/blog/diffusion-models)
 - What is text-to-speech (TTS), and what models are used for it?
 - How does speech-to-text (Whisper) work?
 - What is multi-modal RAG, and how does it differ from text-only RAG?
