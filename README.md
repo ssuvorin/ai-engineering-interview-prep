@@ -360,7 +360,9 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How do embedding models convert text to vectors?
 - What is the difference between sparse and dense embeddings?
 - Explain cosine similarity, dot product, and Euclidean distance for vector search.
+    - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
 - What is a vector database, and how does it differ from a traditional database?
+    - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
 - How do you choose the right embedding model for your use case?
 - What is embedding dimensionality, and how does it affect performance and cost?
 - How do you handle embedding drift when the embedding model is updated?
@@ -369,6 +371,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is quantization of embeddings, and how does it reduce storage costs?
 - How do you benchmark and evaluate embedding model quality?
 - What is the role of metadata in vector databases?
+    - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
 - How do you handle large-scale vector search with billions of vectors?
 - What is hybrid search (combining keyword search with vector search)?
 - How do you fine-tune an embedding model for a specific domain?
