@@ -228,6 +228,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [Agentic RAG](https://outcomeschool.com/blog/agentic-rag)
 - What is hybrid search, and why is it better than pure vector search?
 - What is re-ranking, and how does it improve RAG retrieval quality?
+    - Answer: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work)
 - How do you handle multi-document and multi-hop questions in RAG?
 - What is the "lost in the middle" problem in RAG systems?
 - How do you evaluate a RAG system? Explain faithfulness, relevance, and context precision/recall.
