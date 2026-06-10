@@ -449,7 +449,10 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How do you implement logging and tracing for LLM applications?
 - How do you handle PII and sensitive data in LLM inputs and outputs?
 - What is a gateway pattern for LLM API management?
+- How does Token Streaming work?
+    - Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
 - How do you implement streaming responses for real-time AI applications?
+    - Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
 - What are the key SLAs and metrics for production AI systems (latency, throughput, availability)?
 - Cloud vs on-device Model Deployment for AI applications.
     - Answer: [Cloud vs On-Device Model Deployment](https://x.com/outcome_school/status/1965643330076991621)
@@ -629,6 +632,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Implement a prompt template system with variable substitution.
 - Build an evaluation pipeline for LLM outputs using LLM-as-a-judge.
 - Implement streaming responses for an LLM API.
+    - Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
 - Build a simple vector similarity search from scratch.
 - Implement a conversation memory system for a chatbot (sliding window, summary, buffer).
 - Write code to detect and handle hallucinations in LLM outputs.
