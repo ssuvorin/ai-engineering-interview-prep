@@ -387,13 +387,22 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 
 ### AI System Design
 
+- Design ChatGPT: Training to Serving (End to End)
+- Design a RAG System (Chat with Your Documents)
+- Design Memory for a Personal AI Assistant
+- Design a Deep Research Agent
+- Design a Multi-Agent Customer Support System
+- Design an On-Device AI Assistant
+- Design a Multimodal Search System (Text, Image, Video)
+- Design an LLM Inference Platform (vLLM-as-a-Service)
+- Design an LLM Evaluation Platform
+- Design a Text-to-Image Generation Service (Midjourney-like)
+- Design a Music Generation Service (Suno-like)
+- Design a Video Generation Service (Sora-like)
 - Design an AI Coding Agent.
-- Design an AI-powered customer support chatbot.
-- Design a document Q&A system for enterprise use.
 - Design a code generation and review system.
 - Design a content moderation system using AI.
 - Design a real-time AI recommendation system.
-- Design a multi-modal search system (text, image, video).
 - Design an AI-powered email assistant.
 - Design a medical diagnosis assistant using AI.
 - Design a fraud detection system powered by LLMs.
