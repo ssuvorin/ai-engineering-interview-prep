@@ -122,6 +122,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is KV cache, and how does it speed up inference?
     - Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
 - What is model distillation, and how is it used with LLMs?
+    - Answer: [How does Knowledge Distillation work?](https://outcomeschool.com/blog/how-does-knowledge-distillation-work)
 - What is Mixture of Experts (MoE), and how does it work in models like Mixtral?
     - Answer: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)
 - What is the difference between dense and sparse models?
@@ -347,6 +348,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is the difference between SFT (Supervised Fine-Tuning) and alignment training?
 - What is RLAIF (RL from AI Feedback), and how does it differ from RLHF?
 - What is knowledge distillation for fine-tuning, and what are the legal considerations?
+    - Answer: [How does Knowledge Distillation work?](https://outcomeschool.com/blog/how-does-knowledge-distillation-work)
 - Your fine-tuned LLM produces factually wrong outputs due to training data quality issues. How do you fix it?
 - You must choose between LoRA and full fine-tuning for a domain-specific assistant. How do you decide?
     - Answer: [LoRA - Low-Rank Adaptation of LLMs](https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms)
