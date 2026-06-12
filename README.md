@@ -617,6 +617,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
 - What is Paged Attention?
     - Answer: [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)
+- How does GGUF work?
+    - Answer: [How does GGUF work?](https://outcomeschool.com/blog/how-does-gguf-work)
 - How do you optimize inference for edge and mobile deployment?
 - What is model quantization (INT8, INT4, FP16, BF16), and how does it affect quality?
     - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
