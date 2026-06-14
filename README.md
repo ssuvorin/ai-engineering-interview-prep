@@ -113,6 +113,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [Why is the context window limited in LLMs?](https://www.youtube.com/watch?v=CGIhxIaOg3M&lc)
 - What is temperature in the context of LLMs, and how does it affect output?
     - Answer: [What is temperature in the context of LLMs?](https://x.com/amitiitbhu/status/1964990603927687493)
+- Why is the first token slower than the rest in an LLM?
+    - Answer: [The First-Token Latency Problem in LLMs](https://www.youtube.com/watch?v=XD8DD4cEHu0)
 - Explain Top-p (nucleus) sampling and Top-k sampling. How do they differ?
 - What are logits, and how are they used in text generation?
     - Answer: [Understanding Logits in Machine Learning](https://x.com/amitiitbhu/status/1927927814923207146)
