@@ -608,7 +608,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 ### AI Infrastructure and Scalability
 
 - How do you improve inference speed in production LLM deployments?
-    - Answer: [LLM Inference Optimization](https://x.com/amitiitbhu/status/2054100147546837154)
+    - Answer: [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization)
 - LLM optimization techniques
     - Answer: [LLM optimization techniques](https://www.linkedin.com/posts/pallavi-shekhar_5-llm-optimization-techniques-lets-understand-activity-7442067281532325888-4aOS)
 - How do you select GPUs for LLM inference?
