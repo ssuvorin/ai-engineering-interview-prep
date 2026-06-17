@@ -399,6 +399,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Design an On-Device AI Assistant
 - Design a Multimodal Search System (Text, Image, Video)
 - Design an LLM Inference Platform (vLLM-as-a-Service)
+    - Answer: [How does vLLM work?](https://outcomeschool.com/blog/how-does-vllm-work) and [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization)
 - Design an LLM Evaluation Platform
 - Design a Text-to-Image Generation Service (Midjourney-like)
 - Design a Music Generation Service (Suno-like)
