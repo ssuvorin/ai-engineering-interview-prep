@@ -12,6 +12,7 @@
 > - LLM Engineer
 > - Agentic AI Engineer
 > - AI Agent Engineer
+> - Forward Deployed Engineer (FDE)
 > - AI Solutions Architect
 > - AI Platform Engineer
 > - Applied AI Engineer
