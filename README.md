@@ -182,6 +182,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [Recursive Language Models (RLMs)](https://outcomeschool.com/blog/recursive-language-models)
 - Continual Learning in LLMs
     - Answer: [Continual Learning in LLMs](https://outcomeschool.com/blog/continual-learning-in-llms)
+- How do Diffusion Language Models (DLMs) work?
+    - Answer: [How do Diffusion Language Models (DLMs) work?](https://outcomeschool.com/blog/how-do-diffusion-language-models-dlms-work)
 
 ### Prompt Engineering
 
