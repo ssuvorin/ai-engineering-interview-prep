@@ -324,6 +324,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Your AI agent has many tools, but keeps picking the wrong one. How do you improve tool selection?
 - Your AI agent takes too long to complete a task. How do you speed it up?
 - Your LLM selects the right tool but extracts the wrong parameters. How do you fix parameter extraction?
+- How do Computer-Use Agents work?
+    - Answer: [How do Computer-Use Agents work?](https://outcomeschool.com/blog/how-do-computer-use-agents-work)
 
 ### Fine-Tuning and Model Adaptation
 
