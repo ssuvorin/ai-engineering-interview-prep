@@ -375,6 +375,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
 - What is a vector database, and how does it differ from a traditional database?
     - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
+- How does Approximate Nearest Neighbor (ANN) search work?
+    - Answer: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
 - How do you choose the right embedding model for your use case?
 - What is embedding dimensionality, and how does it affect performance and cost?
 - How do you handle embedding drift when the embedding model is updated?
