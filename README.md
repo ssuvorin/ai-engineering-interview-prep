@@ -328,6 +328,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
     - Answer: [How do Computer-Use Agents work?](https://outcomeschool.com/blog/how-do-computer-use-agents-work)
 - How does LangChain work?
     - Answer: [How does LangChain work?](https://outcomeschool.com/blog/how-does-langchain-work)
+- How does LangGraph work?
+    - Answer: [How does LangGraph work?](https://outcomeschool.com/blog/how-does-langgraph-work)
 
 ### Fine-Tuning and Model Adaptation
 
