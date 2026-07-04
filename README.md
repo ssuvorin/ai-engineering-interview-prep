@@ -5,8 +5,9 @@
 # AI Engineering Interview Questions and Answers
 
 > AI Engineering Interview Questions and Answers - Your Cheat Sheet For AI Engineering Interviews
-> 
+>
 > These interview questions and answers are helpful for roles such as:
+>
 > - AI Engineer
 > - Gen AI Engineer
 > - LLM Engineer
@@ -21,21 +22,21 @@
 
 ## Table of Contents
 
-* [Must Know](#must-know)
-* [LLM Fundamentals](#llm-fundamentals)
-* [Prompt Engineering](#prompt-engineering)
-* [Retrieval-Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
-* [AI Agents and Agentic Systems](#ai-agents-and-agentic-systems)
-* [Fine-Tuning and Model Adaptation](#fine-tuning-and-model-adaptation)
-* [Vector Databases and Embeddings](#vector-databases-and-embeddings)
-* [AI System Design](#ai-system-design)
-* [LLMOps and Production AI](#llmops-and-production-ai)
-* [Evaluation and Testing](#evaluation-and-testing)
-* [AI Safety, Ethics, and Responsible AI](#ai-safety-ethics-and-responsible-ai)
-* [Multimodal AI](#multimodal-ai)
-* [AI Infrastructure and Scalability](#ai-infrastructure-and-scalability)
-* [Coding and Practical Implementation](#coding-and-practical-implementation)
-* [Behavioral and Scenario-Based Questions](#behavioral-and-scenario-based-questions)
+- [Must Know](#must-know)
+- [LLM Fundamentals](#llm-fundamentals)
+- [Prompt Engineering](#prompt-engineering)
+- [Retrieval-Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
+- [AI Agents and Agentic Systems](#ai-agents-and-agentic-systems)
+- [Fine-Tuning and Model Adaptation](#fine-tuning-and-model-adaptation)
+- [Vector Databases and Embeddings](#vector-databases-and-embeddings)
+- [AI System Design](#ai-system-design)
+- [LLMOps and Production AI](#llmops-and-production-ai)
+- [Evaluation and Testing](#evaluation-and-testing)
+- [AI Safety, Ethics, and Responsible AI](#ai-safety-ethics-and-responsible-ai)
+- [Multimodal AI](#multimodal-ai)
+- [AI Infrastructure and Scalability](#ai-infrastructure-and-scalability)
+- [Coding and Practical Implementation](#coding-and-practical-implementation)
+- [Behavioral and Scenario-Based Questions](#behavioral-and-scenario-based-questions)
 
 ### Prepared and maintained by the **Founder** of [Outcome School](https://outcomeschool.com): Amit Shekhar
 
@@ -76,74 +77,74 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 ### LLM Fundamentals
 
 - What are foundation models, and how have they changed AI engineering?
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What is a Large Language Model (LLM), and how does it work?
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - Inside ChatGPT: What Happens After You Hit Enter?
-    - Answer: [Inside ChatGPT: What Happens After You Hit Enter](https://outcomeschool.substack.com/p/inside-chatgpt-what-happens-after) 
+  - Answer: [Inside ChatGPT: What Happens After You Hit Enter](https://outcomeschool.substack.com/p/inside-chatgpt-what-happens-after)
 - What is the Transformer architecture and how does it work?
-    - Answer: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
+  - Answer: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
 - What are the key components of the Transformer architecture?
-    - Answer: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
+  - Answer: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
 - What is tokenization in LLMs?
-    - Answer: [Tokenization in Large Language Models (LLMs)](https://www.youtube.com/watch?v=sK2s9I84EVI)
+  - Answer: [Tokenization in Large Language Models (LLMs)](https://www.youtube.com/watch?v=sK2s9I84EVI)
 - Explain BPE (Byte Pair Encoding).
-    - Answer: [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms)
+  - Answer: [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms)
 - Explain WordPiece and SentencePiece.
 - What is positional encoding, and why is it needed in Transformers?
-    - Answer: [Positional Embeddings in LLMs](https://outcomeschool.substack.com/p/positional-embeddings-in-llms)
+  - Answer: [Positional Embeddings in LLMs](https://outcomeschool.substack.com/p/positional-embeddings-in-llms)
 - What are embeddings?
-    - Answer: [Embeddings in Machine Learning](https://www.youtube.com/watch?v=LedXW6xl21s)
+  - Answer: [Embeddings in Machine Learning](https://www.youtube.com/watch?v=LedXW6xl21s)
 - Explain the Query(Q), Key(K), and Value(V) in attention.
-    - Answer: [Math behind Attention - Q, K, and V](https://outcomeschool.com/blog/math-behind-attention-qkv)
+  - Answer: [Math behind Attention - Q, K, and V](https://outcomeschool.com/blog/math-behind-attention-qkv)
 - What is self-attention, and how does it work in Transformers?
-    - Answer: [Self Attention in Transformers](https://outcomeschool.com/blog/self-attention-in-transformers)
+  - Answer: [Self Attention in Transformers](https://outcomeschool.com/blog/self-attention-in-transformers)
 - What is Cross Attention in Transformers?
-    - Answer: [Cross Attention in Transformers](https://outcomeschool.com/blog/cross-attention-in-transformers)
+  - Answer: [Cross Attention in Transformers](https://outcomeschool.com/blog/cross-attention-in-transformers)
 - Why do we scale the dot product attention by √dₖ in the Transformer architecture?
-    - Answer: [Math behind √dₖ Scaling Factor in Attention](https://outcomeschool.com/blog/scaling-dot-product-attention)
+  - Answer: [Math behind √dₖ Scaling Factor in Attention](https://outcomeschool.com/blog/scaling-dot-product-attention)
 - What is causal masking?
-    - Answer: [Causal Masking in Attention](https://outcomeschool.com/blog/causal-masking-in-attention)
+  - Answer: [Causal Masking in Attention](https://outcomeschool.com/blog/causal-masking-in-attention)
 - What are multi-head attention mechanisms? Why use multiple attention heads?
-    - Answer: [Multi-Head Attention in Transformers](https://outcomeschool.com/blog/multi-head-attention-in-transformers)
+  - Answer: [Multi-Head Attention in Transformers](https://outcomeschool.com/blog/multi-head-attention-in-transformers)
 - What are Feed-Forward Networks in LLMs?
-    - Answer: [Feed-Forward Networks in LLMs](https://outcomeschool.com/blog/feed-forward-networks-in-llms)
+  - Answer: [Feed-Forward Networks in LLMs](https://outcomeschool.com/blog/feed-forward-networks-in-llms)
 - What is the context window in LLMs, and why does it matter?
-    - Answer: [Context Window in LLMs](https://www.linkedin.com/posts/amit-shekhar-iitbhu_the-context-window-is-the-llms-working-memory-activity-7437754426175672320-MH9c)
+  - Answer: [Context Window in LLMs](https://www.linkedin.com/posts/amit-shekhar-iitbhu_the-context-window-is-the-llms-working-memory-activity-7437754426175672320-MH9c)
 - Why is the context window limited in LLMs?
-    - Answer: [Why is the context window limited in LLMs?](https://www.youtube.com/watch?v=CGIhxIaOg3M&lc)
+  - Answer: [Why is the context window limited in LLMs?](https://www.youtube.com/watch?v=CGIhxIaOg3M&lc)
 - What is temperature in the context of LLMs, and how does it affect output?
-    - Answer: [What is temperature in the context of LLMs?](https://x.com/amitiitbhu/status/1964990603927687493)
+  - Answer: [What is temperature in the context of LLMs?](https://x.com/amitiitbhu/status/1964990603927687493)
 - Why is the first token slower than the rest in an LLM?
-    - Answer: [The First-Token Latency Problem in LLMs](https://www.youtube.com/watch?v=XD8DD4cEHu0)
+  - Answer: [The First-Token Latency Problem in LLMs](https://www.youtube.com/watch?v=XD8DD4cEHu0)
 - Explain Top-p (nucleus) sampling and Top-k sampling. How do they differ?
 - What are logits, and how are they used in text generation?
-    - Answer: [Understanding Logits in Machine Learning](https://x.com/amitiitbhu/status/1927927814923207146)
+  - Answer: [Understanding Logits in Machine Learning](https://x.com/amitiitbhu/status/1927927814923207146)
 - What are skip connections (residual connections) in Transformers?
-    - Answer: [Skip connections (residual connections) in Transformers](https://www.linkedin.com/posts/amit-shekhar-iitbhu_machinelearning-llm-deeplearning-share-7414239846707392512-pQdQ)
+  - Answer: [Skip connections (residual connections) in Transformers](https://www.linkedin.com/posts/amit-shekhar-iitbhu_machinelearning-llm-deeplearning-share-7414239846707392512-pQdQ)
 - What is the difference between open-source and closed-source LLMs? When would you choose one over the other?
 - What is the difference between encoder-only, decoder-only, and encoder-decoder Transformer architectures?
-    - Answer: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
+  - Answer: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
 - What is KV cache, and how does it speed up inference?
-    - Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
+  - Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
 - What is model distillation, and how is it used with LLMs?
-    - Answer: [How does Knowledge Distillation work?](https://outcomeschool.com/blog/how-does-knowledge-distillation-work)
+  - Answer: [How does Knowledge Distillation work?](https://outcomeschool.com/blog/how-does-knowledge-distillation-work)
 - What is Mixture of Experts (MoE), and how does it work in models like Mixtral?
-    - Answer: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)
+  - Answer: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)
 - What is the difference between dense and sparse models?
-    - Answer: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)
+  - Answer: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)
 - What is Flash Attention?
-    - Answer: [Decoding Flash Attention in LLMs](https://outcomeschool.com/blog/decoding-flash-attention)
+  - Answer: [Decoding Flash Attention in LLMs](https://outcomeschool.com/blog/decoding-flash-attention)
 - What is Cross-Entropy Loss?
-    - Answer: [Math Behind Cross-Entropy Loss](https://outcomeschool.com/blog/math-behind-cross-entropy-loss)
+  - Answer: [Math Behind Cross-Entropy Loss](https://outcomeschool.com/blog/math-behind-cross-entropy-loss)
 - What is Grouped-Query Attention (GQA), and how does it differ from Multi-Head Attention (MHA)?
-    - Answer: [Grouped Query Attention](https://outcomeschool.com/blog/grouped-query-attention)
+  - Answer: [Grouped Query Attention](https://outcomeschool.com/blog/grouped-query-attention)
 - How does Rotary Position Embedding (RoPE) work, and why is it preferred over learned positional embeddings?
-    - Answer: [Math Behind RoPE (Rotary Position Embedding)](https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding)
- - Explain Layer Normalization
-    - Answer: [Batch Normalization vs Layer Normalization](https://outcomeschool.com/blog/batch-normalization-vs-layer-normalization)
- - Explain RMSNorm (Root Mean Square Layer Normalization)
-    - Answer: [RMSNorm (Root Mean Square Layer Normalization)](https://outcomeschool.com/blog/rmsnorm-root-mean-square-layer-normalization)
+  - Answer: [Math Behind RoPE (Rotary Position Embedding)](https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding)
+- Explain Layer Normalization
+  - Answer: [Batch Normalization vs Layer Normalization](https://outcomeschool.com/blog/batch-normalization-vs-layer-normalization)
+- Explain RMSNorm (Root Mean Square Layer Normalization)
+  - Answer: [RMSNorm (Root Mean Square Layer Normalization)](https://outcomeschool.com/blog/rmsnorm-root-mean-square-layer-normalization)
 - Your LLM keeps ignoring your instructions. How do you make it follow structured output formats?
 - Your LLM-powered tool hits the context window limit on long documents. How do you handle it?
 - Your LLM does not admit when it does not know the answer. How do you make it say "I don't know"?
@@ -152,49 +153,50 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Your LLM coding assistant generates outdated code using deprecated libraries. How do you fix it?
 - Your tokenizer splits important domain terms into meaningless subword pieces. How do you fix it?
 - Your Transformer's KV cache grows too large during long sequence generation. How do you manage memory?
-    - Answer: [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)
+  - Answer: [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)
 - Your Transformer runs out of memory on long documents due to quadratic self-attention. How do you scale it?
 - Your distilled student model fails on the complex reasoning that the teacher model handled. How do you close the gap?
 - After RLHF alignment, your LLM became safer but lost capability on hard tasks. How do you manage the alignment tax?
 - Your RLHF-trained LLM is gaming the reward model instead of being genuinely helpful. How do you fix reward hacking?
-    - Answer: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)
+  - Answer: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)
 - Your chatbot loses context after 10 turns in a conversation. How do you maintain a long conversation context?
+  - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
 - Your chatbot fails when users switch topics mid-conversation. How do you handle topic switches?
 - Your QA system always generates an answer even when no answer exists in the context. How do you detect unanswerable questions?
 - Your summarization system hallucinated facts not in the original article. How do you fix it?
 - Your text generation repeats phrases in long outputs. How do you fix repetition?
 - Transformers work on text, so can they also understand images?
-    - Answer: [Decoding Vision Transformer (ViT)](https://outcomeschool.com/blog/decoding-vision-transformer-vit)
+  - Answer: [Decoding Vision Transformer (ViT)](https://outcomeschool.com/blog/decoding-vision-transformer-vit)
 - Small Language Models (SLMs)
-    - Answer: [Small Language Models (SLMs)](https://outcomeschool.com/blog/small-language-models-slms)
+  - Answer: [Small Language Models (SLMs)](https://outcomeschool.com/blog/small-language-models-slms)
 - Large Reasoning Models (LRMs)
-    - Answer: [Large Reasoning Models (LRMs)](https://outcomeschool.com/blog/large-reasoning-models)
+  - Answer: [Large Reasoning Models (LRMs)](https://outcomeschool.com/blog/large-reasoning-models)
 - What are Autoregressive Models?
-    - Answer: [Autoregressive Models](https://outcomeschool.com/blog/autoregressive-models)
+  - Answer: [Autoregressive Models](https://outcomeschool.com/blog/autoregressive-models)
 - Explain the difference between autoregressive and masked language modeling.
 - Proximal Policy Optimization (PPO)
-    - Answer: [Proximal Policy Optimization (PPO)](https://outcomeschool.com/blog/proximal-policy-optimization-ppo)
+  - Answer: [Proximal Policy Optimization (PPO)](https://outcomeschool.com/blog/proximal-policy-optimization-ppo)
 - Direct Preference Optimization (DPO)
-    - Answer: [Direct Preference Optimization (DPO)](https://outcomeschool.com/blog/direct-preference-optimization-dpo)
+  - Answer: [Direct Preference Optimization (DPO)](https://outcomeschool.com/blog/direct-preference-optimization-dpo)
 - Group Relative Policy Optimization (GRPO)
-    - Answer: [Group Relative Policy Optimization (GRPO)](https://outcomeschool.com/blog/group-relative-policy-optimization-grpo)
+  - Answer: [Group Relative Policy Optimization (GRPO)](https://outcomeschool.com/blog/group-relative-policy-optimization-grpo)
 - Recursive Language Models (RLMs)
-    - Answer: [Recursive Language Models (RLMs)](https://outcomeschool.com/blog/recursive-language-models)
+  - Answer: [Recursive Language Models (RLMs)](https://outcomeschool.com/blog/recursive-language-models)
 - Continual Learning in LLMs
-    - Answer: [Continual Learning in LLMs](https://outcomeschool.com/blog/continual-learning-in-llms)
+  - Answer: [Continual Learning in LLMs](https://outcomeschool.com/blog/continual-learning-in-llms)
 - How do Diffusion Language Models (DLMs) work?
-    - Answer: [How do Diffusion Language Models (DLMs) work?](https://outcomeschool.com/blog/how-do-diffusion-language-models-dlms-work)
+  - Answer: [How do Diffusion Language Models (DLMs) work?](https://outcomeschool.com/blog/how-do-diffusion-language-models-dlms-work)
 
 ### Prompt Engineering
 
 - What is prompt engineering, and why is it critical for AI applications?
 - Explain zero-shot, one-shot, and few-shot prompting with examples.
-    - Answer: [Explain zero-shot, one-shot, and few-shot prompting with examples](https://www.linkedin.com/posts/pallavi-shekhar_llm-prompting-ai-activity-7441801012472078336-JsHr)
+  - Answer: [Explain zero-shot, one-shot, and few-shot prompting with examples](https://www.linkedin.com/posts/pallavi-shekhar_llm-prompting-ai-activity-7441801012472078336-JsHr)
 - What is chain-of-thought (CoT) prompting, and when should you use it?
 - Explain self-consistency prompting and how it improves reasoning.
 - What is tree-of-thought prompting?
 - What is ReAct (Reasoning + Acting) prompting, and how does it work?
-    - Answer: [ReAct Agent](https://outcomeschool.com/blog/react-agent)
+  - Answer: [ReAct Agent](https://outcomeschool.com/blog/react-agent)
 - What is a system prompt, and how does it influence model behavior?
 - How do you structure prompts for consistent structured output (JSON, XML)?
 - What is prompt injection, and how do you defend against it?
@@ -223,33 +225,33 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 ### Retrieval-Augmented Generation (RAG)
 
 - What is Retrieval-Augmented Generation (RAG), and why is it important?
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - Explain the architecture of a basic RAG system.
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What are the key components of a RAG pipeline?
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What are chunking strategies, and how do you choose the right chunk size?
 - Compare fixed-size chunking, semantic chunking, and recursive chunking.
 - What are embedding models, and how do they convert text to vectors?
 - How do you choose an embedding model for your RAG system?
 - Explain Agentic RAG.
-    - Answer: [Agentic RAG](https://outcomeschool.com/blog/agentic-rag)
+  - Answer: [Agentic RAG](https://outcomeschool.com/blog/agentic-rag)
 - What is hybrid search, and why is it better than pure vector search?
 - What is re-ranking, and how does it improve RAG retrieval quality?
-    - Answer: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work)
+  - Answer: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work)
 - How do you handle multi-document and multi-hop questions in RAG?
 - What is the "lost in the middle" problem in RAG systems?
 - How do you evaluate a RAG system? Explain faithfulness, relevance, and context precision/recall.
 - Explain Self-RAG. How does the model decide when to retrieve?
 - What is GraphRAG, and when would you use it over traditional RAG?
-    - Answer: [GraphRAG](https://outcomeschool.com/blog/graphrag)
+  - Answer: [GraphRAG](https://outcomeschool.com/blog/graphrag)
 - How do you handle structured data (tables, SQL databases) in a RAG pipeline?
 - What are the common failure modes of RAG systems, and how do you debug them?
 - How do you handle document updates and maintain freshness in a RAG system?
 - How do you optimize RAG for latency in production?
 - What is the role of metadata filtering in RAG systems?
 - Compare RAG vs fine-tuning. When would you use each?
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What is query transformation in RAG (HyDE, query decomposition, step-back prompting)?
 - How do you implement citation and source attribution in RAG?
 - How do you scale a RAG system to millions of documents?
@@ -270,54 +272,56 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 ### AI Agents and Agentic Systems
 
 - What is an AI agent, and how does it differ from a simple LLM call?
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) and [AI Agent Explained](https://outcomeschool.com/blog/ai-agent)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) and [AI Agent Explained](https://outcomeschool.com/blog/ai-agent)
 - AI Agent Memory
-    - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
+  - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
 - Harness Engineering in AI
-    - Answer: [Harness Engineering in AI](https://outcomeschool.com/blog/harness-engineering-in-ai)
+  - Answer: [Harness Engineering in AI](https://outcomeschool.com/blog/harness-engineering-in-ai)
 - Explain the ReAct (Reasoning + Acting) agent architecture.
-    - Answer: [ReAct Agent](https://outcomeschool.com/blog/react-agent)
+  - Answer: [ReAct Agent](https://outcomeschool.com/blog/react-agent)
 - What is the Plan-and-Execute agent pattern?
-    - Answer: [Plan-and-Execute Agent](https://outcomeschool.com/blog/plan-and-execute-agent)
+  - Answer: [Plan-and-Execute Agent](https://outcomeschool.com/blog/plan-and-execute-agent)
 - What is tool use (function calling) in LLMs, and how does it enable agents?
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - How do you design and define tools for an AI agent?
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What is the difference between single-agent and multi-agent systems?
-    - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
+  - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
 - What is Model Context Protocol (MCP), and how does it standardize tool integration?
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What are AI SubAgents?
-    - Answer: [AI SubAgents](https://outcomeschool.com/blog/ai-subagents)
+  - Answer: [AI SubAgents](https://outcomeschool.com/blog/ai-subagents)
 - What are the different types of agent memory (short-term, long-term, episodic)?
+  - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
 - How do you handle agent failures and implement error recovery?
 - What is an agent loop, and how does it decide when to stop?
-    - Answer: [AI Agent Loop](https://outcomeschool.com/blog/ai-agent-loop)
+  - Answer: [AI Agent Loop](https://outcomeschool.com/blog/ai-agent-loop)
 - Context Engineering
-    - Answer: [Context Engineering](https://outcomeschool.com/blog/context-engineering)
+  - Answer: [Context Engineering](https://outcomeschool.com/blog/context-engineering)
 - How AI Agents Communicate?
-    - Answer: [How AI Agents Communicate](https://outcomeschool.com/blog/how-ai-agents-communicate)
+  - Answer: [How AI Agents Communicate](https://outcomeschool.com/blog/how-ai-agents-communicate)
 - How do you evaluate and test AI agents?
-    - Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)
+  - Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)
 - What are the security risks of agentic systems, and how do you mitigate them?
 - What is the difference between reactive and proactive agents?
 - How do you manage token consumption and cost in long-running agent workflows?
 - What is the human-in-the-loop pattern for agents, and when is it needed?
 - How do you implement guardrails for AI agents to prevent harmful actions?
 - What is agent reflection, and how does it improve agent performance?
-    - Answer: [Reflection Agent](https://outcomeschool.com/blog/reflection-agent)
+  - Answer: [Reflection Agent](https://outcomeschool.com/blog/reflection-agent)
 - What is the difference between code-generating agents and tool-calling agents?
 - How do you handle multi-modal inputs and outputs in agentic systems?
 - How do you implement state management in complex agent workflows?
+  - Answer: [How does LangGraph work?](https://outcomeschool.com/blog/how-does-langgraph-work)
 - How do you build a customer support agent with escalation logic?
 - What is agent orchestration, and how do you implement it?
-    - Answer: [AI Orchestration](https://outcomeschool.com/blog/ai-orchestration)
+  - Answer: [AI Orchestration](https://outcomeschool.com/blog/ai-orchestration)
 - How do you build a code execution agent safely using sandboxed environments?
 - Your AI agent is stuck in an infinite loop. How do you detect and break the cycle?
-    - Answer: [Fix an infinite loop in an AI agent](https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-share-7440257380707364864-5Ycc)
+  - Answer: [Fix an infinite loop in an AI agent](https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-share-7440257380707364864-5Ycc)
 - Your AI agent gets conflicting answers from different tools. How does it reconcile them?
 - Your AI agent burns too many tokens per task. How do you reduce token consumption?
-    - Answer: [How would you reduce the token consumption?](https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-activity-7439550125015994368-LTmE)
+  - Answer: [How would you reduce the token consumption?](https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-activity-7439550125015994368-LTmE)
 - Your AI agent keeps exceeding its budget per task. How do you enforce budget limits?
 - Your AI agent hallucinates tool capabilities and passes wrong inputs. How do you fix it?
 - Your AI agent deleted a production database. How do you prevent irreversible actions?
@@ -325,72 +329,77 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Your AI agent takes too long to complete a task. How do you speed it up?
 - Your LLM selects the right tool but extracts the wrong parameters. How do you fix parameter extraction?
 - How do Computer-Use Agents work?
-    - Answer: [How do Computer-Use Agents work?](https://outcomeschool.com/blog/how-do-computer-use-agents-work)
+  - Answer: [How do Computer-Use Agents work?](https://outcomeschool.com/blog/how-do-computer-use-agents-work)
 - How does LangChain work?
-    - Answer: [How does LangChain work?](https://outcomeschool.com/blog/how-does-langchain-work)
+  - Answer: [How does LangChain work?](https://outcomeschool.com/blog/how-does-langchain-work)
 - How does LangGraph work?
-    - Answer: [How does LangGraph work?](https://outcomeschool.com/blog/how-does-langgraph-work)
+  - Answer: [How does LangGraph work?](https://outcomeschool.com/blog/how-does-langgraph-work)
 
 ### Fine-Tuning and Model Adaptation
 
 - What is fine-tuning, and when should you fine-tune an LLM?
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - Explain the difference between full fine-tuning and parameter-efficient fine-tuning (PEFT).
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What is LoRA (Low-Rank Adaptation), and how does it work?
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What is QLoRA, and how does it enable fine-tuning on consumer hardware?
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - Explain Prefix Tuning and Prompt Tuning. How are they different from LoRA?
 - What is adapter-based fine-tuning?
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What is RLHF (Reinforcement Learning from Human Feedback), and how is it used to align LLMs?
-    - Answer: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)
+  - Answer: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)
 - What is instruction tuning, and why is it important for chat models?
 - How do you prepare a dataset for fine-tuning an LLM?
 - What is catastrophic forgetting, and how do you prevent it during fine-tuning?
+  - Answer: [Continual Learning in LLMs](https://outcomeschool.com/blog/continual-learning-in-llms)
 - When should you choose fine-tuning over RAG over prompt engineering?
 - How do you evaluate a fine-tuned model's performance?
+  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
 - What is synthetic data generation, and how do you use it for fine-tuning?
 - What are the key hyperparameters for fine-tuning (learning rate, epochs, batch size, LoRA rank)?
-    - Answer: [LoRA - Low-Rank Adaptation of LLMs](https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms)
+  - Answer: [LoRA - Low-Rank Adaptation of LLMs](https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms)
 - How do you fine-tune a model for a specific domain (legal, medical, finance)?
 - What is continual pre-training, and when would you use it?
 - How do you merge multiple LoRA adapters?
-    - Answer: [LoRA - Low-Rank Adaptation of LLMs](https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms)
+  - Answer: [LoRA - Low-Rank Adaptation of LLMs](https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms)
 - What is the difference between SFT (Supervised Fine-Tuning) and alignment training?
 - What is RLAIF (RL from AI Feedback), and how does it differ from RLHF?
 - What is knowledge distillation for fine-tuning, and what are the legal considerations?
-    - Answer: [How does Knowledge Distillation work?](https://outcomeschool.com/blog/how-does-knowledge-distillation-work)
+  - Answer: [How does Knowledge Distillation work?](https://outcomeschool.com/blog/how-does-knowledge-distillation-work)
 - Your fine-tuned LLM produces factually wrong outputs due to training data quality issues. How do you fix it?
 - You must choose between LoRA and full fine-tuning for a domain-specific assistant. How do you decide?
-    - Answer: [LoRA - Low-Rank Adaptation of LLMs](https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms)
+  - Answer: [LoRA - Low-Rank Adaptation of LLMs](https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms)
 - Your fine-tuned model memorized training data verbatim instead of learning patterns. How do you fix overfitting?
 - Your fine-tuned LLM forgot its general capabilities after domain-specific fine-tuning. How do you fix catastrophic forgetting?
+  - Answer: [Continual Learning in LLMs](https://outcomeschool.com/blog/continual-learning-in-llms)
 - Your RLHF preference data has low annotator agreement. How do you ensure data quality?
 
 ### Vector Databases and Embeddings
 
 - What are embeddings in the context of AI engineering?
-    - Answer: [Embeddings in Machine Learning](https://www.youtube.com/watch?v=LedXW6xl21s)
+  - Answer: [Embeddings in Machine Learning](https://www.youtube.com/watch?v=LedXW6xl21s)
 - How do embedding models convert text to vectors?
 - What is the difference between sparse and dense embeddings?
 - Explain cosine similarity, dot product, and Euclidean distance for vector search.
-    - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
+  - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
 - What is a vector database, and how does it differ from a traditional database?
-    - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
+  - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
 - How does Approximate Nearest Neighbor (ANN) search work?
-    - Answer: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
+  - Answer: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
 - How do you choose the right embedding model for your use case?
 - What is embedding dimensionality, and how does it affect performance and cost?
 - How do you handle embedding drift when the embedding model is updated?
 - What are multi-modal embeddings, and how are they generated?
+  - Answer: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)
 - How do you index and query multi-tenant data in a vector database?
 - What is quantization of embeddings, and how does it reduce storage costs?
 - How do you benchmark and evaluate embedding model quality?
 - What is the role of metadata in vector databases?
-    - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
+  - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
 - How do you handle large-scale vector search with billions of vectors?
+  - Answer: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
 - What is hybrid search (combining keyword search with vector search)?
 - How do you fine-tune an embedding model for a specific domain?
 - Your vector database for RAG is consuming too much memory. How do you reduce it?
@@ -405,13 +414,16 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Design ChatGPT: Training to Serving (End to End)
 - Design a RAG System (Chat with Your Documents)
 - Design Memory for a Personal AI Assistant
+  - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
 - Design a Deep Research Agent
 - Design a Multi-Agent Customer Support System
+  - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
 - Design an On-Device AI Assistant
 - Design a Multimodal Search System (Text, Image, Video)
 - Design an LLM Inference Platform (vLLM-as-a-Service)
-    - Answer: [How does vLLM work?](https://outcomeschool.com/blog/how-does-vllm-work) and [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization)
+  - Answer: [How does vLLM work?](https://outcomeschool.com/blog/how-does-vllm-work) and [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization)
 - Design an LLM Evaluation Platform
+  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
 - Design a Text-to-Image Generation Service (Midjourney-like)
 - Design a Music Generation Service (Suno-like)
 - Design a Video Generation Service (Sora-like)
@@ -427,6 +439,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Design an AI system for automated code migration.
 - Design an AI-powered legal document review system.
 - Design a conversational AI system with memory across sessions.
+  - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
 - How do you design for latency vs quality trade-offs in AI systems?
 - How do you implement caching strategies for LLM applications?
 - How do you design rate limiting and cost management for AI APIs?
@@ -447,25 +460,28 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Design an AI resume screening system that handles 100K applications per week.
 - Design an AI voice assistant architecture.
 - Design a multi-agent workflow system where agents collaborate on complex tasks.
-    - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
+  - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
 - Design a real-time AI transcription system for concurrent audio streams.
 - Design an AI-powered live streaming content moderation system.
 
 ### LLMOps and Production AI
 
 - How does Prompt Caching work?
-    - Answer: [How does Prompt Caching work?](https://outcomeschool.com/blog/how-does-prompt-caching-work)
+  - Answer: [How does Prompt Caching work?](https://outcomeschool.com/blog/how-does-prompt-caching-work)
 - Explain the AI product lifecycle from ideation to production.
 - What is LLMOps, and how does it differ from traditional MLOps?
 - How do you serve LLMs in production?
 - What is model quantization?
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - How do you monitor LLM applications in production?
+  - Answer: [AI Agent Observability](https://outcomeschool.com/blog/ai-agent-observability)
 - What is LLM observability?
+  - Answer: [AI Agent Observability](https://outcomeschool.com/blog/ai-agent-observability)
 - What are guardrails for LLMs, and how do you implement them?
 - How do you implement content filtering for AI outputs?
 - How do you estimate the cost of running an AI-powered feature in production?
 - How do you optimize LLM inference costs in production?
+  - Answer: [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization)
 - How do you implement A/B testing for LLM systems?
 - What is CI/CD for AI applications, and how does it differ from traditional CI/CD?
 - How do you version and manage prompts in production?
@@ -474,23 +490,25 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How do you handle model updates and migrations without downtime?
 - What is the role of feature flags in AI deployments?
 - How do you implement logging and tracing for LLM applications?
+  - Answer: [AI Agent Observability](https://outcomeschool.com/blog/ai-agent-observability)
 - How do you handle PII and sensitive data in LLM inputs and outputs?
 - What is a gateway pattern for LLM API management?
 - How does Token Streaming work?
-    - Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
+  - Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
 - How do you implement streaming responses for real-time AI applications?
-    - Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
+  - Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
 - How does vLLM work?
-    - Answer: [How does vLLM work?](https://outcomeschool.com/blog/how-does-vllm-work)
+  - Answer: [How does vLLM work?](https://outcomeschool.com/blog/how-does-vllm-work)
 - How does SGLang work?
-    - Answer: [How does SGLang work?](https://outcomeschool.com/blog/how-does-sglang-work)
+  - Answer: [How does SGLang work?](https://outcomeschool.com/blog/how-does-sglang-work)
 - What are the key SLAs and metrics for production AI systems (latency, throughput, availability)?
 - Cloud vs on-device Model Deployment for AI applications.
-    - Answer: [Cloud vs On-Device Model Deployment](https://x.com/outcome_school/status/1965643330076991621)
+  - Answer: [Cloud vs On-Device Model Deployment](https://x.com/outcome_school/status/1965643330076991621)
 - How do you implement fallback strategies when the primary model is unavailable or rate-limited?
 - How do you implement structured output from LLMs reliably in production?
 - How do you handle long contexts efficiently in production (context compression, prefix caching)?
 - What is semantic routing, and how do you implement it in a multi-model system?
+  - Answer: [LLM Routing](https://outcomeschool.com/blog/llm-routing)
 - How do you manage secrets and API keys securely in LLM applications?
 - Your LLM API has latency spikes during peak hours. How do you stabilize it?
 - Your LLM costs are too high in production. How do you reduce costs without degrading quality?
@@ -500,33 +518,39 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - A traffic spike brings down your AI system. How do you handle peak traffic?
 - One LLM provider outage took down your entire system. How do you eliminate single points of failure?
 - Your multi-LLM pipeline fails when one model in the chain breaks. How do you handle orchestration failure?
-    - Answer: [AI Orchestration](https://outcomeschool.com/blog/ai-orchestration)
+  - Answer: [AI Orchestration](https://outcomeschool.com/blog/ai-orchestration)
 - Your AI pipeline has zero visibility into which step is failing. How do you add observability?
+  - Answer: [AI Agent Observability](https://outcomeschool.com/blog/ai-agent-observability)
 - You quantized your LLM, but accuracy dropped significantly. How do you minimize quantization loss?
 - One failing AI component can take down your entire platform. How do you design graceful degradation?
 
 ### Evaluation and Testing
 
 - AI Agent Evaluation
-    - Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)
+  - Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)
 - LLM Evaluation
-    - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
+  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
 - AI Agent Observability
-    - Answer: [AI Agent Observability](https://outcomeschool.com/blog/ai-agent-observability)
+  - Answer: [AI Agent Observability](https://outcomeschool.com/blog/ai-agent-observability)
 - What is evaluation-driven development for AI applications?
 - How do you evaluate LLM outputs? What metrics do you use?
+  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
 - Explain BLEU, ROUGE, and BERTScore. When would you use each?
+  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
 - What is G-Eval, and how does it use LLMs for evaluation?
+  - Answer: [LLM as a Judge](https://outcomeschool.com/blog/llm-as-a-judge)
 - What is LLM-as-a-judge evaluation, and what are its limitations?
-    - Answer: [LLM as a Judge](https://outcomeschool.com/blog/llm-as-a-judge)
+  - Answer: [LLM as a Judge](https://outcomeschool.com/blog/llm-as-a-judge)
 - How do you conduct human evaluation for AI systems?
 - What is red teaming, and how do you red team an LLM application?
 - How do you detect and measure hallucinations in LLM outputs?
 - What is adversarial testing for AI systems?
 - How do you build a regression test suite for AI applications?
 - What are benchmark suites (MMLU, HumanEval, GSM8K), and how do you interpret them?
+  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
 - How do you evaluate a RAG system end-to-end?
 - How do you evaluate the quality of AI agents?
+  - Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)
 - What is the difference between offline and online evaluation for AI systems?
 - How do you measure factual consistency in LLM outputs?
 - How do you evaluate multi-turn conversation quality?
@@ -537,6 +561,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How do you evaluate the robustness of an LLM application across input variations?
 - What are the key differences between evaluating traditional ML vs LLM applications?
 - How do you set up an evaluation framework from scratch for a new LLM application?
+  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
 - Your model passes one fairness metric but fails another. How do you handle conflicting audit results?
 - Your model was fair at deployment, but became biased 6 months later. How do you monitor continuously?
 - An external auditor cannot reproduce your model's results. How do you ensure audit reproducibility?
@@ -593,17 +618,19 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 ### Multimodal AI
 
 - What are Multimodal AI models, and how do they process different types of data?
-    - Answer: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)
+  - Answer: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)
 - How do vision-language models process images?
+  - Answer: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)
 - How does CLIP work, and why is it important for multi-modal AI?
 - What are the key architectures for multi-modal models?
 - How does image generation work with diffusion models (Stable Diffusion, DALL-E, Flux)?
-    - Answer: [Diffusion Models](https://outcomeschool.com/blog/diffusion-models)
+  - Answer: [Diffusion Models](https://outcomeschool.com/blog/diffusion-models)
 - What is text-to-speech (TTS), and what models are used for it?
 - How does speech-to-text (Whisper) work?
 - What is multi-modal RAG, and how does it differ from text-only RAG?
 - How do you build a system that processes both images and text?
 - What are multi-modal embeddings, and how are they used for cross-modal search?
+  - Answer: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)
 - How do you evaluate multi-modal AI systems?
 - What are the challenges of real-time multi-modal AI processing?
 - How do you handle video understanding with AI?
@@ -624,26 +651,26 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 ### AI Infrastructure and Scalability
 
 - How do you improve inference speed in production LLM deployments?
-    - Answer: [LLM Inference Optimization](https://www.youtube.com/watch?v=jV2sCj4lHYk)
+  - Answer: [LLM Inference Optimization](https://www.youtube.com/watch?v=jV2sCj4lHYk)
 - LLM optimization techniques
-    - Answer: [LLM optimization techniques](https://www.linkedin.com/posts/pallavi-shekhar_5-llm-optimization-techniques-lets-understand-activity-7442067281532325888-4aOS)
+  - Answer: [LLM optimization techniques](https://www.linkedin.com/posts/pallavi-shekhar_5-llm-optimization-techniques-lets-understand-activity-7442067281532325888-4aOS)
 - How do you select GPUs for LLM inference?
 - What is model parallelism vs data parallelism in distributed training?
 - What is tensor parallelism, and how does it help serve large models?
 - What is pipeline parallelism?
 - How does continuous batching improve LLM inference throughput?
-    - Answer: [Continuous Batching in LLMs](https://outcomeschool.com/blog/continuous-batching-in-llms)
+  - Answer: [Continuous Batching in LLMs](https://outcomeschool.com/blog/continuous-batching-in-llms)
 - What is speculative decoding, and how does it speed up inference?
-    - Answer: [Speculative Decoding](https://outcomeschool.com/blog/speculative-decoding)
+  - Answer: [Speculative Decoding](https://outcomeschool.com/blog/speculative-decoding)
 - What is KV cache, and how do you manage memory for it?
-    - Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
+  - Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
 - What is Paged Attention?
-    - Answer: [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)
+  - Answer: [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)
 - How does GGUF work?
-    - Answer: [How does GGUF work?](https://outcomeschool.com/blog/how-does-gguf-work)
+  - Answer: [How does GGUF work?](https://outcomeschool.com/blog/how-does-gguf-work)
 - How do you optimize inference for edge and mobile deployment?
 - What is model quantization (INT8, INT4, FP16, BF16), and how does it affect quality?
-    - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - How do you implement auto-scaling for AI workloads?
 - What is the role of load balancing in AI serving infrastructure?
 - How do you manage GPU memory for serving multiple models?
@@ -656,24 +683,29 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is FSDP (Fully Sharded Data Parallel), and how does it differ from DeepSpeed ZeRO?
 - How do you monitor and profile LLM inference in production (TTFT, inter-token latency, GPU utilization)?
 - What is model routing at the infrastructure level, and how do you route requests based on complexity and cost?
-    - Answer: [LLM Routing](https://outcomeschool.com/blog/llm-routing)
+  - Answer: [LLM Routing](https://outcomeschool.com/blog/llm-routing)
 
 ### Coding and Practical Implementation
 
 - Implement a basic RAG pipeline using an embedding model and a vector database.
 - Build a simple AI agent with tool use (e.g., calculator, web search).
+  - Answer: [ReAct Agent](https://outcomeschool.com/blog/react-agent)
 - Implement semantic search using embeddings and cosine similarity.
+  - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
 - Write code for different text chunking strategies (fixed-size, recursive, semantic).
 - Implement a prompt template system with variable substitution.
 - Build an evaluation pipeline for LLM outputs using LLM-as-a-judge.
+  - Answer: [LLM as a Judge](https://outcomeschool.com/blog/llm-as-a-judge)
 - Implement streaming responses for an LLM API.
-    - Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
+  - Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
 - Build a simple vector similarity search from scratch.
 - Implement a conversation memory system for a chatbot (sliding window, summary, buffer).
 - Write code to detect and handle hallucinations in LLM outputs.
 - Implement a retry mechanism with exponential backoff for LLM API calls.
 - Write a function calling (tool use) handler for an LLM API.
+  - Answer: [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)
 - Implement a simple re-ranker for search results.
+  - Answer: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work)
 - Build a basic document parser that extracts text from PDFs and splits it into chunks.
 - Implement cosine similarity, dot product, and Euclidean distance functions from scratch.
 - Write code to implement token counting and context window management.
@@ -683,7 +715,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Write code to detect prompt injection attempts in user inputs.
 - Implement an LLM output guardrails system that checks for off-topic responses and PII leakage.
 - Build a multi-agent system where agents have different roles and collaborate on a task.
-    - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
+  - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
 
 ### Behavioral and Scenario-Based Questions
 
@@ -711,6 +743,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - You need to choose between a complex agentic system that scores 15% better on benchmarks, or a simpler RAG pipeline that is easier to maintain. How do you decide?
 
 ### License
+
 ```
    Copyright (C) 2026 Outcome School
 
