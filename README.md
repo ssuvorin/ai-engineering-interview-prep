@@ -468,6 +468,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 
 - How does Prompt Caching work?
   - Answer: [How does Prompt Caching work?](https://outcomeschool.com/blog/how-does-prompt-caching-work)
+- Prefill vs Decode
+  - Answer: [Prefill vs Decode: LLM Inference Optimization](https://outcomeschool.com/blog/prefill-vs-decode-llm-inference-optimization)
 - Explain the AI product lifecycle from ideation to production.
 - What is LLMOps, and how does it differ from traditional MLOps?
 - How do you serve LLMs in production?
