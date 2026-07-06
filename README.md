@@ -253,6 +253,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Compare RAG vs fine-tuning. When would you use each?
   - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What is query transformation in RAG (HyDE, query decomposition, step-back prompting)?
+  - Answer: [How does HyDE work in RAG?](https://outcomeschool.com/blog/how-does-hyde-work)
 - How do you implement citation and source attribution in RAG?
 - How do you scale a RAG system to millions of documents?
 - What is parent-child chunking, and how does it improve retrieval?
