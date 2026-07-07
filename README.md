@@ -237,6 +237,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Explain Agentic RAG.
   - Answer: [Agentic RAG](https://outcomeschool.com/blog/agentic-rag)
 - What is hybrid search, and why is it better than pure vector search?
+  - Answer: [How does Hybrid Search work?](https://outcomeschool.com/blog/how-does-hybrid-search-work)
 - What is re-ranking, and how does it improve RAG retrieval quality?
   - Answer: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work)
 - How do you handle multi-document and multi-hop questions in RAG?
@@ -402,6 +403,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How do you handle large-scale vector search with billions of vectors?
   - Answer: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
 - What is hybrid search (combining keyword search with vector search)?
+  - Answer: [How does Hybrid Search work?](https://outcomeschool.com/blog/how-does-hybrid-search-work) 
 - How do you fine-tune an embedding model for a specific domain?
 - Your vector database for RAG is consuming too much memory. How do you reduce it?
 - Your vector database cannot scale to millions of embeddings. How do you fix the bottleneck?
