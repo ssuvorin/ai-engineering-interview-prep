@@ -717,6 +717,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Build a simple prompt versioning system.
 - Implement a caching layer for LLM responses.
 - Implement semantic caching for LLM queries (cache responses for semantically similar queries).
+  - Answer: [How does Semantic Caching work?](https://outcomeschool.com/blog/how-does-semantic-caching-work)
 - Write code to detect prompt injection attempts in user inputs.
 - Implement an LLM output guardrails system that checks for off-topic responses and PII leakage.
 - Build a multi-agent system where agents have different roles and collaborate on a task.
