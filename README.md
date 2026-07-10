@@ -207,6 +207,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How do you handle multi-turn conversations with LLMs?
 - What is role prompting, and when is it effective?
 - What is prompt chaining, and how do you design a chain of prompts for complex tasks?
+  - Answer: [How does Prompt Chaining work?](https://outcomeschool.com/blog/how-does-prompt-chaining-work)
 - How do you evaluate and iterate on prompt quality?
 - What are meta-prompts, and how can they be used to generate prompts?
 - What are the common failure modes in prompting, and how do you debug them?
