@@ -193,6 +193,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Explain zero-shot, one-shot, and few-shot prompting with examples.
   - Answer: [Explain zero-shot, one-shot, and few-shot prompting with examples](https://www.linkedin.com/posts/pallavi-shekhar_llm-prompting-ai-activity-7441801012472078336-JsHr)
 - What is chain-of-thought (CoT) prompting, and when should you use it?
+  - Answer: [How does Chain-of-Thought (CoT) Prompting work?](https://outcomeschool.com/blog/how-does-chain-of-thought-prompting-work)
 - Explain self-consistency prompting and how it improves reasoning.
 - What is tree-of-thought prompting?
 - What is ReAct (Reasoning + Acting) prompting, and how does it work?
