@@ -433,6 +433,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Design a Music Generation Service (Suno-like)
 - Design a Video Generation Service (Sora-like)
 - Design an AI Coding Agent.
+  - Answer: [How does Claude Code work?](https://outcomeschool.com/blog/how-does-claude-code-work)
 - Design a code generation and review system.
 - Design a content moderation system using AI.
 - Design a real-time AI recommendation system.
