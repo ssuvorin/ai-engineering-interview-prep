@@ -701,7 +701,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Build a simple AI agent with tool use (e.g., calculator, web search).
   - Answer: [ReAct Agent](https://outcomeschool.com/blog/react-agent)
 - Implement semantic search using embeddings and cosine similarity.
-  - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
+  - Answer: [How does Semantic Search work?](https://outcomeschool.com/blog/how-does-semantic-search-work) and [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
 - Write code for different text chunking strategies (fixed-size, recursive, semantic).
 - Implement a prompt template system with variable substitution.
 - Build an evaluation pipeline for LLM outputs using LLM-as-a-judge.
