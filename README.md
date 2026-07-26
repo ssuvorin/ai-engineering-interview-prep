@@ -340,6 +340,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
   - Answer: [How does LangChain work?](https://outcomeschool.com/blog/how-does-langchain-work)
 - How does LangGraph work?
   - Answer: [How does LangGraph work?](https://outcomeschool.com/blog/how-does-langgraph-work)
+- What is OKF (Open Knowledge Format)?
+  - Answer: [What is OKF (Open Knowledge Format)?](https://outcomeschool.com/blog/what-is-okf-open-knowledge-format) 
 
 ### Fine-Tuning and Model Adaptation
 
