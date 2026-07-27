@@ -353,6 +353,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
   - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What is QLoRA, and how does it enable fine-tuning on consumer hardware?
   - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+- How does fine-tuning work?
+  - Answer: [How does fine-tuning work?](https://outcomeschool.com/blog/how-does-fine-tuning-work)
 - Explain Prefix Tuning and Prompt Tuning. How are they different from LoRA?
 - What is adapter-based fine-tuning?
   - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
