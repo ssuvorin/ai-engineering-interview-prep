@@ -306,6 +306,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
   - Answer: [How does context compaction work?](https://outcomeschool.com/blog/how-does-context-compaction-work) 
 - How AI Agents Communicate?
   - Answer: [How AI Agents Communicate](https://outcomeschool.com/blog/how-ai-agents-communicate)
+- What are Agent Skills?
+  - Answer: [What are Agent Skills?](https://outcomeschool.com/blog/what-are-agent-skills)
 - How do you evaluate and test AI agents?
   - Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)
 - What are the security risks of agentic systems, and how do you mitigate them?
