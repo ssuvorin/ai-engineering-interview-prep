@@ -235,6 +235,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What are chunking strategies, and how do you choose the right chunk size?
 - Compare fixed-size chunking, semantic chunking, and recursive chunking.
 - What are embedding models, and how do they convert text to vectors?
+  - Answer: [What are Embeddings?](http://localhost:3000/blog/what-are-embeddings)
 - How do you choose an embedding model for your RAG system?
 - Explain Agentic RAG.
   - Answer: [Agentic RAG](https://outcomeschool.com/blog/agentic-rag)
@@ -393,6 +394,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What are embeddings in the context of AI engineering?
   - Answer: [Embeddings in Machine Learning](https://www.youtube.com/watch?v=LedXW6xl21s)
 - How do embedding models convert text to vectors?
+  - Answer: [What are Embeddings?](http://localhost:3000/blog/what-are-embeddings)
 - What is the difference between sparse and dense embeddings?
 - Explain cosine similarity, dot product, and Euclidean distance for vector search.
   - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
