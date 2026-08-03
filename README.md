@@ -201,6 +201,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is a system prompt, and how does it influence model behavior?
 - How do you structure prompts for consistent structured output (JSON, XML)?
 - What is prompt injection, and how do you defend against it?
+  - Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
 - What is jailbreaking in LLMs, and what are common jailbreak techniques?
 - How do you optimize prompts for cost and latency?
 - What is the difference between prompt engineering and prompt tuning?
@@ -220,6 +221,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Your LLM classification system is too sensitive to prompt wording changes. How do you reduce prompt sensitivity?
 - Your chatbot's system prompt containing proprietary business logic is being leaked by users. How do you prevent it?
 - Your LLM agent is vulnerable to prompt injection that reveals the system prompt. How do you defend it?
+  - Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
 - Your chain-of-thought prompting is not improving LLM accuracy on reasoning tasks. What do you fix?
 - Your AI system works in English but fails for other languages. How do you add multilingual support?
 - Your zero-shot cross-lingual transfer from English fails on other languages. How do you fix it?
@@ -590,6 +592,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 
 - What are hallucinations in LLMs, and how do you mitigate them?
 - What is prompt injection, and what are the different types (direct, indirect)?
+  - Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
 - How do you implement input and output guardrails for AI systems?
 - What is AI alignment, and why is it important?
 - How do you detect and mitigate bias in AI systems?
