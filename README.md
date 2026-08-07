@@ -523,7 +523,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
   - Answer: [How does SGLang work?](https://outcomeschool.com/blog/how-does-sglang-work)
 - What are the key SLAs and metrics for production AI systems (latency, throughput, availability)?
 - Cloud vs on-device Model Deployment for AI applications.
-  - Answer: [Cloud vs On-Device Model Deployment](https://x.com/outcome_school/status/1965643330076991621)
+  - Answer: [Cloud vs On-Device Model Deployment](https://outcomeschool.com/blog/cloud-vs-on-device-model-deployment)
 - How do you implement fallback strategies when the primary model is unavailable or rate-limited?
 - How do you implement structured output from LLMs reliably in production?
 - How do you handle long contexts efficiently in production (context compression, prefix caching)?
