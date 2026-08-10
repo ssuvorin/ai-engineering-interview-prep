@@ -318,6 +318,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How do you manage token consumption and cost in long-running agent workflows?
 - What is the human-in-the-loop pattern for agents, and when is it needed?
 - How do you implement guardrails for AI agents to prevent harmful actions?
+  - Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
 - What is agent reflection, and how does it improve agent performance?
   - Answer: [Reflection Agent](https://outcomeschool.com/blog/reflection-agent)
 - What is the difference between code-generating agents and tool-calling agents?
@@ -498,6 +499,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is LLM observability?
   - Answer: [AI Agent Observability](https://outcomeschool.com/blog/ai-agent-observability)
 - What are guardrails for LLMs, and how do you implement them?
+  - Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
 - How do you implement content filtering for AI outputs?
 - How do you estimate the cost of running an AI-powered feature in production?
 - How do you optimize LLM inference costs in production?
@@ -594,6 +596,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is prompt injection, and what are the different types (direct, indirect)?
   - Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
 - How do you implement input and output guardrails for AI systems?
+  - Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
 - What is AI alignment, and why is it important?
 - How do you detect and mitigate bias in AI systems?
 - What are the key data privacy considerations (GDPR, CCPA) when building AI applications?
@@ -614,6 +617,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How would you design an AI incident response plan?
 - What is the NIST AI Risk Management Framework (AI RMF)?
 - Your healthcare chatbot gives medical diagnoses it should not make. How do you add safety guardrails?
+  - Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
 - Your AI system is reproducing copyrighted material verbatim. How do you prevent this?
 - Your resume screening AI rejects more female candidates for engineering roles. How do you fix gender bias?
 - Your AI model passes bias checks by gender and race separately, but fails for intersectional groups. How do you handle it?
@@ -736,6 +740,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
   - Answer: [How does Semantic Caching work?](https://outcomeschool.com/blog/how-does-semantic-caching-work)
 - Write code to detect prompt injection attempts in user inputs.
 - Implement an LLM output guardrails system that checks for off-topic responses and PII leakage.
+  - Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
 - Build a multi-agent system where agents have different roles and collaborate on a task.
   - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
 
