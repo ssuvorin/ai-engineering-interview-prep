@@ -367,6 +367,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What is RLHF (Reinforcement Learning from Human Feedback), and how is it used to align LLMs?
   - Answer: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)
 - What is instruction tuning, and why is it important for chat models?
+  - Answer: [Decoding InstructGPT](https://outcomeschool.com/blog/decoding-instructgpt)
 - How do you prepare a dataset for fine-tuning an LLM?
 - What is catastrophic forgetting, and how do you prevent it during fine-tuning?
   - Answer: [Continual Learning in LLMs](https://outcomeschool.com/blog/continual-learning-in-llms)
