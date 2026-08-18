@@ -186,6 +186,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
   - Answer: [Continual Learning in LLMs](https://outcomeschool.com/blog/continual-learning-in-llms)
 - How do Diffusion Language Models (DLMs) work?
   - Answer: [How do Diffusion Language Models (DLMs) work?](https://outcomeschool.com/blog/how-do-diffusion-language-models-dlms-work)
+- How Does LLM Watermarking Work?
+  - Answer: [How Does LLM Watermarking Work?](https://outcomeschool.com/blog/how-does-llm-watermarking-work)
 
 ### Prompt Engineering
 
