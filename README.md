@@ -217,6 +217,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What are the common failure modes in prompting, and how do you debug them?
 - How do you handle edge cases and adversarial inputs in prompt design?
 - What is the "lost in the middle" problem in long-context prompting?
+  - Answer: [The Lost in the Middle Problem in LLMs](https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms)
 - What are output parsers, and why are they needed for production applications?
 - How do you handle multi-language prompting effectively?
 - Your few-shot prompting gives inconsistent results across similar inputs. How do you stabilize it?
@@ -249,6 +250,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
   - Answer: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work)
 - How do you handle multi-document and multi-hop questions in RAG?
 - What is the "lost in the middle" problem in RAG systems?
+  - Answer: [The Lost in the Middle Problem in LLMs](https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms)
 - How do you evaluate a RAG system? Explain faithfulness, relevance, and context precision/recall.
 - Explain Self-RAG. How does the model decide when to retrieve?
 - What is GraphRAG, and when would you use it over traditional RAG?
