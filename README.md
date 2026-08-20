@@ -310,7 +310,9 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Context Engineering
   - Answer: [Context Engineering](https://outcomeschool.com/blog/context-engineering)
 - How does context compaction work?
-  - Answer: [How does context compaction work?](https://outcomeschool.com/blog/how-does-context-compaction-work) 
+  - Answer: [How does context compaction work?](https://outcomeschool.com/blog/how-does-context-compaction-work)
+- Loop Engineering
+  - Answer: [Loop Engineering](https://outcomeschool.com/blog/what-is-loop-engineering) 
 - How AI Agents Communicate?
   - Answer: [How AI Agents Communicate](https://outcomeschool.com/blog/how-ai-agents-communicate)
 - What are Agent Skills?
