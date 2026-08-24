@@ -370,6 +370,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How does fine-tuning work?
   - Answer: [How does fine-tuning work?](https://outcomeschool.com/blog/how-does-fine-tuning-work)
 - Explain Prefix Tuning and Prompt Tuning. How are they different from LoRA?
+  - Answer: [How does Prefix Tuning work?](https://outcomeschool.com/blog/how-does-prefix-tuning-work)
 - What is adapter-based fine-tuning?
   - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What is RLHF (Reinforcement Learning from Human Feedback), and how is it used to align LLMs?
