@@ -188,6 +188,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
   - Answer: [How do Diffusion Language Models (DLMs) work?](https://outcomeschool.com/blog/how-do-diffusion-language-models-dlms-work)
 - How Does LLM Watermarking Work?
   - Answer: [How Does LLM Watermarking Work?](https://outcomeschool.com/blog/how-does-llm-watermarking-work)
+- How do RNNs and Transformers differ?
+  - Answer: [How do RNNs and Transformers differ?](https://outcomeschool.com/blog/how-do-rnns-and-transformers-differ)
 
 ### Prompt Engineering
 
@@ -228,8 +230,6 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Your chain-of-thought prompting is not improving LLM accuracy on reasoning tasks. What do you fix?
 - Your AI system works in English but fails for other languages. How do you add multilingual support?
 - Your zero-shot cross-lingual transfer from English fails on other languages. How do you fix it?
-- How do RNNs and Transformers differ?
-  - Answer: [How do RNNs and Transformers differ?](https://outcomeschool.com/blog/how-do-rnns-and-transformers-differ)
 
 ### Retrieval-Augmented Generation (RAG)
 
