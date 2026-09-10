@@ -259,6 +259,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Explain Self-RAG. How does the model decide when to retrieve?
 - What is GraphRAG, and when would you use it over traditional RAG?
   - Answer: [GraphRAG](https://outcomeschool.com/blog/graphrag)
+- Vectorless RAG
+  - Answer: [Vectorless RAG](https://outcomeschool.com/blog/vectorless-rag) 
 - How do you handle structured data (tables, SQL databases) in a RAG pipeline?
 - What are the common failure modes of RAG systems, and how do you debug them?
 - How do you handle document updates and maintain freshness in a RAG system?
