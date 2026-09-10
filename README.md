@@ -240,7 +240,9 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - What are the key components of a RAG pipeline?
   - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
 - What are chunking strategies, and how do you choose the right chunk size?
+  - Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)
 - Compare fixed-size chunking, semantic chunking, and recursive chunking.
+  - Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)
 - What are embedding models, and how do they convert text to vectors?
   - Answer: [What are Embeddings?](https://outcomeschool.com/blog/what-are-embeddings)
 - How do you choose an embedding model for your RAG system?
@@ -269,6 +271,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - How do you implement citation and source attribution in RAG?
 - How do you scale a RAG system to millions of documents?
 - What is parent-child chunking, and how does it improve retrieval?
+  - Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)
 - Your RAG system is hallucinating despite having the right context. How do you fix it?
 - Your RAG chunk overlap causes redundant results. How do you reduce redundancy?
 - Your RAG retrieval is too slow with a large knowledge base. How do you speed it up?
@@ -730,6 +733,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Implement semantic search using embeddings and cosine similarity.
   - Answer: [How does Semantic Search work?](https://outcomeschool.com/blog/how-does-semantic-search-work) and [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
 - Write code for different text chunking strategies (fixed-size, recursive, semantic).
+  - Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)
 - Implement a prompt template system with variable substitution.
 - Build an evaluation pipeline for LLM outputs using LLM-as-a-judge.
   - Answer: [LLM as a Judge](https://outcomeschool.com/blog/llm-as-a-judge)
