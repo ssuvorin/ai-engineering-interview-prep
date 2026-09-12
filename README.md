@@ -451,6 +451,7 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Design Memory for a Personal AI Assistant
   - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
 - Design a Deep Research Agent
+- Design a Real-Time Voice AI Agent
 - Design a Multi-Agent Customer Support System
   - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
 - Design an On-Device AI Assistant
