@@ -127,6 +127,8 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
   - Answer: [Encoder vs Decoder in Transformers](https://outcomeschool.com/blog/encoder-vs-decoder-in-transformers)
 - What is KV cache, and how does it speed up inference?
   - Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
+- KV Cache Compression
+  - Answer: [KV Cache Compression](https://outcomeschool.com/blog/kv-cache-compression)
 - What is model distillation, and how is it used with LLMs?
   - Answer: [How does Knowledge Distillation work?](https://outcomeschool.com/blog/how-does-knowledge-distillation-work)
 - What is Mixture of Experts (MoE), and how does it work in models like Mixtral?
