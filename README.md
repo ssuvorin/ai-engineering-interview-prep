@@ -448,12 +448,13 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 
 ### AI System Design
 
+- Design a Real-Time Voice AI Agent
+  - Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent) 
 - Design ChatGPT: Training to Serving (End to End)
 - Design a RAG System (Chat with Your Documents)
 - Design Memory for a Personal AI Assistant
   - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
 - Design a Deep Research Agent
-- Design a Real-Time Voice AI Agent
 - Design a Multi-Agent Customer Support System
   - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
 - Design an On-Device AI Assistant
