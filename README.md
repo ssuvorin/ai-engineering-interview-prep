@@ -122,7 +122,9 @@ Learn about the LLM, RAG, MCP, Agent, Fine-tuning & Quantization: [AI Engineerin
 - Why is the first token slower than the rest in an LLM?
   - Answer: [The First-Token Latency Problem in LLMs](https://www.youtube.com/watch?v=XD8DD4cEHu0)
 - Explain Top-p (nucleus) sampling and Top-k sampling. How do they differ?
+  - Answer: [How do Top-k and Top-p Sampling work?](https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work) 
 - Compare greedy decoding, beam search, top-k, top-p, and temperature sampling. When does each fail?
+  - Answer: [How do Top-k and Top-p Sampling work?](https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work) 
 - What are logits, and how are they used in text generation?
   - Answer: [Understanding Logits in Machine Learning](https://x.com/amitiitbhu/status/1927927814923207146)
 - What are skip connections (residual connections) in Transformers?
