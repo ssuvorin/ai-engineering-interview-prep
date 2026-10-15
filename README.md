@@ -1,8 +1,8 @@
 # AI Engineering Interview — Study Workspace
 
-> Personal interview-prep workspace built on top of [amitshekhariitbhu/ai-engineering-interview-questions](https://github.com/amitshekhariitbhu/ai-engineering-interview-questions): **571 theory questions** across 15 sections + a **30-question resume deep-dive** (предметное интервью) generated from my own resume.
+> Interview-prep workspace built on top of [amitshekhariitbhu/ai-engineering-interview-questions](https://github.com/amitshekhariitbhu/ai-engineering-interview-questions): **571 theory questions** across 15 sections, a **30-question resume deep-dive** (предметное интервью), grading answer keys, and a fully local reference corpus for every question.
 
-The upstream question list lives in [QUESTIONS.md](QUESTIONS.md). This repo adds a complete self-study loop: question worksheets, grading answer keys, and a fetched reference corpus for every question.
+The upstream question list lives in [QUESTIONS.md](QUESTIONS.md). This repo turns it into a complete self-study loop — read a question, answer it yourself, grade against a key, dig into the original source article if you missed.
 
 ## Repository structure
 
@@ -10,10 +10,52 @@ The upstream question list lives in [QUESTIONS.md](QUESTIONS.md). This repo adds
 |---|---|
 | `qa/` | **Working zone.** 16 files, one per section. Every question has an empty `## Your answer` slot — fill it in bullet form. |
 | `keys/` | **Grading keys.** Compact answer keys per section: `Идеал` (ideal answer) → `Обязательные пункты` (must-cover points) → `Частые ошибки` (common mistakes) → `Красные флаги` (red flags). Large sections split into `.part2`/`.part3`. Don't peek before answering. |
-| `reference/` | **Source corpus.** 144 fetched articles behind the upstream question list — Outcome School blogs, Substack posts, YouTube transcripts, LinkedIn/X posts. `_manifest.json` maps URL → file, `_qmap.json` maps section → question → source files. |
-| `resume/` | My resume (`resume.md`) — the basis for the resume deep-dive section. |
-| `QUESTIONS.md` | Original upstream question list (unmodified). |
+| `reference/` | **Source corpus.** ~144 fetched articles behind the upstream question list — Outcome School blogs, Substack posts, YouTube transcripts, LinkedIn/X posts. `_manifest.json` maps URL → file, `_qmap.json` maps section → question → source files. The original links also stay in [QUESTIONS.md](QUESTIONS.md). |
+| `QUESTIONS.md` | Original upstream question list, unmodified — including the **"Sources / further reading" links to the full answers** each question is based on. |
 | `HOW-TO-STUDY.md` | The study loop, in Russian. |
+| `resume/` | **Not committed** — your local resume (`resume/resume.md`) for generating your own section-16 variant. |
+
+## How to work with it
+
+### 1. Pick a section and answer
+
+Open a file in `qa/` — e.g. `qa/04-retrieval-augmented-generation-rag.md`. Every question looks like:
+
+```markdown
+### 7. How does embedding model choice affect RAG quality?
+
+## Your answer
+```
+
+Write your answer under `## Your answer` — your own words, bullet form is enough. Treat it like a real interview: structure, numbers, no fluff.
+
+### 2. Grade yourself against the key
+
+Each `qa/` file has a matching `keys/<same-name>.md`. For every question:
+
+- **✓** — you covered the `Обязательные пункты`
+- **±** — partial; the key lists what you're missing
+- **✗** — wrong or empty; read `Идеал`, then the linked `reference/<slug>.md` article for the deep explanation
+
+The keys also carry `Частые ошибки` and `Красные флаги` — the patterns that make interviewers tune out.
+
+### 3. Go to the source when a key isn't enough
+
+`reference/_qmap.json` maps every question to its source articles — fetched full text, so it works offline. For anything bigger than a gap-fix, read the original: `_manifest.json` maps source URL → local file, and [QUESTIONS.md](QUESTIONS.md) keeps the raw outbound links.
+
+### 4. Resume deep-dive (section 16)
+
+`qa/16-resume-deep-dive.md` is a **предметное интервью** — 30 questions built from a resume, not theory: *"can you defend every bullet on your resume"*. Six groups: self-presentation → flagship project deep-dive → architecture decisions → engineering process → data/metrics background → honesty & pressure questions.
+
+The resume itself is **not in this repo** — to generate your own version of this section, put your resume at `resume/resume.md` (gitignored) and build a matching key file grading: fact consistency with the resume → stable pre-prepared answers for anything the resume doesn't cover (`[нужна заготовка]` in keys) → sounding like the person who actually built it.
+
+### 5. Suggested order (core → periphery)
+
+```
+01 → 02 → 04 → 05 → 03 → 07 → 09 → 10 → 13 → 06 → 08 → 12 → 11 → 14 → 15 → 16
+```
+
+Section 16 works anytime — it's about your own experience, not theory. Realistic pace: 20–30 questions a day.
 
 ## Sections
 
@@ -36,26 +78,7 @@ The upstream question list lives in [QUESTIONS.md](QUESTIONS.md). This repo adds
 | 15 | [Behavioral and Scenario-Based Questions](qa/15-behavioral-and-scenario-based-questions.md) | 22 |
 | 16 | [Resume Deep-Dive — предметное интервью](qa/16-resume-deep-dive.md) | 30 |
 
-## The study loop
-
-1. Open a section file in `qa/`, answer under each `## Your answer` — your own words, bullets are fine.
-2. Grade against the matching `keys/<file>.md`:
-   - **✓** — must-cover points present
-   - **±** — partial; key lists what's missing
-   - **✗** — wrong/empty; key gives the correct core + a link to `reference/<slug>.md` for the deep read
-3. Recommended order (core → periphery):
-
-```
-01 → 02 → 04 → 05 → 03 → 07 → 09 → 10 → 13 → 06 → 08 → 12 → 11 → 14 → 15 → 16
-```
-
-Section 16 works anytime — it's about your own experience, not theory.
-
-## Resume deep-dive (section 16)
-
-30 questions generated from [resume/resume.md](resume/resume.md) — the предметное интервью: not theory, but *"can you defend every bullet on your resume"*. Six groups: self-presentation → flagship project deep-dive → architecture decisions → engineering process → data/metrics background → honesty & pressure questions. Keys check fact consistency with the resume and flag spots that need pre-prepared stable answers (`[нужна заготовка]`).
-
 ## Credits
 
-- Questions and source links: [Amit Shekhar / Outcome School](https://github.com/amitshekhariitbhu/ai-engineering-interview-questions) — see [QUESTIONS.md](QUESTIONS.md) and the original license in [LICENSE](LICENSE).
+- Questions and source links: [Amit Shekhar / Outcome School](https://github.com/amitshekhariitbhu/ai-engineering-interview-questions) — see [QUESTIONS.md](QUESTIONS.md) and [LICENSE](LICENSE).
 - Study structure, answer keys, fetched reference corpus: this repo.
