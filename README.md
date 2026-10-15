@@ -6,7 +6,7 @@
 
 
 <!-- banner: generated via ElevenLabs Flows (gemini-3-pro-image) -->
-> Interview-prep workspace built on top of [amitshekhariitbhu/ai-engineering-interview-questions](https://github.com/amitshekhariitbhu/ai-engineering-interview-questions): **571 theory questions** across 15 sections, a **30-question resume deep-dive** (предметное интервью), grading answer keys, and a fully local reference corpus for every question.
+> Interview-prep workspace built on top of [amitshekhariitbhu/ai-engineering-interview-questions](https://github.com/amitshekhariitbhu/ai-engineering-interview-questions): **571 theory questions** across 15 sections, a **30-question resume deep-dive** (a subject-matter interview on your own experience), grading answer keys, and a fully local reference corpus for every question.
 
 The upstream question list lives in [QUESTIONS.md](QUESTIONS.md). This repo turns it into a complete self-study loop — read a question, answer it yourself, grade against a key, dig into the original source article if you missed.
 
@@ -15,7 +15,7 @@ The upstream question list lives in [QUESTIONS.md](QUESTIONS.md). This repo turn
 | Path | What it is |
 |---|---|
 | `qa/` | **Working zone.** 16 files, one per section. Every question has an empty `## Your answer` slot — fill it in bullet form. |
-| `keys/` | **Grading keys.** Compact answer keys per section: `Идеал` (ideal answer) → `Обязательные пункты` (must-cover points) → `Частые ошибки` (common mistakes) → `Красные флаги` (red flags). Large sections split into `.part2`/`.part3`. Don't peek before answering. |
+| `keys/` | **Grading keys.** Compact answer keys per section — each question gets an ideal answer, must-cover points, common mistakes, and red flags. Large sections split into `.part2`/`.part3`. Keys are written in Russian; the check loop is language-agnostic. Don't peek before answering. |
 | `reference/` | **Source corpus.** ~144 fetched articles behind the upstream question list — Outcome School blogs, Substack posts, YouTube transcripts, LinkedIn/X posts. `_manifest.json` maps URL → file, `_qmap.json` maps section → question → source files. The original links also stay in [QUESTIONS.md](QUESTIONS.md). |
 | `QUESTIONS.md` | Original upstream question list, unmodified — including the **"Sources / further reading" links to the full answers** each question is based on. |
 | `HOW-TO-STUDY.md` | The study loop, in Russian. |
@@ -39,11 +39,11 @@ Write your answer under `## Your answer` — your own words, bullet form is enou
 
 Each `qa/` file has a matching `keys/<same-name>.md`. For every question:
 
-- **✓** — you covered the `Обязательные пункты`
+- **✓** — you covered the must-cover points
 - **±** — partial; the key lists what you're missing
-- **✗** — wrong or empty; read `Идеал`, then the linked `reference/<slug>.md` article for the deep explanation
+- **✗** — wrong or empty; read the ideal answer in the key, then the linked `reference/<slug>.md` article for the deep explanation
 
-The keys also carry `Частые ошибки` and `Красные флаги` — the patterns that make interviewers tune out.
+The keys also carry common-mistake and red-flag lists — the patterns that make interviewers tune out.
 
 ### 3. Go to the source when a key isn't enough
 
@@ -51,9 +51,9 @@ The keys also carry `Частые ошибки` and `Красные флаги` 
 
 ### 4. Resume deep-dive (section 16)
 
-`qa/16-resume-deep-dive.md` is a **предметное интервью** — 30 questions built from a resume, not theory: *"can you defend every bullet on your resume"*. Six groups: self-presentation → flagship project deep-dive → architecture decisions → engineering process → data/metrics background → honesty & pressure questions.
+`qa/16-resume-deep-dive.md` is a **subject-matter interview drill** — 30 questions built from a resume, not theory: *"can you defend every bullet on your resume"*. Six groups: self-presentation → flagship project deep-dive → architecture decisions → engineering process → data/metrics background → honesty & pressure questions.
 
-The resume itself is **not in this repo** — to generate your own version of this section, put your resume at `resume/resume.md` (gitignored) and build a matching key file grading: fact consistency with the resume → stable pre-prepared answers for anything the resume doesn't cover (`[нужна заготовка]` in keys) → sounding like the person who actually built it.
+The resume itself is **not in this repo** — to generate your own version of this section, put your resume at `resume/resume.md` (gitignored) and build a matching key file grading: fact consistency with the resume → stable pre-prepared answers for anything the resume doesn't cover (flagged `prepare-an-answer` in keys) → sounding like the person who actually built it.
 
 ### 5. Suggested order (core → periphery)
 
@@ -82,7 +82,7 @@ Section 16 works anytime — it's about your own experience, not theory. Realist
 | 13 | [AI Infrastructure and Scalability](qa/13-ai-infrastructure-and-scalability.md) | 35 |
 | 14 | [Coding and Practical Implementation](qa/14-coding-and-practical-implementation.md) | 32 |
 | 15 | [Behavioral and Scenario-Based Questions](qa/15-behavioral-and-scenario-based-questions.md) | 22 |
-| 16 | [Resume Deep-Dive — предметное интервью](qa/16-resume-deep-dive.md) | 30 |
+| 16 | [Resume Deep-Dive — subject-matter drill](qa/16-resume-deep-dive.md) | 30 |
 
 ## Credits
 
