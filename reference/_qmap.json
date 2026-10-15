@@ -1,0 +1,2920 @@
+{
+ "Must Know": [
+  {
+   "q": "LLM",
+   "refs": []
+  },
+  {
+   "q": "RAG",
+   "refs": []
+  },
+  {
+   "q": "MCP",
+   "refs": []
+  },
+  {
+   "q": "Agent",
+   "refs": []
+  },
+  {
+   "q": "Fine-tuning",
+   "refs": []
+  },
+  {
+   "q": "Quantization",
+   "refs": []
+  }
+ ],
+ "LLM Fundamentals": [
+  {
+   "q": "What are foundation models, and how have they changed AI engineering?",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant"
+   ]
+  },
+  {
+   "q": "What is a Large Language Model (LLM), and how does it work?",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant"
+   ]
+  },
+  {
+   "q": "Inside ChatGPT: What Happens After You Hit Enter?",
+   "refs": [
+    "inside-chatgpt-what-happens-after-you-hit-enter"
+   ]
+  },
+  {
+   "q": "What is the Transformer architecture and how does it work?",
+   "refs": [
+    "decoding-transformer-architecture"
+   ]
+  },
+  {
+   "q": "What are the key components of the Transformer architecture?",
+   "refs": [
+    "decoding-transformer-architecture"
+   ]
+  },
+  {
+   "q": "Walk me through what happens, step by step, in one forward pass of a decoder-only Transformer.",
+   "refs": [
+    "decoding-transformer-architecture"
+   ]
+  },
+  {
+   "q": "What is tokenization in LLMs?",
+   "refs": [
+    "tokenization-in-llms",
+    "tokenization-in-large-language-models-llms"
+   ]
+  },
+  {
+   "q": "Explain BPE (Byte Pair Encoding).",
+   "refs": [
+    "byte-pair-encoding"
+   ]
+  },
+  {
+   "q": "Explain WordPiece and SentencePiece.",
+   "refs": []
+  },
+  {
+   "q": "What is positional encoding, and why is it needed in Transformers?",
+   "refs": [
+    "positional-embeddings-in-llms"
+   ]
+  },
+  {
+   "q": "What are embeddings?",
+   "refs": [
+    "embeddings-in-machine-learning"
+   ]
+  },
+  {
+   "q": "Explain the Query(Q), Key(K), and Value(V) in attention.",
+   "refs": [
+    "math-behind-attention-q-k-and-v"
+   ]
+  },
+  {
+   "q": "What is self-attention, and how does it work in Transformers?",
+   "refs": [
+    "self-attention-in-transformers"
+   ]
+  },
+  {
+   "q": "What is Cross Attention in Transformers?",
+   "refs": [
+    "cross-attention-in-transformers"
+   ]
+  },
+  {
+   "q": "Why do we scale the dot product attention by √dₖ in the Transformer architecture?",
+   "refs": [
+    "math-behind-dk-scaling-factor-in-attention"
+   ]
+  },
+  {
+   "q": "What is causal masking?",
+   "refs": [
+    "causal-masking-in-attention"
+   ]
+  },
+  {
+   "q": "What are multi-head attention mechanisms? Why use multiple attention heads?",
+   "refs": [
+    "multi-head-attention-in-transformers"
+   ]
+  },
+  {
+   "q": "What are Feed-Forward Networks in LLMs?",
+   "refs": [
+    "feed-forward-networks-in-llms"
+   ]
+  },
+  {
+   "q": "What is Generative AI?",
+   "refs": [
+    "what-is-generative-ai"
+   ]
+  },
+  {
+   "q": "What is the context window in LLMs, and why does it matter?",
+   "refs": [
+    "context-window-in-llms"
+   ]
+  },
+  {
+   "q": "Why is the context window limited in LLMs?",
+   "refs": [
+    "why-is-the-context-window-limited-in-llms"
+   ]
+  },
+  {
+   "q": "What is temperature in the context of LLMs, and how does it affect output?",
+   "refs": [
+    "how-does-temperature-control-llm-output"
+   ]
+  },
+  {
+   "q": "Why is the first token slower than the rest in an LLM?",
+   "refs": [
+    "the-first-token-latency-problem-in-llms"
+   ]
+  },
+  {
+   "q": "Explain Top-p (nucleus) sampling and Top-k sampling. How do they differ?",
+   "refs": [
+    "how-do-top-k-and-top-p-sampling-work"
+   ]
+  },
+  {
+   "q": "Compare greedy decoding, beam search, top-k, top-p, and temperature sampling. When does each fail?",
+   "refs": [
+    "how-do-top-k-and-top-p-sampling-work"
+   ]
+  },
+  {
+   "q": "What are logits, and how are they used in text generation?",
+   "refs": [
+    "understanding-logits-in-machine-learning"
+   ]
+  },
+  {
+   "q": "What are stop tokens in LLMs, and how does an LLM know when to stop generating?",
+   "refs": [
+    "stop-tokens-in-llms"
+   ]
+  },
+  {
+   "q": "What is the difference between a stop token and a stop sequence?",
+   "refs": [
+    "stop-tokens-in-llms"
+   ]
+  },
+  {
+   "q": "What are skip connections (residual connections) in Transformers?",
+   "refs": [
+    "skip-connections-residual-connections-in-transformers"
+   ]
+  },
+  {
+   "q": "What is the difference between open-source and closed-source LLMs? When would you choose one over the other?",
+   "refs": []
+  },
+  {
+   "q": "What is the difference between encoder-only, decoder-only, and encoder-decoder Transformer architectures?",
+   "refs": [
+    "encoder-vs-decoder-in-transformers"
+   ]
+  },
+  {
+   "q": "What is KV cache, and how does it speed up inference?",
+   "refs": [
+    "what-is-kv-cache-in-llms"
+   ]
+  },
+  {
+   "q": "Estimate the KV cache memory needed to serve a large model. How does it constrain batch size and context length?",
+   "refs": [
+    "kv-cache-compression"
+   ]
+  },
+  {
+   "q": "KV Cache Compression",
+   "refs": [
+    "kv-cache-compression"
+   ]
+  },
+  {
+   "q": "What is model distillation, and how is it used with LLMs?",
+   "refs": [
+    "how-does-knowledge-distillation-work"
+   ]
+  },
+  {
+   "q": "What is Mixture of Experts (MoE), and how does it work in models like Mixtral?",
+   "refs": [
+    "mixture-of-experts-explained"
+   ]
+  },
+  {
+   "q": "What is the difference between dense and sparse models?",
+   "refs": [
+    "mixture-of-experts-explained"
+   ]
+  },
+  {
+   "q": "How does DeepSeek-V4 work?",
+   "refs": [
+    "deepseek-v4-architecture-explained"
+   ]
+  },
+  {
+   "q": "What is Flash Attention?",
+   "refs": [
+    "decoding-flash-attention-in-llms"
+   ]
+  },
+  {
+   "q": "What is Cross-Entropy Loss?",
+   "refs": [
+    "math-behind-cross-entropy-loss"
+   ]
+  },
+  {
+   "q": "What is Grouped-Query Attention (GQA), and how does it differ from Multi-Head Attention (MHA)?",
+   "refs": [
+    "grouped-query-attention"
+   ]
+  },
+  {
+   "q": "How does Sliding Window Attention work?",
+   "refs": [
+    "how-does-sliding-window-attention-work"
+   ]
+  },
+  {
+   "q": "How do Attention Sinks work?",
+   "refs": [
+    "how-do-attention-sinks-work"
+   ]
+  },
+  {
+   "q": "How does Rotary Position Embedding (RoPE) work, and why is it preferred over learned positional embeddings?",
+   "refs": [
+    "math-behind-rope-rotary-position-embedding"
+   ]
+  },
+  {
+   "q": "Explain Layer Normalization",
+   "refs": [
+    "batch-normalization-vs-layer-normalization"
+   ]
+  },
+  {
+   "q": "Explain RMSNorm (Root Mean Square Layer Normalization)",
+   "refs": [
+    "rmsnorm-root-mean-square-layer-normalization"
+   ]
+  },
+  {
+   "q": "Why do modern Transformers use Pre-LayerNorm (Pre-Norm) instead of Post-LayerNorm?",
+   "refs": [
+    "rmsnorm-root-mean-square-layer-normalization"
+   ]
+  },
+  {
+   "q": "What are scaling laws (Chinchilla), and how do they guide model size vs training data decisions?",
+   "refs": []
+  },
+  {
+   "q": "Your LLM keeps ignoring your instructions. How do you make it follow structured output formats?",
+   "refs": []
+  },
+  {
+   "q": "Your LLM-powered tool hits the context window limit on long documents. How do you handle it?",
+   "refs": []
+  },
+  {
+   "q": "Your LLM does not admit when it does not know the answer. How do you make it say \"I don't know\"?",
+   "refs": []
+  },
+  {
+   "q": "Your LLM generates responses that are too verbose. How do you control response length?",
+   "refs": []
+  },
+  {
+   "q": "Your LLM memorized proprietary training data and leaks it in responses. How do you prevent this?",
+   "refs": []
+  },
+  {
+   "q": "Your LLM coding assistant generates outdated code using deprecated libraries. How do you fix it?",
+   "refs": []
+  },
+  {
+   "q": "Your tokenizer splits important domain terms into meaningless subword pieces. How do you fix it?",
+   "refs": []
+  },
+  {
+   "q": "Your Transformer's KV cache grows too large during long sequence generation. How do you manage memory?",
+   "refs": [
+    "paged-attention-in-llms"
+   ]
+  },
+  {
+   "q": "Your Transformer runs out of memory on long documents due to quadratic self-attention. How do you scale it?",
+   "refs": [
+    "how-does-sliding-window-attention-work",
+    "decoding-flash-attention-in-llms"
+   ]
+  },
+  {
+   "q": "Your distilled student model fails on the complex reasoning that the teacher model handled. How do you close the gap?",
+   "refs": []
+  },
+  {
+   "q": "After RLHF alignment, your LLM became safer but lost capability on hard tasks. How do you manage the alignment tax?",
+   "refs": []
+  },
+  {
+   "q": "Your RLHF-trained LLM is gaming the reward model instead of being genuinely helpful. How do you fix reward hacking?",
+   "refs": [
+    "reinforcement-learning-from-human-feedback-rlhf"
+   ]
+  },
+  {
+   "q": "Your chatbot loses context after 10 turns in a conversation. How do you maintain a long conversation context?",
+   "refs": [
+    "ai-agent-memory"
+   ]
+  },
+  {
+   "q": "Your chatbot fails when users switch topics mid-conversation. How do you handle topic switches?",
+   "refs": []
+  },
+  {
+   "q": "Your QA system always generates an answer even when no answer exists in the context. How do you detect unanswerable questions?",
+   "refs": []
+  },
+  {
+   "q": "Your summarization system hallucinated facts not in the original article. How do you fix it?",
+   "refs": []
+  },
+  {
+   "q": "Your text generation repeats phrases in long outputs. How do you fix repetition?",
+   "refs": []
+  },
+  {
+   "q": "Transformers work on text, so can they also understand images?",
+   "refs": [
+    "decoding-vision-transformer-vit"
+   ]
+  },
+  {
+   "q": "Small Language Models (SLMs)",
+   "refs": [
+    "small-language-models-slms"
+   ]
+  },
+  {
+   "q": "Large Reasoning Models (LRMs)",
+   "refs": [
+    "large-reasoning-models-lrms"
+   ]
+  },
+  {
+   "q": "Jev and System One Models",
+   "refs": [
+    "jev-and-system-one-models-explained"
+   ]
+  },
+  {
+   "q": "What are Autoregressive Models?",
+   "refs": [
+    "autoregressive-models"
+   ]
+  },
+  {
+   "q": "Explain the difference between autoregressive and masked language modeling.",
+   "refs": []
+  },
+  {
+   "q": "Proximal Policy Optimization (PPO)",
+   "refs": [
+    "proximal-policy-optimization-ppo"
+   ]
+  },
+  {
+   "q": "Direct Preference Optimization (DPO)",
+   "refs": [
+    "direct-preference-optimization-dpo"
+   ]
+  },
+  {
+   "q": "Group Relative Policy Optimization (GRPO)",
+   "refs": [
+    "group-relative-policy-optimization-grpo"
+   ]
+  },
+  {
+   "q": "Recursive Language Models (RLMs)",
+   "refs": [
+    "recursive-language-models-rlms"
+   ]
+  },
+  {
+   "q": "Continual Learning in LLMs",
+   "refs": [
+    "continual-learning-in-llms"
+   ]
+  },
+  {
+   "q": "What is Recursive Self-Improvement (RSI)?",
+   "refs": [
+    "what-is-recursive-self-improvement-rsi"
+   ]
+  },
+  {
+   "q": "How do Diffusion Language Models (DLMs) work?",
+   "refs": [
+    "how-do-diffusion-language-models-dlms-work"
+   ]
+  },
+  {
+   "q": "How Does LLM Watermarking Work?",
+   "refs": [
+    "how-does-llm-watermarking-work"
+   ]
+  },
+  {
+   "q": "How do RNNs and Transformers differ?",
+   "refs": [
+    "how-do-rnns-and-transformers-differ"
+   ]
+  }
+ ],
+ "Prompt Engineering": [
+  {
+   "q": "What is prompt engineering, and why is it critical for AI applications?",
+   "refs": []
+  },
+  {
+   "q": "Explain zero-shot, one-shot, and few-shot prompting with examples.",
+   "refs": [
+    "explain-zero-shot-one-shot-and-few-shot-prompting-with-examp"
+   ]
+  },
+  {
+   "q": "What is chain-of-thought (CoT) prompting, and when should you use it?",
+   "refs": [
+    "how-does-chain-of-thought-cot-prompting-work"
+   ]
+  },
+  {
+   "q": "Explain self-consistency prompting and how it improves reasoning.",
+   "refs": []
+  },
+  {
+   "q": "What is tree-of-thought prompting?",
+   "refs": [
+    "how-does-tree-of-thoughts-work"
+   ]
+  },
+  {
+   "q": "What is ReAct (Reasoning + Acting) prompting, and how does it work?",
+   "refs": [
+    "react-agent"
+   ]
+  },
+  {
+   "q": "What is a system prompt, and how does it influence model behavior?",
+   "refs": []
+  },
+  {
+   "q": "How do you structure prompts for consistent structured output (JSON, XML)?",
+   "refs": []
+  },
+  {
+   "q": "What is prompt injection, and how do you defend against it?",
+   "refs": [
+    "prompt-injection-in-llms"
+   ]
+  },
+  {
+   "q": "What is jailbreaking in LLMs, and what are common jailbreak techniques?",
+   "refs": [
+    "prompt-injection-in-llms"
+   ]
+  },
+  {
+   "q": "How do you optimize prompts for cost and latency?",
+   "refs": []
+  },
+  {
+   "q": "What is the difference between prompt engineering and prompt tuning?",
+   "refs": []
+  },
+  {
+   "q": "What is a prompt template, and how do you design one for production use?",
+   "refs": []
+  },
+  {
+   "q": "How do you handle multi-turn conversations with LLMs?",
+   "refs": []
+  },
+  {
+   "q": "What is role prompting, and when is it effective?",
+   "refs": []
+  },
+  {
+   "q": "What is prompt chaining, and how do you design a chain of prompts for complex tasks?",
+   "refs": [
+    "how-does-prompt-chaining-work"
+   ]
+  },
+  {
+   "q": "How do you evaluate and iterate on prompt quality?",
+   "refs": []
+  },
+  {
+   "q": "What are meta-prompts, and how can they be used to generate prompts?",
+   "refs": []
+  },
+  {
+   "q": "What are the common failure modes in prompting, and how do you debug them?",
+   "refs": []
+  },
+  {
+   "q": "How do you handle edge cases and adversarial inputs in prompt design?",
+   "refs": []
+  },
+  {
+   "q": "What is the \"lost in the middle\" problem in long-context prompting?",
+   "refs": [
+    "the-lost-in-the-middle-problem-in-llms"
+   ]
+  },
+  {
+   "q": "What are output parsers, and why are they needed for production applications?",
+   "refs": []
+  },
+  {
+   "q": "How do you handle multi-language prompting effectively?",
+   "refs": []
+  },
+  {
+   "q": "Your few-shot prompting gives inconsistent results across similar inputs. How do you stabilize it?",
+   "refs": []
+  },
+  {
+   "q": "Your LLM classification system is too sensitive to prompt wording changes. How do you reduce prompt sensitivity?",
+   "refs": []
+  },
+  {
+   "q": "Your chatbot's system prompt containing proprietary business logic is being leaked by users. How do you prevent it?",
+   "refs": []
+  },
+  {
+   "q": "Your LLM agent is vulnerable to prompt injection that reveals the system prompt. How do you defend it?",
+   "refs": [
+    "prompt-injection-in-llms"
+   ]
+  },
+  {
+   "q": "Your chain-of-thought prompting is not improving LLM accuracy on reasoning tasks. What do you fix?",
+   "refs": []
+  },
+  {
+   "q": "Your AI system works in English but fails for other languages. How do you add multilingual support?",
+   "refs": []
+  },
+  {
+   "q": "Your zero-shot cross-lingual transfer from English fails on other languages. How do you fix it?",
+   "refs": []
+  }
+ ],
+ "Retrieval-Augmented Generation (RAG)": [
+  {
+   "q": "What is Retrieval-Augmented Generation (RAG), and why is it important?",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant"
+   ]
+  },
+  {
+   "q": "Explain the architecture of a basic RAG system.",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant"
+   ]
+  },
+  {
+   "q": "What are the key components of a RAG pipeline?",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant"
+   ]
+  },
+  {
+   "q": "What are chunking strategies, and how do you choose the right chunk size?",
+   "refs": [
+    "chunking-strategies-for-rag"
+   ]
+  },
+  {
+   "q": "Compare fixed-size chunking, semantic chunking, and recursive chunking.",
+   "refs": [
+    "chunking-strategies-for-rag"
+   ]
+  },
+  {
+   "q": "What is Contextual Retrieval, and how does it improve RAG?",
+   "refs": [
+    "how-does-contextual-retrieval-work"
+   ]
+  },
+  {
+   "q": "What are embedding models, and how do they convert text to vectors?",
+   "refs": [
+    "what-are-embeddings"
+   ]
+  },
+  {
+   "q": "How do you choose an embedding model for your RAG system?",
+   "refs": []
+  },
+  {
+   "q": "Explain Agentic RAG.",
+   "refs": [
+    "agentic-rag"
+   ]
+  },
+  {
+   "q": "What is hybrid search, and why is it better than pure vector search?",
+   "refs": [
+    "how-does-hybrid-search-work"
+   ]
+  },
+  {
+   "q": "What is re-ranking, and how does it improve RAG retrieval quality?",
+   "refs": [
+    "how-does-a-reranker-work"
+   ]
+  },
+  {
+   "q": "What is ColBERT, and how does late interaction retrieval work?",
+   "refs": [
+    "colbert-late-interaction-retrieval-explained"
+   ]
+  },
+  {
+   "q": "Compare reranker architectures: cross-encoder, ColBERT, and LLM-based rerankers.",
+   "refs": [
+    "how-does-a-reranker-work",
+    "colbert-late-interaction-retrieval-explained"
+   ]
+  },
+  {
+   "q": "How do you handle multi-document and multi-hop questions in RAG?",
+   "refs": [
+    "agentic-rag",
+    "graphrag"
+   ]
+  },
+  {
+   "q": "What is the \"lost in the middle\" problem in RAG systems?",
+   "refs": [
+    "the-lost-in-the-middle-problem-in-llms"
+   ]
+  },
+  {
+   "q": "How do you evaluate a RAG system? Explain faithfulness, relevance, and context precision/recall.",
+   "refs": [
+    "llm-evaluation"
+   ]
+  },
+  {
+   "q": "Explain Self-RAG. How does the model decide when to retrieve?",
+   "refs": [
+    "agentic-rag"
+   ]
+  },
+  {
+   "q": "What is GraphRAG, and when would you use it over traditional RAG?",
+   "refs": [
+    "graphrag"
+   ]
+  },
+  {
+   "q": "Vectorless RAG",
+   "refs": [
+    "vectorless-rag"
+   ]
+  },
+  {
+   "q": "How do you handle structured data (tables, SQL databases) in a RAG pipeline?",
+   "refs": []
+  },
+  {
+   "q": "What are the common failure modes of RAG systems, and how do you debug them?",
+   "refs": []
+  },
+  {
+   "q": "How do you handle document updates and maintain freshness in a RAG system?",
+   "refs": []
+  },
+  {
+   "q": "How do you optimize RAG for latency in production?",
+   "refs": []
+  },
+  {
+   "q": "What is the role of metadata filtering in RAG systems?",
+   "refs": [
+    "how-does-a-vector-database-work"
+   ]
+  },
+  {
+   "q": "Compare RAG vs fine-tuning. When would you use each?",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant"
+   ]
+  },
+  {
+   "q": "Long context windows keep getting cheaper. When should you use retrieval (RAG) vs putting everything in the context window?",
+   "refs": [
+    "the-lost-in-the-middle-problem-in-llms"
+   ]
+  },
+  {
+   "q": "What is query transformation in RAG (HyDE, query decomposition, step-back prompting)?",
+   "refs": [
+    "how-does-hyde-work-in-rag",
+    "how-do-query-rewriting-and-multi-query-retrieval-work"
+   ]
+  },
+  {
+   "q": "How do you implement citation and source attribution in RAG?",
+   "refs": []
+  },
+  {
+   "q": "How do you scale a RAG system to millions of documents?",
+   "refs": [
+    "how-does-approximate-nearest-neighbor-ann-search-work"
+   ]
+  },
+  {
+   "q": "What is parent-child chunking, and how does it improve retrieval?",
+   "refs": [
+    "chunking-strategies-for-rag"
+   ]
+  },
+  {
+   "q": "Your RAG system is hallucinating despite having the right context. How do you fix it?",
+   "refs": []
+  },
+  {
+   "q": "Your RAG chunk overlap causes redundant results. How do you reduce redundancy?",
+   "refs": []
+  },
+  {
+   "q": "Your RAG retrieval is too slow with a large knowledge base. How do you speed it up?",
+   "refs": [
+    "how-does-approximate-nearest-neighbor-ann-search-work"
+   ]
+  },
+  {
+   "q": "Your RAG system returns duplicate results. How do you deduplicate?",
+   "refs": []
+  },
+  {
+   "q": "Your RAG system needs per-user access control on internal documents. How do you implement it?",
+   "refs": []
+  },
+  {
+   "q": "Your RAG system fails on domain-specific jargon. How do you fix it?",
+   "refs": [
+    "how-does-hybrid-search-work"
+   ]
+  },
+  {
+   "q": "Your text-only RAG system now needs to handle images and tables. How do you extend it?",
+   "refs": []
+  },
+  {
+   "q": "Your RAG knowledge base gets updated frequently and needs versioning. How do you manage it?",
+   "refs": []
+  },
+  {
+   "q": "Your RAG system fails on multi-hop questions that require combining multiple facts. How do you fix it?",
+   "refs": [
+    "agentic-rag",
+    "graphrag"
+   ]
+  },
+  {
+   "q": "Your enterprise RAG system returns contradictory answers from different source documents. How do you resolve conflicts?",
+   "refs": []
+  },
+  {
+   "q": "Your RAG system returns outdated answers from an evolving knowledge base. How do you keep it current?",
+   "refs": []
+  },
+  {
+   "q": "Your RAG system struggles with PDF documents containing tables and layouts. How do you fix PDF parsing?",
+   "refs": []
+  }
+ ],
+ "AI Agents and Agentic Systems": [
+  {
+   "q": "What is an AI agent, and how does it differ from a simple LLM call?",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant",
+    "ai-agent-explained"
+   ]
+  },
+  {
+   "q": "AI Agent Memory",
+   "refs": [
+    "ai-agent-memory"
+   ]
+  },
+  {
+   "q": "Harness Engineering in AI",
+   "refs": [
+    "harness-engineering-in-ai"
+   ]
+  },
+  {
+   "q": "What matters more for an agentic coding tool like Claude Code: the model or the harness?",
+   "refs": [
+    "harness-engineering-in-ai",
+    "how-does-claude-code-work"
+   ]
+  },
+  {
+   "q": "Explain the ReAct (Reasoning + Acting) agent architecture.",
+   "refs": [
+    "react-agent"
+   ]
+  },
+  {
+   "q": "What is the Plan-and-Execute agent pattern?",
+   "refs": [
+    "plan-and-execute-agent"
+   ]
+  },
+  {
+   "q": "What is tool use (function calling) in LLMs, and how does it enable agents?",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant",
+    "how-does-function-calling-work-in-llms"
+   ]
+  },
+  {
+   "q": "What is the difference between structured output and function calling?",
+   "refs": [
+    "how-does-function-calling-work-in-llms"
+   ]
+  },
+  {
+   "q": "How do you design and define tools for an AI agent?",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant"
+   ]
+  },
+  {
+   "q": "How does an agent decide when to call a tool versus answering from its own knowledge?",
+   "refs": []
+  },
+  {
+   "q": "What is the difference between single-agent and multi-agent systems?",
+   "refs": [
+    "multi-agent-systems"
+   ]
+  },
+  {
+   "q": "When do multi-agent systems break down, and when is a single agent the better choice?",
+   "refs": [
+    "multi-agent-systems"
+   ]
+  },
+  {
+   "q": "What is Model Context Protocol (MCP), and how does it standardize tool integration?",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant",
+    "what-is-mcp-model-context-protocol"
+   ]
+  },
+  {
+   "q": "How does MCP differ from traditional function calling?",
+   "refs": [
+    "what-is-mcp-model-context-protocol",
+    "how-does-function-calling-work-in-llms"
+   ]
+  },
+  {
+   "q": "What are AI SubAgents?",
+   "refs": [
+    "ai-subagents"
+   ]
+  },
+  {
+   "q": "What are the different types of agent memory (short-term, long-term, episodic)?",
+   "refs": [
+    "ai-agent-memory"
+   ]
+  },
+  {
+   "q": "How do you handle agent failures and implement error recovery?",
+   "refs": []
+  },
+  {
+   "q": "What is an agent loop, and how does it decide when to stop?",
+   "refs": [
+    "ai-agent-loop"
+   ]
+  },
+  {
+   "q": "Context Engineering",
+   "refs": [
+    "context-engineering"
+   ]
+  },
+  {
+   "q": "How does context compaction work?",
+   "refs": [
+    "how-does-context-compaction-work"
+   ]
+  },
+  {
+   "q": "Loop Engineering",
+   "refs": [
+    "loop-engineering"
+   ]
+  },
+  {
+   "q": "Graph Engineering",
+   "refs": [
+    "graph-engineering"
+   ]
+  },
+  {
+   "q": "How AI Agents Communicate?",
+   "refs": [
+    "how-ai-agents-communicate"
+   ]
+  },
+  {
+   "q": "What are Agent Skills?",
+   "refs": [
+    "what-are-agent-skills"
+   ]
+  },
+  {
+   "q": "How do you evaluate and test AI agents?",
+   "refs": [
+    "ai-agent-evaluation"
+   ]
+  },
+  {
+   "q": "What are the security risks of agentic systems, and how do you mitigate them?",
+   "refs": [
+    "prompt-injection-in-llms"
+   ]
+  },
+  {
+   "q": "Your agent reads untrusted content (emails, web pages, documents) and can call tools. How do you prevent indirect prompt injection and data exfiltration?",
+   "refs": [
+    "prompt-injection-in-llms"
+   ]
+  },
+  {
+   "q": "What is the difference between reactive and proactive agents?",
+   "refs": []
+  },
+  {
+   "q": "How do you manage token consumption and cost in long-running agent workflows?",
+   "refs": [
+    "how-does-context-compaction-work",
+    "how-would-you-reduce-the-token-consumption"
+   ]
+  },
+  {
+   "q": "What is the human-in-the-loop pattern for agents, and when is it needed?",
+   "refs": []
+  },
+  {
+   "q": "How do you implement guardrails for AI agents to prevent harmful actions?",
+   "refs": [
+    "how-do-llm-guardrails-work"
+   ]
+  },
+  {
+   "q": "What is agent reflection, and how does it improve agent performance?",
+   "refs": [
+    "reflection-agent"
+   ]
+  },
+  {
+   "q": "What is the difference between code-generating agents and tool-calling agents?",
+   "refs": []
+  },
+  {
+   "q": "How do you handle multi-modal inputs and outputs in agentic systems?",
+   "refs": []
+  },
+  {
+   "q": "How do you implement state management in complex agent workflows?",
+   "refs": [
+    "how-does-langgraph-work"
+   ]
+  },
+  {
+   "q": "How do you build a customer support agent with escalation logic?",
+   "refs": []
+  },
+  {
+   "q": "What is agent orchestration, and how do you implement it?",
+   "refs": [
+    "ai-orchestration"
+   ]
+  },
+  {
+   "q": "What is Sakana Fugu, and how does it orchestrate a team of AI models?",
+   "refs": [
+    "sakana-fugu-the-technical-report-explained"
+   ]
+  },
+  {
+   "q": "How do you build a code execution agent safely using sandboxed environments?",
+   "refs": []
+  },
+  {
+   "q": "Your AI agent is stuck in an infinite loop. How do you detect and break the cycle?",
+   "refs": [
+    "fix-an-infinite-loop-in-an-ai-agent"
+   ]
+  },
+  {
+   "q": "Your AI agent gets conflicting answers from different tools. How does it reconcile them?",
+   "refs": []
+  },
+  {
+   "q": "Your AI agent burns too many tokens per task. How do you reduce token consumption?",
+   "refs": [
+    "how-would-you-reduce-the-token-consumption"
+   ]
+  },
+  {
+   "q": "Your AI agent keeps exceeding its budget per task. How do you enforce budget limits?",
+   "refs": [
+    "ai-agent-loop"
+   ]
+  },
+  {
+   "q": "Your AI agent hallucinates tool capabilities and passes wrong inputs. How do you fix it?",
+   "refs": []
+  },
+  {
+   "q": "Your AI agent deleted a production database. How do you prevent irreversible actions?",
+   "refs": []
+  },
+  {
+   "q": "Your AI agent has many tools, but keeps picking the wrong one. How do you improve tool selection?",
+   "refs": []
+  },
+  {
+   "q": "Your AI agent takes too long to complete a task. How do you speed it up?",
+   "refs": []
+  },
+  {
+   "q": "Your long-running agent drifts after hours and confidently works on the wrong thing. How do you diagnose and fix it?",
+   "refs": []
+  },
+  {
+   "q": "Your LLM selects the right tool but extracts the wrong parameters. How do you fix parameter extraction?",
+   "refs": []
+  },
+  {
+   "q": "How do Computer-Use Agents work?",
+   "refs": [
+    "how-do-computer-use-agents-work"
+   ]
+  },
+  {
+   "q": "How does LangChain work?",
+   "refs": [
+    "how-does-langchain-work"
+   ]
+  },
+  {
+   "q": "How does LangGraph work?",
+   "refs": [
+    "how-does-langgraph-work"
+   ]
+  },
+  {
+   "q": "What is OKF (Open Knowledge Format)?",
+   "refs": [
+    "what-is-okf-open-knowledge-format"
+   ]
+  }
+ ],
+ "Fine-Tuning and Model Adaptation": [
+  {
+   "q": "What is fine-tuning, and when should you fine-tune an LLM?",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant"
+   ]
+  },
+  {
+   "q": "Explain the difference between full fine-tuning and parameter-efficient fine-tuning (PEFT).",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant"
+   ]
+  },
+  {
+   "q": "What is LoRA (Low-Rank Adaptation), and how does it work?",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant"
+   ]
+  },
+  {
+   "q": "What is QLoRA, and how does it enable fine-tuning on consumer hardware?",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant"
+   ]
+  },
+  {
+   "q": "How does fine-tuning work?",
+   "refs": [
+    "how-does-fine-tuning-work"
+   ]
+  },
+  {
+   "q": "Explain Prefix Tuning and Prompt Tuning. How are they different from LoRA?",
+   "refs": [
+    "how-does-prefix-tuning-work"
+   ]
+  },
+  {
+   "q": "What is adapter-based fine-tuning?",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant"
+   ]
+  },
+  {
+   "q": "Explain the difference between pre-training, supervised fine-tuning (SFT), and preference optimization (RLHF/DPO).",
+   "refs": [
+    "decoding-instructgpt"
+   ]
+  },
+  {
+   "q": "What is RLHF (Reinforcement Learning from Human Feedback), and how is it used to align LLMs?",
+   "refs": [
+    "reinforcement-learning-from-human-feedback-rlhf"
+   ]
+  },
+  {
+   "q": "What is Deep RL from Human Preferences, the paper that started RLHF?",
+   "refs": [
+    "deep-rl-from-human-preferences"
+   ]
+  },
+  {
+   "q": "Why did DPO displace PPO-based RLHF at many labs? When is online RL still better?",
+   "refs": [
+    "direct-preference-optimization-dpo",
+    "proximal-policy-optimization-ppo"
+   ]
+  },
+  {
+   "q": "What is instruction tuning, and why is it important for chat models?",
+   "refs": [
+    "decoding-instructgpt"
+   ]
+  },
+  {
+   "q": "How do you prepare a dataset for fine-tuning an LLM?",
+   "refs": []
+  },
+  {
+   "q": "What is catastrophic forgetting, and how do you prevent it during fine-tuning?",
+   "refs": [
+    "continual-learning-in-llms"
+   ]
+  },
+  {
+   "q": "When should you choose fine-tuning over RAG over prompt engineering?",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant"
+   ]
+  },
+  {
+   "q": "How do you evaluate a fine-tuned model's performance?",
+   "refs": [
+    "llm-evaluation"
+   ]
+  },
+  {
+   "q": "What is synthetic data generation, and how do you use it for fine-tuning?",
+   "refs": []
+  },
+  {
+   "q": "What are the key hyperparameters for fine-tuning (learning rate, epochs, batch size, LoRA rank)?",
+   "refs": [
+    "lora-low-rank-adaptation-of-llms"
+   ]
+  },
+  {
+   "q": "Do the GPU memory math for full fine-tuning a 7B model in bf16 with Adam. Now with LoRA and QLoRA.",
+   "refs": []
+  },
+  {
+   "q": "How do you fine-tune a model for a specific domain (legal, medical, finance)?",
+   "refs": []
+  },
+  {
+   "q": "What is continual pre-training, and when would you use it?",
+   "refs": []
+  },
+  {
+   "q": "How do you merge multiple LoRA adapters?",
+   "refs": [
+    "lora-low-rank-adaptation-of-llms"
+   ]
+  },
+  {
+   "q": "What is the difference between SFT (Supervised Fine-Tuning) and alignment training?",
+   "refs": [
+    "decoding-instructgpt"
+   ]
+  },
+  {
+   "q": "What is RLAIF (RL from AI Feedback), and how does it differ from RLHF?",
+   "refs": []
+  },
+  {
+   "q": "What is Constitutional AI, and how does it differ from RLHF?",
+   "refs": []
+  },
+  {
+   "q": "What is RLVR (Reinforcement Learning with Verifiable Rewards), and when does it beat a learned reward model?",
+   "refs": [
+    "group-relative-policy-optimization-grpo"
+   ]
+  },
+  {
+   "q": "What is knowledge distillation for fine-tuning, and what are the legal considerations?",
+   "refs": [
+    "how-does-knowledge-distillation-work"
+   ]
+  },
+  {
+   "q": "Your fine-tuned LLM produces factually wrong outputs due to training data quality issues. How do you fix it?",
+   "refs": []
+  },
+  {
+   "q": "You must choose between LoRA and full fine-tuning for a domain-specific assistant. How do you decide?",
+   "refs": [
+    "lora-low-rank-adaptation-of-llms"
+   ]
+  },
+  {
+   "q": "Your fine-tuned model memorized training data verbatim instead of learning patterns. How do you fix overfitting?",
+   "refs": []
+  },
+  {
+   "q": "Your fine-tuned LLM forgot its general capabilities after domain-specific fine-tuning. How do you fix catastrophic forgetting?",
+   "refs": [
+    "continual-learning-in-llms"
+   ]
+  },
+  {
+   "q": "Your RLHF preference data has low annotator agreement. How do you ensure data quality?",
+   "refs": []
+  }
+ ],
+ "Vector Databases and Embeddings": [
+  {
+   "q": "What are embeddings in the context of AI engineering?",
+   "refs": [
+    "embeddings-in-machine-learning"
+   ]
+  },
+  {
+   "q": "How do embedding models convert text to vectors?",
+   "refs": [
+    "what-are-embeddings"
+   ]
+  },
+  {
+   "q": "What is Contrastive Learning, and how is it used to train embedding models?",
+   "refs": [
+    "what-is-contrastive-learning"
+   ]
+  },
+  {
+   "q": "What is the difference between sparse and dense embeddings?",
+   "refs": []
+  },
+  {
+   "q": "Explain cosine similarity, dot product, and Euclidean distance for vector search.",
+   "refs": [
+    "how-does-a-vector-database-work"
+   ]
+  },
+  {
+   "q": "What is a vector database, and how does it differ from a traditional database?",
+   "refs": [
+    "how-does-a-vector-database-work"
+   ]
+  },
+  {
+   "q": "How does Approximate Nearest Neighbor (ANN) search work?",
+   "refs": [
+    "how-does-approximate-nearest-neighbor-ann-search-work"
+   ]
+  },
+  {
+   "q": "Compare HNSW, IVF, and flat indexes. How do you pick one, and what does recall@k cost in latency?",
+   "refs": [
+    "how-does-approximate-nearest-neighbor-ann-search-work"
+   ]
+  },
+  {
+   "q": "How does an Embedding Cache work?",
+   "refs": [
+    "how-does-an-embedding-cache-work"
+   ]
+  },
+  {
+   "q": "How do you choose the right embedding model for your use case?",
+   "refs": []
+  },
+  {
+   "q": "What is embedding dimensionality, and how does it affect performance and cost?",
+   "refs": []
+  },
+  {
+   "q": "How do you handle embedding drift when the embedding model is updated?",
+   "refs": []
+  },
+  {
+   "q": "What are multi-modal embeddings, and how are they generated?",
+   "refs": [
+    "multimodal-ai"
+   ]
+  },
+  {
+   "q": "How do you index and query multi-tenant data in a vector database?",
+   "refs": []
+  },
+  {
+   "q": "What is quantization of embeddings, and how does it reduce storage costs?",
+   "refs": []
+  },
+  {
+   "q": "How do you benchmark and evaluate embedding model quality?",
+   "refs": []
+  },
+  {
+   "q": "What is the role of metadata in vector databases?",
+   "refs": [
+    "how-does-a-vector-database-work"
+   ]
+  },
+  {
+   "q": "How do you handle large-scale vector search with billions of vectors?",
+   "refs": [
+    "how-does-approximate-nearest-neighbor-ann-search-work"
+   ]
+  },
+  {
+   "q": "What is hybrid search (combining keyword search with vector search)?",
+   "refs": [
+    "how-does-hybrid-search-work"
+   ]
+  },
+  {
+   "q": "How do you fine-tune an embedding model for a specific domain?",
+   "refs": [
+    "what-is-contrastive-learning"
+   ]
+  },
+  {
+   "q": "Your vector database for RAG is consuming too much memory. How do you reduce it?",
+   "refs": []
+  },
+  {
+   "q": "Your vector database cannot scale to millions of embeddings. How do you fix the bottleneck?",
+   "refs": [
+    "how-does-approximate-nearest-neighbor-ann-search-work"
+   ]
+  },
+  {
+   "q": "Your new embedding model has different dimensions from the existing vectors in production. How do you handle the mismatch?",
+   "refs": []
+  },
+  {
+   "q": "Your vector search returns irrelevant results despite high similarity scores. How do you fix it?",
+   "refs": []
+  },
+  {
+   "q": "You deployed a new embedding model, and search quality crashed overnight. How do you handle embedding drift?",
+   "refs": []
+  },
+  {
+   "q": "Your semantic search fails for short queries. How do you improve it?",
+   "refs": []
+  }
+ ],
+ "AI System Design": [
+  {
+   "q": "Design a Real-Time Voice AI Agent",
+   "refs": [
+    "design-a-real-time-voice-ai-agent"
+   ]
+  },
+  {
+   "q": "Design ChatGPT: Training to Serving (End to End)",
+   "refs": []
+  },
+  {
+   "q": "Design a RAG System (Chat with Your Documents)",
+   "refs": []
+  },
+  {
+   "q": "Design an enterprise RAG assistant over 10M documents with per-user permissions.",
+   "refs": []
+  },
+  {
+   "q": "Design Memory for a Personal AI Assistant",
+   "refs": [
+    "ai-agent-memory"
+   ]
+  },
+  {
+   "q": "Design a Deep Research Agent",
+   "refs": []
+  },
+  {
+   "q": "Design a Multi-Agent Customer Support System",
+   "refs": [
+    "multi-agent-systems"
+   ]
+  },
+  {
+   "q": "Design an On-Device AI Assistant",
+   "refs": [
+    "cloud-vs-on-device-model-deployment",
+    "how-does-llama-cpp-run-llms-on-everyday-hardware"
+   ]
+  },
+  {
+   "q": "Design a Multimodal Search System (Text, Image, Video)",
+   "refs": []
+  },
+  {
+   "q": "Design an LLM Inference Platform (vLLM-as-a-Service)",
+   "refs": [
+    "how-does-vllm-work",
+    "llm-inference-optimization"
+   ]
+  },
+  {
+   "q": "Design an LLM Evaluation Platform",
+   "refs": [
+    "llm-evaluation"
+   ]
+  },
+  {
+   "q": "Design a Text-to-Image Generation Service (Midjourney-like)",
+   "refs": []
+  },
+  {
+   "q": "Design a Music Generation Service (Suno-like)",
+   "refs": []
+  },
+  {
+   "q": "Design a Video Generation Service (Sora-like)",
+   "refs": []
+  },
+  {
+   "q": "Design an AI Coding Agent.",
+   "refs": [
+    "how-does-claude-code-work",
+    "how-does-cursor-work"
+   ]
+  },
+  {
+   "q": "Design a code generation and review system.",
+   "refs": []
+  },
+  {
+   "q": "Design a content moderation system using AI.",
+   "refs": []
+  },
+  {
+   "q": "Design a real-time AI recommendation system.",
+   "refs": []
+  },
+  {
+   "q": "Design an AI-powered email assistant.",
+   "refs": []
+  },
+  {
+   "q": "Design a medical diagnosis assistant using AI.",
+   "refs": []
+  },
+  {
+   "q": "Design a fraud detection system powered by LLMs.",
+   "refs": []
+  },
+  {
+   "q": "Design an AI-powered data extraction pipeline from unstructured documents.",
+   "refs": []
+  },
+  {
+   "q": "Design a Text-to-SQL system over a data warehouse with thousands of tables.",
+   "refs": []
+  },
+  {
+   "q": "Design a personalized learning assistant.",
+   "refs": []
+  },
+  {
+   "q": "Design an AI system for automated code migration.",
+   "refs": []
+  },
+  {
+   "q": "Design an AI-powered legal document review system.",
+   "refs": []
+  },
+  {
+   "q": "Design a conversational AI system with memory across sessions.",
+   "refs": [
+    "ai-agent-memory"
+   ]
+  },
+  {
+   "q": "How do you design for latency vs quality trade-offs in AI systems?",
+   "refs": []
+  },
+  {
+   "q": "How do you implement caching strategies for LLM applications?",
+   "refs": [
+    "how-does-prompt-caching-work",
+    "how-does-semantic-caching-work"
+   ]
+  },
+  {
+   "q": "How do you design rate limiting and cost management for AI APIs?",
+   "refs": []
+  },
+  {
+   "q": "How do you handle failover and fallback strategies for AI systems?",
+   "refs": []
+  },
+  {
+   "q": "How do you design an AI system for high availability and fault tolerance?",
+   "refs": []
+  },
+  {
+   "q": "How do you design an AI system that gracefully degrades when the model is unavailable?",
+   "refs": []
+  },
+  {
+   "q": "What are the key considerations for multi-region deployment of AI systems?",
+   "refs": []
+  },
+  {
+   "q": "Design an AI-powered search engine for an e-commerce platform.",
+   "refs": []
+  },
+  {
+   "q": "Design an AI gateway/proxy for managing LLM access across an organization.",
+   "refs": []
+  },
+  {
+   "q": "How do you design a RAG system that handles conflicting information across sources?",
+   "refs": []
+  },
+  {
+   "q": "How do you approach capacity planning for an AI system?",
+   "refs": []
+  },
+  {
+   "q": "Design a multi-tenant AI chatbot platform where each business gets a custom chatbot.",
+   "refs": []
+  },
+  {
+   "q": "Design an AI meeting summarizer system for thousands of meetings daily.",
+   "refs": []
+  },
+  {
+   "q": "Design an AI notification system that prioritizes instead of broadcasting.",
+   "refs": []
+  },
+  {
+   "q": "Design an AI-powered anomaly detection system for cloud infrastructure.",
+   "refs": []
+  },
+  {
+   "q": "Design an AI-powered document processing pipeline for financial institutions.",
+   "refs": []
+  },
+  {
+   "q": "Design an AI dynamic pricing engine.",
+   "refs": []
+  },
+  {
+   "q": "Design an AI resume screening system that handles 100K applications per week.",
+   "refs": []
+  },
+  {
+   "q": "Design an AI voice assistant architecture.",
+   "refs": [
+    "design-a-real-time-voice-ai-agent"
+   ]
+  },
+  {
+   "q": "Design a multi-agent workflow system where agents collaborate on complex tasks.",
+   "refs": [
+    "multi-agent-systems"
+   ]
+  },
+  {
+   "q": "Design a real-time AI transcription system for concurrent audio streams.",
+   "refs": []
+  },
+  {
+   "q": "Design an AI-powered live streaming content moderation system.",
+   "refs": []
+  }
+ ],
+ "LLMOps and Production AI": [
+  {
+   "q": "How does Prompt Caching work?",
+   "refs": [
+    "how-does-prompt-caching-work"
+   ]
+  },
+  {
+   "q": "Prefill vs Decode",
+   "refs": [
+    "prefill-vs-decode-llm-inference-optimization"
+   ]
+  },
+  {
+   "q": "Why is prefill compute-bound and decode memory-bandwidth-bound?",
+   "refs": [
+    "prefill-vs-decode-llm-inference-optimization"
+   ]
+  },
+  {
+   "q": "What is chunked prefill, and why does it improve tail latency under mixed traffic?",
+   "refs": [
+    "prefill-vs-decode-llm-inference-optimization"
+   ]
+  },
+  {
+   "q": "What is Prefill-Decode Disaggregation, and when does it pay off?",
+   "refs": [
+    "prefill-decode-disaggregation-in-llm-inference"
+   ]
+  },
+  {
+   "q": "Explain the AI product lifecycle from ideation to production.",
+   "refs": []
+  },
+  {
+   "q": "What is LLMOps, and how does it differ from traditional MLOps?",
+   "refs": []
+  },
+  {
+   "q": "How do you serve LLMs in production?",
+   "refs": [
+    "how-does-vllm-work",
+    "llm-inference-optimization"
+   ]
+  },
+  {
+   "q": "What is model quantization?",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant",
+    "how-does-model-quantization-work"
+   ]
+  },
+  {
+   "q": "Explain post-training quantization (PTQ) vs quantization-aware training (QAT). What breaks when you push weights to 2-4 bits?",
+   "refs": [
+    "how-does-model-quantization-work"
+   ]
+  },
+  {
+   "q": "How do you monitor LLM applications in production?",
+   "refs": [
+    "ai-agent-observability"
+   ]
+  },
+  {
+   "q": "What is LLM observability?",
+   "refs": [
+    "ai-agent-observability"
+   ]
+  },
+  {
+   "q": "What are guardrails for LLMs, and how do you implement them?",
+   "refs": [
+    "how-do-llm-guardrails-work"
+   ]
+  },
+  {
+   "q": "How do you implement content filtering for AI outputs?",
+   "refs": [
+    "how-do-llm-guardrails-work"
+   ]
+  },
+  {
+   "q": "How do you estimate the cost of running an AI-powered feature in production?",
+   "refs": []
+  },
+  {
+   "q": "How do you optimize LLM inference costs in production?",
+   "refs": [
+    "llm-inference-optimization"
+   ]
+  },
+  {
+   "q": "How do you implement A/B testing for LLM systems?",
+   "refs": []
+  },
+  {
+   "q": "What is CI/CD for AI applications, and how does it differ from traditional CI/CD?",
+   "refs": []
+  },
+  {
+   "q": "How do you version and manage prompts in production?",
+   "refs": []
+  },
+  {
+   "q": "What is model versioning, and how do you handle model rollbacks?",
+   "refs": []
+  },
+  {
+   "q": "How do you implement rate limiting and throttling for LLM APIs?",
+   "refs": []
+  },
+  {
+   "q": "How do you handle model updates and migrations without downtime?",
+   "refs": []
+  },
+  {
+   "q": "What is the role of feature flags in AI deployments?",
+   "refs": []
+  },
+  {
+   "q": "How do you implement logging and tracing for LLM applications?",
+   "refs": [
+    "ai-agent-observability"
+   ]
+  },
+  {
+   "q": "How do you handle PII and sensitive data in LLM inputs and outputs?",
+   "refs": []
+  },
+  {
+   "q": "What is a gateway pattern for LLM API management?",
+   "refs": []
+  },
+  {
+   "q": "How does Token Streaming work?",
+   "refs": [
+    "how-does-token-streaming-work"
+   ]
+  },
+  {
+   "q": "How do you implement streaming responses for real-time AI applications?",
+   "refs": [
+    "how-does-token-streaming-work"
+   ]
+  },
+  {
+   "q": "How does vLLM work?",
+   "refs": [
+    "how-does-vllm-work"
+   ]
+  },
+  {
+   "q": "How does SGLang work?",
+   "refs": [
+    "how-does-sglang-work"
+   ]
+  },
+  {
+   "q": "How does TensorRT-LLM work?",
+   "refs": [
+    "how-does-tensorrt-llm-work"
+   ]
+  },
+  {
+   "q": "How does llama.cpp run LLMs on everyday hardware?",
+   "refs": [
+    "how-does-llama-cpp-run-llms-on-everyday-hardware"
+   ]
+  },
+  {
+   "q": "How does Ollama work?",
+   "refs": [
+    "how-does-ollama-work"
+   ]
+  },
+  {
+   "q": "When would you choose vLLM vs SGLang vs TensorRT-LLM?",
+   "refs": [
+    "how-does-vllm-work",
+    "how-does-sglang-work",
+    "how-does-tensorrt-llm-work"
+   ]
+  },
+  {
+   "q": "What are the key SLAs and metrics for production AI systems (latency, throughput, availability)?",
+   "refs": []
+  },
+  {
+   "q": "Cloud vs on-device Model Deployment for AI applications.",
+   "refs": [
+    "cloud-vs-on-device-model-deployment"
+   ]
+  },
+  {
+   "q": "How do you implement fallback strategies when the primary model is unavailable or rate-limited?",
+   "refs": []
+  },
+  {
+   "q": "How do you implement structured output from LLMs reliably in production?",
+   "refs": [
+    "how-does-function-calling-work-in-llms"
+   ]
+  },
+  {
+   "q": "How do you handle long contexts efficiently in production (context compression, prefix caching)?",
+   "refs": [
+    "how-does-prompt-caching-work",
+    "how-does-context-compaction-work"
+   ]
+  },
+  {
+   "q": "What is semantic routing, and how do you implement it in a multi-model system?",
+   "refs": [
+    "llm-routing"
+   ]
+  },
+  {
+   "q": "How do you manage secrets and API keys securely in LLM applications?",
+   "refs": []
+  },
+  {
+   "q": "Your LLM API has latency spikes during peak hours. How do you stabilize it?",
+   "refs": []
+  },
+  {
+   "q": "Your LLM endpoint's p99 latency doubled after a deploy with no model change. How do you diagnose it?",
+   "refs": []
+  },
+  {
+   "q": "Your LLM costs are too high in production. How do you reduce costs without degrading quality?",
+   "refs": [
+    "llm-routing",
+    "how-does-semantic-caching-work"
+   ]
+  },
+  {
+   "q": "Your application is hitting LLM provider rate limits during peak hours. How do you handle it?",
+   "refs": []
+  },
+  {
+   "q": "Your application depends on one LLM provider. How do you switch providers without downtime?",
+   "refs": []
+  },
+  {
+   "q": "Your AI system handles 100 requests/sec but crashes at 5000. How do you scale for concurrent requests?",
+   "refs": []
+  },
+  {
+   "q": "A traffic spike brings down your AI system. How do you handle peak traffic?",
+   "refs": []
+  },
+  {
+   "q": "One LLM provider outage took down your entire system. How do you eliminate single points of failure?",
+   "refs": []
+  },
+  {
+   "q": "Your multi-LLM pipeline fails when one model in the chain breaks. How do you handle orchestration failure?",
+   "refs": [
+    "ai-orchestration"
+   ]
+  },
+  {
+   "q": "Your AI pipeline has zero visibility into which step is failing. How do you add observability?",
+   "refs": [
+    "ai-agent-observability"
+   ]
+  },
+  {
+   "q": "You quantized your LLM, but accuracy dropped significantly. How do you minimize quantization loss?",
+   "refs": [
+    "how-does-model-quantization-work"
+   ]
+  },
+  {
+   "q": "One failing AI component can take down your entire platform. How do you design graceful degradation?",
+   "refs": []
+  }
+ ],
+ "Evaluation and Testing": [
+  {
+   "q": "AI Agent Evaluation",
+   "refs": [
+    "ai-agent-evaluation"
+   ]
+  },
+  {
+   "q": "LLM Evaluation",
+   "refs": [
+    "llm-evaluation"
+   ]
+  },
+  {
+   "q": "AI Agent Observability",
+   "refs": [
+    "ai-agent-observability"
+   ]
+  },
+  {
+   "q": "What is evaluation-driven development for AI applications?",
+   "refs": []
+  },
+  {
+   "q": "Why is AI only as good as our definition of done?",
+   "refs": [
+    "ai-is-only-as-good-as-our-definition-of-done"
+   ]
+  },
+  {
+   "q": "How do you evaluate LLM outputs? What metrics do you use?",
+   "refs": [
+    "llm-evaluation"
+   ]
+  },
+  {
+   "q": "Explain BLEU, ROUGE, and BERTScore. When would you use each?",
+   "refs": [
+    "llm-evaluation"
+   ]
+  },
+  {
+   "q": "What is G-Eval, and how does it use LLMs for evaluation?",
+   "refs": [
+    "llm-as-a-judge"
+   ]
+  },
+  {
+   "q": "What is LLM-as-a-judge evaluation, and what are its limitations?",
+   "refs": [
+    "llm-as-a-judge"
+   ]
+  },
+  {
+   "q": "How do you conduct human evaluation for AI systems?",
+   "refs": [
+    "llm-evaluation"
+   ]
+  },
+  {
+   "q": "What is red teaming, and how do you red team an LLM application?",
+   "refs": []
+  },
+  {
+   "q": "How do you detect and measure hallucinations in LLM outputs?",
+   "refs": []
+  },
+  {
+   "q": "What is adversarial testing for AI systems?",
+   "refs": []
+  },
+  {
+   "q": "How do you build a regression test suite for AI applications?",
+   "refs": []
+  },
+  {
+   "q": "What are benchmark suites (MMLU, HumanEval, GSM8K), and how do you interpret them?",
+   "refs": [
+    "llm-evaluation"
+   ]
+  },
+  {
+   "q": "What is benchmark contamination, and how do you guard against it?",
+   "refs": [
+    "llm-evaluation"
+   ]
+  },
+  {
+   "q": "Your new model version scores higher on every benchmark, but users say it got worse. Why does this happen, and how do you find the problem?",
+   "refs": []
+  },
+  {
+   "q": "How do you evaluate a RAG system end-to-end?",
+   "refs": [
+    "llm-evaluation"
+   ]
+  },
+  {
+   "q": "How do you evaluate the quality of AI agents?",
+   "refs": [
+    "ai-agent-evaluation"
+   ]
+  },
+  {
+   "q": "How would you evaluate an autonomous coding agent? Why can SWE-bench pass rates be misleading?",
+   "refs": [
+    "ai-agent-evaluation"
+   ]
+  },
+  {
+   "q": "What is the difference between offline and online evaluation for AI systems?",
+   "refs": []
+  },
+  {
+   "q": "How do you measure factual consistency in LLM outputs?",
+   "refs": []
+  },
+  {
+   "q": "How do you evaluate multi-turn conversation quality?",
+   "refs": []
+  },
+  {
+   "q": "What is the role of golden datasets in AI evaluation?",
+   "refs": []
+  },
+  {
+   "q": "How do you build an eval set when there is no labelled ground truth and domain experts are expensive?",
+   "refs": []
+  },
+  {
+   "q": "How do you implement continuous evaluation for production AI systems?",
+   "refs": []
+  },
+  {
+   "q": "How do you evaluate bias in AI model outputs?",
+   "refs": []
+  },
+  {
+   "q": "How do you compare two models or prompts in a statistically rigorous way?",
+   "refs": []
+  },
+  {
+   "q": "How do you evaluate the robustness of an LLM application across input variations?",
+   "refs": []
+  },
+  {
+   "q": "What are the key differences between evaluating traditional ML vs LLM applications?",
+   "refs": []
+  },
+  {
+   "q": "How do you set up an evaluation framework from scratch for a new LLM application?",
+   "refs": [
+    "llm-evaluation"
+   ]
+  },
+  {
+   "q": "Your model passes one fairness metric but fails another. How do you handle conflicting audit results?",
+   "refs": []
+  },
+  {
+   "q": "Your model was fair at deployment, but became biased 6 months later. How do you monitor continuously?",
+   "refs": []
+  },
+  {
+   "q": "An external auditor cannot reproduce your model's results. How do you ensure audit reproducibility?",
+   "refs": []
+  },
+  {
+   "q": "How do you structure red teaming for an LLM chatbot before launch?",
+   "refs": []
+  },
+  {
+   "q": "How do you red team a multimodal model where text-only safety tests miss cross-modal attacks?",
+   "refs": []
+  }
+ ],
+ "AI Safety, Ethics, and Responsible AI": [
+  {
+   "q": "What are hallucinations in LLMs, and how do you mitigate them?",
+   "refs": []
+  },
+  {
+   "q": "What is prompt injection, and what are the different types (direct, indirect)?",
+   "refs": [
+    "prompt-injection-in-llms"
+   ]
+  },
+  {
+   "q": "How do you implement input and output guardrails for AI systems?",
+   "refs": [
+    "how-do-llm-guardrails-work"
+   ]
+  },
+  {
+   "q": "What is AI alignment, and why is it important?",
+   "refs": [
+    "decoding-instructgpt",
+    "reinforcement-learning-from-human-feedback-rlhf"
+   ]
+  },
+  {
+   "q": "How do you detect and mitigate bias in AI systems?",
+   "refs": []
+  },
+  {
+   "q": "What are the key data privacy considerations (GDPR, CCPA) when building AI applications?",
+   "refs": []
+  },
+  {
+   "q": "How do you handle PII in LLM inputs and outputs?",
+   "refs": []
+  },
+  {
+   "q": "What is explainability in AI, and why does it matter?",
+   "refs": []
+  },
+  {
+   "q": "What is the difference between interpretability and explainability?",
+   "refs": []
+  },
+  {
+   "q": "What is mechanistic interpretability, and why do AI labs invest in it?",
+   "refs": []
+  },
+  {
+   "q": "How do you build trust with users in AI-powered applications?",
+   "refs": []
+  },
+  {
+   "q": "What are adversarial attacks on AI systems, and how do you defend against them?",
+   "refs": []
+  },
+  {
+   "q": "What is data poisoning, and how can it affect AI models?",
+   "refs": []
+  },
+  {
+   "q": "How do you implement content safety filters for AI-generated content?",
+   "refs": [
+    "how-do-llm-guardrails-work"
+   ]
+  },
+  {
+   "q": "What is responsible AI, and what frameworks exist for implementing it?",
+   "refs": []
+  },
+  {
+   "q": "How do you handle copyright and intellectual property concerns with AI-generated content?",
+   "refs": []
+  },
+  {
+   "q": "What is the EU AI Act, and how does it affect AI engineering?",
+   "refs": []
+  },
+  {
+   "q": "How do you implement audit trails and logging for AI decisions?",
+   "refs": []
+  },
+  {
+   "q": "What is model card documentation, and why is it important?",
+   "refs": []
+  },
+  {
+   "q": "How do you handle misuse and abuse of AI systems in production?",
+   "refs": []
+  },
+  {
+   "q": "What is differential privacy, and how can it be applied during model training?",
+   "refs": []
+  },
+  {
+   "q": "How would you design an AI incident response plan?",
+   "refs": []
+  },
+  {
+   "q": "What is the NIST AI Risk Management Framework (AI RMF)?",
+   "refs": []
+  },
+  {
+   "q": "Your healthcare chatbot gives medical diagnoses it should not make. How do you add safety guardrails?",
+   "refs": [
+    "how-do-llm-guardrails-work"
+   ]
+  },
+  {
+   "q": "Your AI system is reproducing copyrighted material verbatim. How do you prevent this?",
+   "refs": []
+  },
+  {
+   "q": "Your resume screening AI rejects more female candidates for engineering roles. How do you fix gender bias?",
+   "refs": []
+  },
+  {
+   "q": "Your AI model passes bias checks by gender and race separately, but fails for intersectional groups. How do you handle it?",
+   "refs": []
+  },
+  {
+   "q": "Your AI denied a loan, and the customer demands a GDPR explanation. How do you provide one?",
+   "refs": []
+  },
+  {
+   "q": "A user invokes the right to be forgotten, but their data is in your model weights. How do you comply?",
+   "refs": []
+  },
+  {
+   "q": "The EU AI Act may classify your AI system as high-risk. How do you comply?",
+   "refs": []
+  },
+  {
+   "q": "Your differentially private model lost significant accuracy. How do you balance privacy and utility?",
+   "refs": []
+  },
+  {
+   "q": "One malicious participant is poisoning your federated learning model. How do you defend against it?",
+   "refs": []
+  },
+  {
+   "q": "Your AI hiring model uses proxy features for protected attributes. How do you eliminate proxy discrimination?",
+   "refs": []
+  },
+  {
+   "q": "Your predictive model creates a feedback loop of biased outcomes. How do you break it?",
+   "refs": []
+  },
+  {
+   "q": "Your AI generates fake news images. How do you implement watermarking for AI-generated content?",
+   "refs": [
+    "how-does-llm-watermarking-work"
+   ]
+  },
+  {
+   "q": "Your AI denies a service, and the user has no way to challenge it. How do you design an appeals process?",
+   "refs": []
+  },
+  {
+   "q": "An auditor asks why your AI rejected a request 6 months ago, and you have no logs. How do you build audit trails?",
+   "refs": []
+  },
+  {
+   "q": "You removed PII, but users were re-identified from anonymized data. How do you prevent re-identification?",
+   "refs": []
+  },
+  {
+   "q": "A pre-trained model from an open-source repo may contain a hidden backdoor. How do you detect it?",
+   "refs": []
+  },
+  {
+   "q": "Your LLM's training data was deliberately poisoned by an adversary. How do you respond?",
+   "refs": []
+  },
+  {
+   "q": "Your AI mental health chatbot gave harmful advice to a user in crisis. How do you mitigate harm?",
+   "refs": []
+  },
+  {
+   "q": "Your AI system caused incorrect critical decisions. How do you run a blameless post-mortem?",
+   "refs": []
+  },
+  {
+   "q": "Radiologists agree with AI 98% of the time, even when it is wrong. How do you prevent human over-reliance on AI?",
+   "refs": []
+  },
+  {
+   "q": "Your content moderation flags normal cultural expressions as offensive in other markets. How do you adapt cross-culturally?",
+   "refs": []
+  },
+  {
+   "q": "Your AI training produces massive carbon emissions. How do you reduce environmental impact?",
+   "refs": []
+  }
+ ],
+ "Multimodal AI": [
+  {
+   "q": "What are Multimodal AI models, and how do they process different types of data?",
+   "refs": [
+    "multimodal-ai"
+   ]
+  },
+  {
+   "q": "How do vision-language models process images?",
+   "refs": [
+    "multimodal-ai"
+   ]
+  },
+  {
+   "q": "How do Image Embeddings work?",
+   "refs": [
+    "how-do-image-embeddings-work"
+   ]
+  },
+  {
+   "q": "How does CLIP work, and why is it important for multi-modal AI?",
+   "refs": [
+    "what-is-contrastive-learning",
+    "how-do-image-embeddings-work"
+   ]
+  },
+  {
+   "q": "What are the key architectures for multi-modal models?",
+   "refs": [
+    "multimodal-ai"
+   ]
+  },
+  {
+   "q": "How does image generation work with diffusion models (Stable Diffusion, DALL-E, Flux)?",
+   "refs": [
+    "diffusion-models"
+   ]
+  },
+  {
+   "q": "What is text-to-speech (TTS), and what models are used for it?",
+   "refs": []
+  },
+  {
+   "q": "How does speech-to-text (Whisper) work?",
+   "refs": []
+  },
+  {
+   "q": "Budget the end-to-end latency for a real-time voice agent (VAD, ASR, LLM, TTS, network). Where does the time go?",
+   "refs": [
+    "design-a-real-time-voice-ai-agent"
+   ]
+  },
+  {
+   "q": "How do you handle barge-in (user interruptions) in a voice agent?",
+   "refs": [
+    "design-a-real-time-voice-ai-agent"
+   ]
+  },
+  {
+   "q": "Cascaded ASR + LLM + TTS vs native speech-to-speech models: what are the trade-offs?",
+   "refs": [
+    "design-a-real-time-voice-ai-agent"
+   ]
+  },
+  {
+   "q": "What is multi-modal RAG, and how does it differ from text-only RAG?",
+   "refs": []
+  },
+  {
+   "q": "How do you build a system that processes both images and text?",
+   "refs": [
+    "multimodal-ai"
+   ]
+  },
+  {
+   "q": "What are multi-modal embeddings, and how are they used for cross-modal search?",
+   "refs": [
+    "multimodal-ai"
+   ]
+  },
+  {
+   "q": "How do you evaluate multi-modal AI systems?",
+   "refs": []
+  },
+  {
+   "q": "What are the challenges of real-time multi-modal AI processing?",
+   "refs": []
+  },
+  {
+   "q": "How do you handle video understanding with AI?",
+   "refs": []
+  },
+  {
+   "q": "What is visual question answering (VQA)?",
+   "refs": []
+  },
+  {
+   "q": "What is document understanding, and how do models parse documents with layouts?",
+   "refs": []
+  },
+  {
+   "q": "How do you fine-tune a vision-language model?",
+   "refs": []
+  },
+  {
+   "q": "What are the latency and cost considerations for multi-modal AI in production?",
+   "refs": []
+  },
+  {
+   "q": "How do you handle multi-modal content moderation?",
+   "refs": []
+  },
+  {
+   "q": "What is text-to-video generation, and what are the current state-of-the-art approaches?",
+   "refs": []
+  },
+  {
+   "q": "Explain Multimodal Fusion Techniques: Early Fusion vs Late Fusion.",
+   "refs": []
+  },
+  {
+   "q": "Your vision-language model generates factually incorrect image descriptions. How do you fix it?",
+   "refs": []
+  },
+  {
+   "q": "Your VLM answers single-image questions but fails on multi-page documents. How do you fix it?",
+   "refs": []
+  },
+  {
+   "q": "Your multimodal LLM ignores the image and generates descriptions from text alone. How do you fix it?",
+   "refs": []
+  },
+  {
+   "q": "Your diffusion model ignores precise control requirements in text prompts. How do you improve controllability?",
+   "refs": []
+  },
+  {
+   "q": "Your diffusion model generates sharp but repetitive images. How do you balance quality vs diversity?",
+   "refs": []
+  },
+  {
+   "q": "Your diffusion model takes too long per image. How do you speed up sampling?",
+   "refs": []
+  }
+ ],
+ "AI Infrastructure and Scalability": [
+  {
+   "q": "How do you improve inference speed in production LLM deployments?",
+   "refs": [
+    "llm-inference-optimization-2"
+   ]
+  },
+  {
+   "q": "LLM optimization techniques",
+   "refs": [
+    "llm-optimization-techniques"
+   ]
+  },
+  {
+   "q": "How do you select GPUs for LLM inference?",
+   "refs": [
+    "how-does-a-gpu-work-for-deep-learning"
+   ]
+  },
+  {
+   "q": "How does a GPU work for Deep Learning?",
+   "refs": [
+    "how-does-a-gpu-work-for-deep-learning"
+   ]
+  },
+  {
+   "q": "How do CUDA Kernels work?",
+   "refs": [
+    "how-do-cuda-kernels-work"
+   ]
+  },
+  {
+   "q": "How does a Google TPU work?",
+   "refs": [
+    "how-does-a-google-tpu-work"
+   ]
+  },
+  {
+   "q": "How does an LPU work?",
+   "refs": [
+    "how-does-an-lpu-work"
+   ]
+  },
+  {
+   "q": "Estimate the GPU memory needed to serve a 70B model (weights, KV cache, activations). Does it fit on a single 80 GB GPU?",
+   "refs": []
+  },
+  {
+   "q": "Do the roofline math: how many tokens/sec can one H100 produce for a 70B model at batch size 1?",
+   "refs": []
+  },
+  {
+   "q": "What is model parallelism vs data parallelism in distributed training?",
+   "refs": []
+  },
+  {
+   "q": "What is tensor parallelism, and how does it help serve large models?",
+   "refs": []
+  },
+  {
+   "q": "What is pipeline parallelism?",
+   "refs": []
+  },
+  {
+   "q": "How does continuous batching improve LLM inference throughput?",
+   "refs": [
+    "continuous-batching-in-llms"
+   ]
+  },
+  {
+   "q": "What is speculative decoding, and how does it speed up inference?",
+   "refs": [
+    "speculative-decoding"
+   ]
+  },
+  {
+   "q": "How does Medusa (multi-head speculative decoding) work?",
+   "refs": [
+    "medusa-multi-head-speculative-decoding"
+   ]
+  },
+  {
+   "q": "How does EAGLE (feature-level speculative decoding) work?",
+   "refs": [
+    "eagle-feature-level-speculative-decoding"
+   ]
+  },
+  {
+   "q": "What is N-gram Speculation in LLMs, and how does it speed up generation?",
+   "refs": [
+    "n-gram-speculation-in-llms"
+   ]
+  },
+  {
+   "q": "What is KV cache, and how do you manage memory for it?",
+   "refs": [
+    "what-is-kv-cache-in-llms"
+   ]
+  },
+  {
+   "q": "What is Paged Attention?",
+   "refs": [
+    "paged-attention-in-llms"
+   ]
+  },
+  {
+   "q": "How does GGUF work?",
+   "refs": [
+    "how-does-gguf-work"
+   ]
+  },
+  {
+   "q": "How do you optimize inference for edge and mobile deployment?",
+   "refs": [
+    "how-does-llama-cpp-run-llms-on-everyday-hardware",
+    "how-does-model-quantization-work"
+   ]
+  },
+  {
+   "q": "What is model quantization (INT8, INT4, FP16, BF16), and how does it affect quality?",
+   "refs": [
+    "ai-engineering-explained-llm-rag-mcp-agent-fine-tuning-quant",
+    "how-does-model-quantization-work"
+   ]
+  },
+  {
+   "q": "How do you implement auto-scaling for AI workloads?",
+   "refs": []
+  },
+  {
+   "q": "What is the role of load balancing in AI serving infrastructure?",
+   "refs": []
+  },
+  {
+   "q": "How do you manage GPU memory for serving multiple models?",
+   "refs": []
+  },
+  {
+   "q": "What is model sharding, and when would you use it?",
+   "refs": []
+  },
+  {
+   "q": "How do you implement request queuing and priority scheduling for AI services?",
+   "refs": []
+  },
+  {
+   "q": "What are the cost trade-offs between self-hosted and API-based AI inference?",
+   "refs": []
+  },
+  {
+   "q": "How do you handle cold start latency for serverless AI deployments?",
+   "refs": []
+  },
+  {
+   "q": "How do you implement model caching to reduce redundant computations?",
+   "refs": [
+    "how-does-prompt-caching-work"
+   ]
+  },
+  {
+   "q": "What is the difference between synchronous and asynchronous inference, and when do you use each?",
+   "refs": []
+  },
+  {
+   "q": "What is FSDP (Fully Sharded Data Parallel), and how does it differ from DeepSpeed ZeRO?",
+   "refs": []
+  },
+  {
+   "q": "What are TTFT, TPOT, and throughput, and how do they trade against each other?",
+   "refs": [
+    "prefill-vs-decode-llm-inference-optimization"
+   ]
+  },
+  {
+   "q": "How do you monitor and profile LLM inference in production (TTFT, inter-token latency, GPU utilization)?",
+   "refs": []
+  },
+  {
+   "q": "What is model routing at the infrastructure level, and how do you route requests based on complexity and cost?",
+   "refs": [
+    "llm-routing"
+   ]
+  }
+ ],
+ "Coding and Practical Implementation": [
+  {
+   "q": "Implement a basic RAG pipeline using an embedding model and a vector database.",
+   "refs": []
+  },
+  {
+   "q": "Build a simple AI agent with tool use (e.g., calculator, web search).",
+   "refs": [
+    "react-agent"
+   ]
+  },
+  {
+   "q": "Implement semantic search using embeddings and cosine similarity.",
+   "refs": [
+    "how-does-semantic-search-work",
+    "how-does-a-vector-database-work"
+   ]
+  },
+  {
+   "q": "Write code for different text chunking strategies (fixed-size, recursive, semantic).",
+   "refs": [
+    "chunking-strategies-for-rag"
+   ]
+  },
+  {
+   "q": "Implement a prompt template system with variable substitution.",
+   "refs": []
+  },
+  {
+   "q": "Build an evaluation pipeline for LLM outputs using LLM-as-a-judge.",
+   "refs": [
+    "llm-as-a-judge"
+   ]
+  },
+  {
+   "q": "Implement streaming responses for an LLM API.",
+   "refs": [
+    "how-does-token-streaming-work"
+   ]
+  },
+  {
+   "q": "Build a simple vector similarity search from scratch.",
+   "refs": [
+    "how-does-a-vector-database-work"
+   ]
+  },
+  {
+   "q": "Implement a conversation memory system for a chatbot (sliding window, summary, buffer).",
+   "refs": [
+    "ai-agent-memory"
+   ]
+  },
+  {
+   "q": "Write code to detect and handle hallucinations in LLM outputs.",
+   "refs": []
+  },
+  {
+   "q": "Implement a retry mechanism with exponential backoff for LLM API calls.",
+   "refs": []
+  },
+  {
+   "q": "Write a function calling (tool use) handler for an LLM API.",
+   "refs": [
+    "how-does-function-calling-work-in-llms"
+   ]
+  },
+  {
+   "q": "Implement a simple re-ranker for search results.",
+   "refs": [
+    "how-does-a-reranker-work"
+   ]
+  },
+  {
+   "q": "Build a basic document parser that extracts text from PDFs and splits it into chunks.",
+   "refs": [
+    "chunking-strategies-for-rag"
+   ]
+  },
+  {
+   "q": "Implement cosine similarity, dot product, and Euclidean distance functions from scratch.",
+   "refs": [
+    "how-does-a-vector-database-work"
+   ]
+  },
+  {
+   "q": "Write code to implement token counting and context window management.",
+   "refs": []
+  },
+  {
+   "q": "Build a simple prompt versioning system.",
+   "refs": []
+  },
+  {
+   "q": "Implement a caching layer for LLM responses.",
+   "refs": []
+  },
+  {
+   "q": "Implement semantic caching for LLM queries (cache responses for semantically similar queries).",
+   "refs": [
+    "how-does-semantic-caching-work"
+   ]
+  },
+  {
+   "q": "Write code to detect prompt injection attempts in user inputs.",
+   "refs": [
+    "prompt-injection-in-llms"
+   ]
+  },
+  {
+   "q": "Implement an LLM output guardrails system that checks for off-topic responses and PII leakage.",
+   "refs": [
+    "how-do-llm-guardrails-work"
+   ]
+  },
+  {
+   "q": "Build a multi-agent system where agents have different roles and collaborate on a task.",
+   "refs": [
+    "multi-agent-systems"
+   ]
+  },
+  {
+   "q": "Implement scaled dot-product attention with a causal mask from scratch (NumPy or PyTorch).",
+   "refs": [
+    "math-behind-attention-q-k-and-v",
+    "causal-masking-in-attention"
+   ]
+  },
+  {
+   "q": "Implement multi-head attention, then convert it to grouped-query attention.",
+   "refs": [
+    "multi-head-attention-in-transformers",
+    "grouped-query-attention"
+   ]
+  },
+  {
+   "q": "Implement a KV cache and single-step decode for causal multi-head attention.",
+   "refs": [
+    "what-is-kv-cache-in-llms"
+   ]
+  },
+  {
+   "q": "Implement BPE (Byte Pair Encoding) training and encoding from scratch.",
+   "refs": [
+    "byte-pair-encoding"
+   ]
+  },
+  {
+   "q": "Implement top-k, top-p, and temperature sampling over a logits vector.",
+   "refs": []
+  },
+  {
+   "q": "Implement an LRU cache with O(1) get/put, then add per-entry TTL.",
+   "refs": []
+  },
+  {
+   "q": "Implement a token-bucket rate limiter for an LLM API where cost scales with tokens, then make it distributed.",
+   "refs": []
+  },
+  {
+   "q": "Write an async batch processor that runs an LLM call over 50,000 documents with a concurrency limit, retries with jitter, and error isolation.",
+   "refs": []
+  },
+  {
+   "q": "Write a streaming SSE parser for LLM token streams that handles arbitrary chunk boundaries.",
+   "refs": [
+    "how-does-token-streaming-work"
+   ]
+  },
+  {
+   "q": "Implement a minimal agent loop with tool dispatch, error handling, and a step budget.",
+   "refs": [
+    "ai-agent-loop"
+   ]
+  }
+ ],
+ "Behavioral and Scenario-Based Questions": [
+  {
+   "q": "What is AI Engineering, and how does it differ from Machine Learning Engineering?",
+   "refs": []
+  },
+  {
+   "q": "How do you decide whether a problem needs AI or a traditional software solution?",
+   "refs": []
+  },
+  {
+   "q": "How do you measure the ROI of an AI feature?",
+   "refs": []
+  },
+  {
+   "q": "How do you handle hallucinations when they occur in a production AI system?",
+   "refs": []
+  },
+  {
+   "q": "How do you decide between using an LLM API vs self-hosting an open-source model?",
+   "refs": []
+  },
+  {
+   "q": "How do you manage stakeholder expectations for AI projects?",
+   "refs": []
+  },
+  {
+   "q": "Describe your approach to debugging a poor-performing RAG system.",
+   "refs": []
+  },
+  {
+   "q": "How do you stay current with the rapidly evolving AI landscape?",
+   "refs": []
+  },
+  {
+   "q": "How do you balance innovation with reliability in AI systems?",
+   "refs": []
+  },
+  {
+   "q": "Tell me about a challenging AI project you worked on. What was the problem? What approach did you take? What trade-offs did you make? What was the outcome?",
+   "refs": []
+  },
+  {
+   "q": "How would you handle a situation where an AI model produces biased or harmful outputs in production?",
+   "refs": []
+  },
+  {
+   "q": "How do you approach cost optimization for an AI system that's exceeding budget?",
+   "refs": []
+  },
+  {
+   "q": "Describe a time when you had to choose between model accuracy and latency. How did you make the decision?",
+   "refs": []
+  },
+  {
+   "q": "How would you handle a situation where your AI system's quality degrades over time?",
+   "refs": []
+  },
+  {
+   "q": "How do you communicate AI limitations to non-technical stakeholders?",
+   "refs": []
+  },
+  {
+   "q": "How would you approach building an AI feature with limited labeled data?",
+   "refs": []
+  },
+  {
+   "q": "Describe your experience working with cross-functional teams on AI projects.",
+   "refs": []
+  },
+  {
+   "q": "Where do you see AI engineering heading in the next 3-5 years?",
+   "refs": []
+  },
+  {
+   "q": "Why are you interested in this AI engineering role?",
+   "refs": []
+  },
+  {
+   "q": "Your PM wants to ship an AI feature with a 15% hallucination rate on edge cases. How do you communicate the risk?",
+   "refs": []
+  },
+  {
+   "q": "A non-technical executive asks why your AI feature cannot be 100% accurate. How do you explain LLM limitations?",
+   "refs": []
+  },
+  {
+   "q": "You need to choose between a complex agentic system that scores 15% better on benchmarks, or a simpler RAG pipeline that is easier to maintain. How do you decide?",
+   "refs": []
+  }
+ ]
+}
