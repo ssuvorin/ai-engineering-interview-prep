@@ -1,5 +1,11 @@
+<p align="center">
+  <img alt="AI Engineering Interview Prep — study workspace" src="assets/repo-banner.webp" width="880">
+</p>
+
 # AI Engineering Interview — Study Workspace
 
+
+<!-- banner: generated via ElevenLabs Flows (gemini-3-pro-image) -->
 > Interview-prep workspace built on top of [amitshekhariitbhu/ai-engineering-interview-questions](https://github.com/amitshekhariitbhu/ai-engineering-interview-questions): **571 theory questions** across 15 sections, a **30-question resume deep-dive** (предметное интервью), grading answer keys, and a fully local reference corpus for every question.
 
 The upstream question list lives in [QUESTIONS.md](QUESTIONS.md). This repo turns it into a complete self-study loop — read a question, answer it yourself, grade against a key, dig into the original source article if you missed.

@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="AI Engineering Interview Questions and Answers" src="https://github.com/amitshekhariitbhu/ai-engineering-interview-questions/blob/main/assets/banner.png">
+    <img alt="AI Engineering Interview Questions and Answers" src="assets/banner.png">
 </p>
 
 # AI Engineering Interview Questions and Answers
