@@ -15,4 +15,4 @@
 - [AI Infrastructure and Scalability](qa/13-ai-infrastructure-and-scalability.md) — 35 вопросов
 - [Coding and Practical Implementation](qa/14-coding-and-practical-implementation.md) — 32 вопросов
 - [Behavioral and Scenario-Based Questions](qa/15-behavioral-and-scenario-based-questions.md) — 22 вопросов
-- [Resume Deep-Dive — предметное интервью](qa/16-resume-deep-dive.md) — 30 вопросов по `resume/resume.md`
+- [Resume Deep-Dive — предметное интервью](qa/16-resume-deep-dive.md) — 30 вопросов (резюме — локальный `resume/resume.md`, не коммитится)
