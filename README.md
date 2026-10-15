@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="AI Engineering Interview Prep — study workspace" src="assets/repo-banner.webp" width="880">
+  <img alt="AI Engineering Interview Prep — study workspace" src="assets/repo-banner.png" width="720">
 </p>
 
 # AI Engineering Interview — Study Workspace
