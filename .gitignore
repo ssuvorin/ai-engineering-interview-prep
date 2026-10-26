@@ -1,3 +1,10 @@
 .DS_Store
 xd out/
 resume/
+
+# interviewer: secrets, venv, personal transcripts and reports
+interviewer/.env
+interviewer/.venv/
+interviewer/sessions/
+interviewer/reports/
+__pycache__/

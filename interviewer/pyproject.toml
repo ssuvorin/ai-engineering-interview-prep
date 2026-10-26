@@ -1,0 +1,9 @@
+[project]
+name = "mock-interviewer"
+version = "0.1.0"
+description = "Voice mock interview for AI Engineer roles: LiveKit Agents + Gemini Live"
+requires-python = ">=3.12"
+dependencies = [
+    "livekit-agents[google]>=1.8.9",
+    "python-dotenv>=1.2.4",
+]
