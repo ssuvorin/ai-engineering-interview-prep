@@ -2,6 +2,10 @@
 xd out/
 resume/
 
+# personal resume drill: local only
+qa/16-*.md
+keys/16-*.md
+
 # interviewer: secrets, venv, personal transcripts and reports
 interviewer/.env
 interviewer/.venv/

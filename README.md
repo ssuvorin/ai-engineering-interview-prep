@@ -119,17 +119,17 @@ Keys are written in Russian. The grading loop works the same in any language. Do
 
 ### 4. Resume deep-dive
 
-[`qa/16-resume-deep-dive.md`](qa/16-resume-deep-dive.md) is a subject-matter drill: 30 questions about *your* experience, testing whether you can defend every bullet on your resume. It covers self-presentation, the flagship project, architecture decisions, engineering process, data and metrics, and pressure questions.
+The resume drill is personal, so it is **not in this repo**. Put your resume at `resume/resume.md` (gitignored). The voice interviewer uses it for the experience block and checks your claims against it.
 
-The resume is **not in this repo**. Put yours at `resume/resume.md` (gitignored). The voice interviewer uses it for the experience block and checks your claims against it.
+To drill your own experience, add questions at `qa/16-resume-deep-dive.md` and grading keys at `keys/16-resume-deep-dive.md` (both gitignored). Test whether you can defend every bullet: self-presentation, the flagship project, architecture decisions, engineering process, data and metrics, and pressure questions.
 
 ### Suggested order
 
 ```
-01 → 02 → 04 → 05 → 03 → 07 → 09 → 10 → 13 → 06 → 08 → 12 → 11 → 14 → 15 → 16
+01 → 02 → 04 → 05 → 03 → 07 → 09 → 10 → 13 → 06 → 08 → 12 → 11 → 14 → 15
 ```
 
-Core first, periphery last. Section 16 fits anywhere. A realistic pace is 20–30 questions a day.
+Core first, periphery last. The resume drill fits anywhere. A realistic pace is 20–30 questions a day.
 
 ## Sections
 
@@ -150,7 +150,6 @@ Core first, periphery last. Section 16 fits anywhere. A realistic pace is 20–3
 | 13 | [AI Infrastructure and Scalability](qa/13-ai-infrastructure-and-scalability.md) | 35 |
 | 14 | [Coding and Practical Implementation](qa/14-coding-and-practical-implementation.md) | 32 |
 | 15 | [Behavioral and Scenario-Based Questions](qa/15-behavioral-and-scenario-based-questions.md) | 22 |
-| 16 | [Resume Deep-Dive](qa/16-resume-deep-dive.md) | 30 |
 
 ## Repository layout
 
